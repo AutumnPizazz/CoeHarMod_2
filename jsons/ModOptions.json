@@ -1,0 +1,10 @@
+{
+    "isBaseRuleset":false,
+    "uniques":[
+        "Allow raze capital",
+        "Allow raze holy city"
+    ],
+    "constants":{
+        "cityWorkRange":5
+    }
+}

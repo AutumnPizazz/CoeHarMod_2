@@ -1,0 +1,53 @@
+[	
+    {
+        "name": "Fort",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+        "turnsToBuild": 2,
+        "techRequired": "Masonry",
+        "uniques": [
+            "Can be built outside your borders",
+            "Gives a defensive bonus of [25]%"
+        ],
+        "shortcutKey": "O"
+    },
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Sailing",
+		"uniques": [
+            "[+1 Gold] <after discovering [Compass]>",
+            "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},	
+    {
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": [
+            "Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] <with [2] to [3] neighboring [Farm] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
+			"[+2 Food] <with [4] to [5] neighboring [Farm] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
+			"[+3 Food] <with [6] to [6] neighboring [Farm] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
+			"[+1 Food] for each adjacent [Farm] <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"
+        ],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": [
+            "[+1 Production] <after discovering [Engineering]>",
+            "[+1 Production] <after discovering [Industrialization]>",
+            "Provides [1] [Coal] <after discovering [Chemistry]>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ],
+		"shortcutKey": "M"
+	},
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Anti-mounted",
+        "movementType": "Land",
+        "uniques": [
+            "[-50]% Strength <vs [Sword] units>"
+        ]
+    }
+]
