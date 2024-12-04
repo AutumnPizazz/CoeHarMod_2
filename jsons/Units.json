@@ -195,4 +195,58 @@
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
+	{
+		"name": "Chariot Archer",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "War Chariot",
+		"unitType": "Mounted",
+		"uniqueTo": "Egypt",
+		"replaces": "Chariot Archer",
+		"movement": 3,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Horse Archer",
+		"unitType": "Mounted",
+		"uniqueTo": "The Huns",
+		"replaces": "Chariot Archer",
+		"movement": 3,
+		"strength": 8,
+		"range": 1,
+		"rangedStrength": 11,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["Accuracy I"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "War Elephant",
+		"unitType": "Mounted",
+		"uniqueTo": "India",
+		"replaces": "Chariot Archer",
+		"movement": 2,
+		"strength": 13,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"attackSound": "elephant"
+	},
 ]
