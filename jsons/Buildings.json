@@ -6,14 +6,14 @@
             "Unsellable",
             "Never destroyed when the city is captured",
             "Automatically built in all cities where it is buildable",
-            "Provides [1] [Specialized Development Direction]",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [4] [Population]>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [7] [Population]>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [10] [Population]>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [13] [Population]>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [16] [Population]>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [19] [Population]>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [22] [Population]>"
+            "Provides [1] [Specialized Development Direction] <in this city>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [4] [Population]> <in this city>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [7] [Population]> <in this city>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [10] [Population]> <in this city>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [13] [Population]> <in this city>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [16] [Population]> <in this city>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [19] [Population]> <in this city>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [22] [Population]> <in this city>"
         ]
     },
     {
