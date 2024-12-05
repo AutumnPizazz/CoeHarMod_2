@@ -61,8 +61,8 @@
         "faith":1,
         "maintenance":1,
         "requiredTech":"Pottery",
-        "requiredResource":"Specialized Development Direction",
         "uniques":[
+			"Consumes [1] [Specialized Development Direction] <before adopting [Piety]>",
             "Cost increases by [30] when built",
             "Only available <when religion is enabled>",
             "Unsellable"
@@ -100,8 +100,8 @@
 		"hurryCostModifier": 100,
         "gold":2,
         "requiredTech":"Currency",
-        "requiredResource":"Specialized Development Direction",
         "uniques":[
+			"Consumes [1] [Specialized Development Direction] <before adopting [Philantropy]>",
             "Cost increases by [30] when built",
             "Unsellable"
         ]
@@ -173,7 +173,7 @@
 		"replaces": "Library",
 		"uniqueTo": "China",
 		"hurryCostModifier": 25,
-		"gold": 2,
+		"culture": 2,
         "requiredBuilding":"Scientific Expertise",
 		"uniques": [
             "[+1 Science] per [2] population [in this city]"

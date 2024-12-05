@@ -1,0 +1,21 @@
+[
+    {
+        "name":"CoeHarMod_2 Update Log 更新日志",
+        "civilopediaText":[
+            {"text":"\nv0.0.4"},
+            {"text":"Fine-tuned the effects of some buildings and policies.微调部分建筑和政策效果。"},
+
+            {"text":"\nv0.0.3"},
+            {"text":"1.Changed Chariot Archers (ranged) to Heavy Chariots (melee).战车射手（远程）改为重型战车（近战）。"},
+            {"text":"2.Anti-cavalry units against regular melee units (Warriors) -50% combat effectiveness.抗骑兵单位对战普通近战单位（勇士Warrior）-50%战斗力。"},
+            {"text":"3.Removed unit supply mechanism.取消单位补给机制。"},
+
+            {"text":"\nv0.0.2"},
+            {"text":"Fixed the error where population did not limit the number of specialization directions.修复人口没能限制专精方向数量的错误。"},
+
+            {"text":"\nv0.0.1"},
+            {"text":"1.Added specialization directions.添加专精方向。"},
+            {"text":"2.Enhanced military buildings/entertainment buildings/farms/mines.强化军事建筑/娱乐建筑/农田/矿井"}
+        ]
+    }
+]
