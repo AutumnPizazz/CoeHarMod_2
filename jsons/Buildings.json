@@ -101,7 +101,7 @@
         "gold":2,
         "requiredTech":"Currency",
         "uniques":[
-			"Consumes [1] [Specialized Development Direction] <before adopting [Philantropy]>",
+			"Consumes [1] [Specialized Development Direction] <before adopting [Trade Unions]>",
             "Cost increases by [30] when built",
             "Unsellable"
         ]

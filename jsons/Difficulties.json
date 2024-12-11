@@ -3,7 +3,7 @@
 	{
 		"name": "PVP",
 		"baseHappiness": 15,
-		"extraHappinessPerLuxury": 1,
+		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 1000,

@@ -3,7 +3,19 @@
         "name": "Anti-mounted",
         "movementType": "Land",
         "uniques": [
-            "[-50]% Strength <vs [Sword] units>"
+            "[+50]% Strength <vs [Mounted] units>"
+        ]
+    },
+    {
+        "name": "Sword",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mounted",
+        "movementType": "Land",
+        "uniques": [
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking> <for [non-{Mongolia}] Civilizations>"
         ]
     }
 ]
