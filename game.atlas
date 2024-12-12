@@ -69,13 +69,20 @@ BuildingIcons/Scientific Expertise
   index: -1
 
 game2.png
-size: 1024, 1024
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 ResourceIcons/Specialized Development Direction
   rotate: false
   xy: 4, 4
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+UnitIcons/Tree Planter
+  rotate: false
+  xy: 524, 4
   size: 512, 512
   orig: 512, 512
   offset: 0, 0

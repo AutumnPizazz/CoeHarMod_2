@@ -3,7 +3,8 @@
         "name": "Anti-mounted",
         "movementType": "Land",
         "uniques": [
-            "[+50]% Strength <vs [Mounted] units>"
+            "[+50]% Strength <vs [Mounted] units>",
+            "[+50]% Strength <vs [Mounted] units> <when defending>"
         ]
     },
     {
