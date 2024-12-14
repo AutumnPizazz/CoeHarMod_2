@@ -1,5 +1,16 @@
 [	
     {
+        "name": "Military Housing",
+        "terrainsCanBeBuiltOn": ["Land","Water"],
+        "turnsToBuild": 7,
+        "techRequired": "Bronze Working",
+        "uniques": [
+            "Provides [1] [Military Size]",
+			"Costs [2] [Gold] per turn"
+        ],
+        "shortcutKey": "O"
+    },
+    {
         "name": "Fort",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
         "turnsToBuild": 1,
@@ -7,8 +18,7 @@
         "uniques": [
             "Can be built outside your borders",
             "Gives a defensive bonus of [15]%",
-            "Gives a defensive bonus of [25]% <after discovering [Engineering]>",
-			"Unbuildable <in tiles adjacent to [City center] tiles>"
+            "Gives a defensive bonus of [25]% <after discovering [Engineering]>"
         ],
         "shortcutKey": "O"
     },
@@ -19,9 +29,10 @@
 		"techRequired": "Sailing",
 		"uniques": [
             "[+1 Gold] <after discovering [Compass]>",
-            "Pillaging this improvement yields approximately [+10 Gold]"],
+            "Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "F"
-	},	
+	},
     {
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Land"],

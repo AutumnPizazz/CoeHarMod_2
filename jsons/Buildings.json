@@ -24,7 +24,8 @@
         "maintenance":1,
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [30] when built",
+            "Cost increases by [30] when built <if [National Epic] is not constructed>",
+            "Cost increases by [15] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -37,7 +38,8 @@
         "requiredTech":"Writing",
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [30] when built",
+            "Cost increases by [30] when built <if [National Epic] is not constructed>",
+            "Cost increases by [15] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -45,12 +47,13 @@
         "name":"Military Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
-        "production":1,
         "maintenance":1,
         "requiredTech":"Bronze Working",
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [30] when built",
+			"Provides [1] [Military Size]",
+            "Cost increases by [30] when built <if [National Epic] is not constructed>",
+            "Cost increases by [15] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -61,9 +64,10 @@
         "faith":1,
         "maintenance":1,
         "requiredTech":"Pottery",
+        "requiredResource":"Specialized Development Direction",
         "uniques":[
-			"Consumes [1] [Specialized Development Direction] <before adopting [Piety]>",
-            "Cost increases by [30] when built",
+            "Cost increases by [30] when built <if [National Epic] is not constructed>",
+            "Cost increases by [15] when built <if [National Epic] is constructed>",
             "Only available <when religion is enabled>",
             "Unsellable"
         ]
@@ -77,7 +81,8 @@
         "requiredTech":"Trapping",
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [30] when built",
+            "Cost increases by [30] when built <if [National Epic] is not constructed>",
+            "Cost increases by [15] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -90,7 +95,8 @@
         "requiredTech":"The Wheel",
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [30] when built",
+            "Cost increases by [30] when built <if [National Epic] is not constructed>",
+            "Cost increases by [15] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -102,7 +108,8 @@
         "requiredTech":"Currency",
         "uniques":[
 			"Consumes [1] [Specialized Development Direction] <before adopting [Trade Unions]>",
-            "Cost increases by [30] when built",
+            "Cost increases by [30] when built <if [National Epic] is not constructed>",
+            "Cost increases by [15] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -115,7 +122,9 @@
         "requiredResource":"Specialized Development Direction",
         "uniques":[
             "Must be next to [Coast]",
-            "Cost increases by [30] when built",
+			"Provides [1] [Military Size]",
+            "Cost increases by [30] when built <if [National Epic] is not constructed>",
+            "Cost increases by [15] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -441,4 +450,20 @@
         ],
 		"requiredTech": "Navigation"
 	},
+
+	//wonder
+	
+	{
+		"name": "National Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
+			"[+25]% Great Person generation [in this city]",
+			"Comment [Reduce the price increase of Expertise Construction by half]",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Pottery"
+	}
 ]

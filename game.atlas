@@ -11,6 +11,20 @@ BuildingIcons/City Centre
   orig: 512, 512
   offset: 0, 0
   index: -1
+ImprovementIcons/Military Housing
+  rotate: false
+  xy: 4, 1044
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+ResourceIcons/Military Size
+  rotate: false
+  xy: 4, 1044
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 BuildingIcons/Cultural Expertise
   rotate: false
   xy: 4, 524

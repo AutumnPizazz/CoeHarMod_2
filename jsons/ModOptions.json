@@ -1,5 +1,8 @@
 {
     "isBaseRuleset":false,
+    "unitsToRemove":[
+        "Work Boats"
+    ],
     "uniques":[
         "Allow raze capital",
         "Allow raze holy city"

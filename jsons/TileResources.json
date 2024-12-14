@@ -12,5 +12,13 @@
                 "text":"Specialized Development Direction is a strategic choice where a player's civilization or nation focuses on developing specific areas of expertise to gain an edge over others, reflecting their unique historical, cultural, and resource-based advantages, and shaping their role and influence within the game's global landscape."
             }
         ]
+    },
+    {
+        "name":"Military Size",
+        "resourceType":"Strategic",
+        "uniques":[
+            "Doesn't generate naturally",
+            "Cannot be traded"
+        ]
     }
 ]

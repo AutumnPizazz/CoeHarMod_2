@@ -150,7 +150,8 @@
         "uniques": [
             "Provides [4] [Horses] <after discovering [Animal Husbandry]>",
             "Provides [4] [Iron] <after discovering [Iron Working]>",
-            "Provides [4] [Coal] <after discovering [Industrialization]>"
+            "Provides [4] [Coal] <after discovering [Industrialization]>",
+            "Provides [6] [Military Size]"
         ],
         "policies": [
             {
@@ -220,29 +221,30 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+100]% Production when constructing [Shrine] buildings [in all cities]",
-            "[+100]% Production when constructing [Temple] buildings [in all cities]",
+            "Gain a free [Faithful Expertise] [in all cities]",
+            "[+50]% Production when constructing [Shrine] buildings [in all cities]",
+            "[+50]% Production when constructing [Temple] buildings [in all cities]",
             "[-100]% weight to this choice for AI decisions <when religion is disabled>"
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Faith] from every [Shrine]",
-                    "[+1 Faith] from every [Temple]"
+                    "[+1 Faith, +1 Culture] from every [Shrine]",
+                    "[+2 Faith, +2 Culture] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["[50]% of excess happiness converted to [Culture]"],
+                "uniques": ["[100]% of excess happiness converted to [Culture]"],
                 "row": 1,
                 "column": 5
             },
             {
                 "name": "Theocracy",
-                "uniques": ["[+10]% [Gold] from every [Temple]"],
+                "uniques": ["[+10]% [Production] from every [Temple]"],
                 "requires": ["Organized Religion"],
                 "row": 2,
                 "column": 1
@@ -250,7 +252,7 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "[+33]% [Culture] [in all cities with a world wonder]",
+                    "[+50]% [Culture] [in all cities with a world wonder]",
                     "Empire enters golden age"
                 ],
                 "requires": ["Organized Religion"],
@@ -268,7 +270,8 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-20]%",
-                    "[+3 Gold, +3 Culture] from every [Holy site]"
+                    "[+3 Gold, +3 Culture] from every [Holy site]",
+                    "May buy [Great Prophet] units for [600] [Faith] [in all cities] at an increasing price ([200])"
                 ]
             }
         ]
@@ -359,8 +362,6 @@
                     "[+1] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
                     "Free [Great General] appears"
-                    // "[+2] Movement <for [Great Admiral] units>"
-                    // ToDo: Should be "Free [Great Admiral] appears"
                 ],
                 "row": 1,
                 "column": 2
@@ -369,15 +370,17 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-50]% construction time for [Roads] improvements",
-                    "[+1 Gold] from every [Harbor]",
-                    "[+1 Gold] from every [Seaport]"
+                    "[+1 Gold] from every [Coast]",
+                    "[+1 Gold] from every [Ocean]"
                 ],
                 "row": 1,
                 "column": 4
             },
             {
                 "name": "Merchant Navy",
-                "uniques": ["[+3 Production] [in all coastal cities]"],
+                "uniques": [
+                    "[+3 Production] [in all cities connected to capital]"
+                ],
                 "requires": ["Naval Tradition"],
                 "row": 2,
                 "column": 2
@@ -386,10 +389,8 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+1 Science] from every [Mint]",
-                    "[+1 Science] from every [Market]",
-                    "[+1 Science] from every [Bank]",
-                    "[+1 Science] from every [Stock Exchange]"
+                    "[+1 Gold] from every [Mine]",
+                    "[+1 Gold] from every [Lumber mill]"
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
@@ -397,7 +398,7 @@
             },
             {
                 "name": "Protectionism",
-                "uniques": ["[+2] Happiness from each type of luxury resource"],
+                "uniques": ["[+4] Happiness from each type of luxury resource"],
                 "requires": ["Mercantilism"],
                 "row": 3,
                 "column": 4
@@ -437,9 +438,9 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]",
+                    "[+1 Happiness, +1 Science] from every [University]",
+                    "[+1 Happiness, +1 Science] from every [Observatory]",
+                    "[+1 Happiness, +1 Science] from every [Public School]",
                     "[-50]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
@@ -457,14 +458,20 @@
             },
             {
                 "name": "Sovereignty",
-                "uniques": ["[+1 Gold] from all [Science] buildings"],
+                "uniques": [
+                    "[+1 Science] from every [Farm]",
+                    "[+10]% [Science] from every [Scientific Expertise]"
+                ],
                 "requires": ["Humanism"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+50]%", "[-100]% weight to this choice for AI decisions"],
+                "uniques": [
+                    "Science gained from research agreements [+50]%",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
@@ -496,13 +503,19 @@
         "policies": [
             {
                 "name": "Constitution",
-                "uniques": ["[+2 Culture] from every [Wonder]", "[-100]% weight to this choice for AI decisions"],
+                "uniques": [
+                    "[+2 Culture] from every [Wonder]",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
                 "row": 1,
                 "column": 1
             },
             {
                 "name": "Universal Suffrage",
-                "uniques": ["[+33]% Strength for cities <when defending>", "[-100]% weight to this choice for AI decisions"],
+                "uniques": [
+                    "[+33]% Strength for cities <when defending>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
                 "row": 1,
                 "column": 3
             },
@@ -516,7 +529,7 @@
             },
             {
                 "name": "Free Speech",
-                "uniques": ["[8] units cost no maintenance"],
+                "uniques": ["Provides [8] [Military Size]"],
                 "requires": ["Constitution"],
                 "row": 2,
                 "column": 1
@@ -551,15 +564,18 @@
             "Scientific": 5
         },
         "uniques": [
-            "[-33]% maintenance costs <for [All] units>",
-            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+            "Double quantity of [Military Size] produced",
+            "Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>"
         ],
         "policies": [
             {
                 "name": "Populism",
-                "uniques": ["[+25]% Strength <for [Wounded] units>", "[+100]% weight to this choice for AI decisions"],
+                "uniques": [
+                    "[+25]% Strength <for [Wounded] units>", 
+                    "[+100]% weight to this choice for AI decisions"
+                ],
                 "row": 1,
                 "column": 2
             },
@@ -572,8 +588,8 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                    "Quantity of strategic resources produced by the empire +[100]%",
-                    "[+2] Movement <for [Great General] units>"
+                    "Quantity of strategic resources produced by the empire +[150]%",
+                    "[+4] Movement <for [Great General] units>"
                 ],
                 "requires": ["Populism", "Militarism"],
                 "row": 2,
@@ -582,8 +598,8 @@
             {
                 "name": "Police State",
                 "uniques": [
-                    "[+3 Happiness] from every [Courthouse]",
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "Gain a free [Courthouse] [in annexed cities]",
+                    "Cities are razed [2] times as fast",
                     "[-25]% enemy spy effectiveness [in all cities]"
                 ],
                 "requires": ["Militarism"],
@@ -603,8 +619,8 @@
             {
                 "name": "Autocracy Complete",
                 "uniques": [
-                    "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
-                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "[+25]% Strength <when attacking> <for [Military] units>",
+                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
         ]
@@ -628,7 +644,8 @@
             {
                 "name": "United Front",
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+                    "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 1
@@ -663,9 +680,9 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[+2 Production] [in all cities]",
+                    "[+3 Production] [in all cities]",
                     "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]"
+                    "[+1 Production] from every [Lumber Mill]"
                 ],
                 "row": 3,
                 "column": 3
