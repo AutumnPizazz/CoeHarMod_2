@@ -6,6 +6,7 @@
             "Unsellable",
             "Never destroyed when the city is captured",
             "Automatically built in all cities where it is buildable",
+            "Provides [1] [City Number]",
             "Provides [1] [Specialized Development Direction] <in this city>",
             "Provides [1] [Specialized Development Direction] <in cities with at least [4] [Population]> <in this city>",
             "Provides [1] [Specialized Development Direction] <in cities with at least [7] [Population]> <in this city>",
@@ -414,6 +415,7 @@
             "Must be next to [Coast]",
             "[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]", 
+			"[+1 Production] from [Fishing Boats] tiles [in this city]", 
             "[+10]% Production when constructing [{Military} {Water}] units [in this city]",
             "New [{Military} {Water}] units start with [15] Experience [in this city]",
             "Destroyed when the city is captured"
@@ -465,5 +467,22 @@
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Pottery"
+	},
+
+	//unique buildings
+	{
+		"name": "Ordo",
+		"replaces": "Stable",
+		"uniqueTo": "Yuan Dynasty",
+        "requiredBuilding":"Production Expertise",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [3] [Horses]",
+			"[+1 Production] from [Pasture] tiles [in this city]",
+			"All newly-trained [Mounted] units [in this city] receive the [Ordo] promotion"
+        ],
+		"requiredTech": "Horseback Riding"
 	}
 ]

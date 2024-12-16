@@ -20,5 +20,14 @@
             "Doesn't generate naturally",
             "Cannot be traded"
         ]
+    },
+    {
+        "name":"City Number",
+        "resourceType":"Strategic",
+        "uniques":[
+            "Doesn't generate naturally",
+            "Cannot be traded",
+            "Not shown on world screen"
+        ]
     }
 ]

@@ -7,27 +7,23 @@
 			"[-50]% construction time for [Road] improvements",
 			"No Maintenance costs for improvements in [Hill] tiles"
 		],
+
 		"leaderName": "Pachacuti",
 		"adjective": ["Incan"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Pachacuti",
-
         "startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
         "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
-
         "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!",
 		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
 		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
 		"introduction": "How are you? You stand before Pachacuti Inca Yupanqui.",
-
 		"neutralHello": "How are you doing?",
 		"hateHello": "What do you want now?",
 		"tradeRequest": "The Incan people offer this fair trade.",
-
         "outerColor": [255,184,33],
         "innerColor": [3,115,86],
-
 		"favoredReligion": "Christianity",
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
@@ -62,5 +58,63 @@
 		"favoredReligion": "Tengriism",
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan","Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg","Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor","Har-Ayrag","Nalayh","Tes"],
         "spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]
-    }
+    },
+	
+	{
+		"name": "The Ottomans",
+		"leaderName": "Suleiman I",
+		"adjective": ["Ottoman"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "Suleiman I",
+
+        "startIntroPart1": "O Great Sultan Suleiman, may the God bless you! You are revered for your power, wealth and generosity, and you truly deserves to be called the 'Magnificent'! The Ottoman Empire was born in Bithynia, starting as a small country in Eastern Anatolia in 12th century, then expanded to west into Anatolia. Over the next century, your people vanquished the empire of Byzantium, annexing Turkey and the Balkans, and smartly assimilating all wonders and knowledge of the Byzantine civilization. In the mid 15th century, the Ottomans added Constantinople to their empire, establishing a strategic link between Europe and the Middle East. The Empire would continue to expand for centuries reaching North Africa, Middle East and Eastern Europe at its height, but brutally disappeared in the chaos of the first world war, in early 20th century.",
+        "startIntroPart2": "Mighty Caliph, your people ask you to build again the Empire, to the level of power and glory it once achieved, and beyond! Will you revive the Ottoman golden age? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "Your continued insolence and failure to recognize our preeminence leads us to war.",
+		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
+		"defeated": "Ruin! Ruin! Istanbul becomes Iram of the Pillars, remembered only by the melancholy poets.",
+		"introduction": "From the magnificence of Topkapi, the Ottoman nation greets you, stranger! I'm Suleiman, Kayser-I Rum, and I bestow upon you my welcome!",
+		"neutralHello": "Greetings!",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Let us do business! Would you be interested?",
+
+        "outerColor": [245,248,185],
+        "innerColor": [18,84,30],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "Barbary Corsairs",
+		"uniques": [
+			"[-100]% maintenance costs <for [Water] units>",
+			"[+10]% Production when constructing [Ranged] units [in all cities]"
+		],
+		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
+			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
+			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
+			"Bitlis","Yalova"],
+        "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
+    },
+
+	
+	{//元朝
+		"name": "Yuan Dynasty",
+		"leaderName": "Kublai",
+		"adjective": ["Yuan"],
+		"outerColor": [254, 215, 0], // 外金德色
+		"innerColor": [207, 20, 43], // 内深红色
+
+		"startBias": ["Grassland","Avoid [Mountain]"],
+		"preferredVictoryType": "Domination",
+
+		"uniqueName": "Magnificent Qian Yuan",
+		"uniques": [
+			"[+2 Production] [in all cities] <when above [4] [City Number]>",
+			"[+50]% Production when constructing [Mounted] units [in all cities] <when above [8] [City Number]>",
+			"Double quantity of [Horses] produced <when above [8] [City Number]>",
+			"[+50]% Strength <for [Mounted] units> <vs [Anti-mounted] units> <when above [12] [City Number]>",
+			"Double quantity of [City Number] produced <after discovering [Chivalry]>"
+		],
+
+		"cities": ["Shangdu", "Zhongdu", "Dadu", "Xingqing", "Shangdu Road", "Daming", "Xijin", "Dade", "Qingning", "Da'an", "Dexing", "Xuande", "Hening", "Yidu", "Haidu", "Yuanhe", "Shangdu Liushousi", "Shunde", "Liaoyang", "Ningxia", "Huizhou", "Chaozhou", "Liuzhou", "Guangzhou", "Hangzhou", "Helin", "Tianshui", "Ganzhou", "Suzhou", "Guazhou", "Shazhou", "Yijinai"]
+	}
 ]

@@ -765,5 +765,12 @@
 	{	// For barbarian water units
 		"name": "Unable to pillage tiles",
 		"uniques": ["Unable to pillage tiles"]
+	},
+	{
+		"name":"Ordo",
+		"uniques":[
+			"[+1] Movement",
+			"[+10]% Strength"
+		]
 	}
 ]
