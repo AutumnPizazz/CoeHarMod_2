@@ -13,22 +13,10 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Pachacuti",
-        "startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
-        "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
-        "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!",
-		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
-		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
-		"introduction": "How are you? You stand before Pachacuti Inca Yupanqui.",
-		"neutralHello": "How are you doing?",
-		"hateHello": "What do you want now?",
-		"tradeRequest": "The Incan people offer this fair trade.",
         "outerColor": [255,184,33],
         "innerColor": [3,115,86],
 		"favoredReligion": "Christianity",
-		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
-			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
-			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
-			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
+		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos","Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha","Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac","Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Purutu", "Ozcollo"]
     },
 	{
@@ -44,22 +32,13 @@
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
 		"personality": "Genghis Khan",
-        "startIntroPart1": "O great Temuujin, immortal leader of the mighty Mongol Empire! Your name alone was enough to make cities crumble, and the sound of the mighty Mongol cavalry to make your enemies flee! O Great Khan! Once Northern Asia united into a mighty people, producing one of the greatest armies the world has ever known, your skillful mounted archers conquered in only a few years, most of China, Eastern Asia, and even reached the gates of Europe at the West. With cunning diplomacy and brilliant warfare, you swept your enemies one after another, creating the greatest empire ever seen, reducing Roman or Greek conquests to minor achievements.",
-        "startIntroPart2": "Divine Temuujin, battles and conquests run through the veins of the Mongols. Are you ready to shatter the will of your enemies? Will your cavalry ride in the steppes once again and strike as lightning and thunder? Will your new empire shine through the ages of history?",
-        "declaringWar": "You stand in the way of my armies. Let us solve this like warriors!",
-		"attacked": "No more words. Today, Mongolia charges toward your defeat.",
-		"defeated": "You have hobbled the Mongolian clans. My respect for you nearly matches the loathing. I am waiting for my execution.",
-		"introduction": "I am Temuujin, conqueror of cities and countries. Before me lie future Mongolian lands. Behind me is the only cavalry that matters.",
-		"neutralHello": "Hello.",
-		"hateHello": "So what now?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
+
 		"outerColor": [81,0,9],
 		"innerColor": [255,120,0],
 		"favoredReligion": "Tengriism",
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan","Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg","Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor","Har-Ayrag","Nalayh","Tes"],
         "spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]
     },
-	
 	{
 		"name": "The Ottomans",
 		"leaderName": "Suleiman I",
@@ -67,17 +46,6 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		"personality": "Suleiman I",
-
-        "startIntroPart1": "O Great Sultan Suleiman, may the God bless you! You are revered for your power, wealth and generosity, and you truly deserves to be called the 'Magnificent'! The Ottoman Empire was born in Bithynia, starting as a small country in Eastern Anatolia in 12th century, then expanded to west into Anatolia. Over the next century, your people vanquished the empire of Byzantium, annexing Turkey and the Balkans, and smartly assimilating all wonders and knowledge of the Byzantine civilization. In the mid 15th century, the Ottomans added Constantinople to their empire, establishing a strategic link between Europe and the Middle East. The Empire would continue to expand for centuries reaching North Africa, Middle East and Eastern Europe at its height, but brutally disappeared in the chaos of the first world war, in early 20th century.",
-        "startIntroPart2": "Mighty Caliph, your people ask you to build again the Empire, to the level of power and glory it once achieved, and beyond! Will you revive the Ottoman golden age? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "Your continued insolence and failure to recognize our preeminence leads us to war.",
-		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
-		"defeated": "Ruin! Ruin! Istanbul becomes Iram of the Pillars, remembered only by the melancholy poets.",
-		"introduction": "From the magnificence of Topkapi, the Ottoman nation greets you, stranger! I'm Suleiman, Kayser-I Rum, and I bestow upon you my welcome!",
-		"neutralHello": "Greetings!",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Let us do business! Would you be interested?",
 
         "outerColor": [245,248,185],
         "innerColor": [18,84,30],
@@ -88,11 +56,29 @@
 			"[-100]% maintenance costs <for [Water] units>",
 			"[+10]% Production when constructing [Ranged] units [in all cities]"
 		],
-		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
-			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
-			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
-			"Bitlis","Yalova"],
+		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya","Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin","Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar","Bitlis","Yalova"],
         "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
+    },
+	{
+		"name": "India",
+		"leaderName": "Gandhi",
+		"adjective": ["Indian"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		"personality": "Chandragupta Maurya",
+
+        "outerColor": [14, 113, 4],
+        "innerColor": [255, 163, 71],
+
+		"favoredReligion": "Hinduism",
+		"uniqueName": "Arthashastra",
+		"uniques": [
+			"Comment [Shrine and Temple provide powerful bonuses to military units]"
+		],
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
+			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
+			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
     },
 
 	
@@ -114,7 +100,25 @@
 			"[+50]% Strength <for [Mounted] units> <vs [Anti-mounted] units> <when above [12] [City Number]>",
 			"Double quantity of [City Number] produced <after discovering [Chivalry]>"
 		],
-
 		"cities": ["Shangdu", "Zhongdu", "Dadu", "Xingqing", "Shangdu Road", "Daming", "Xijin", "Dade", "Qingning", "Da'an", "Dexing", "Xuande", "Hening", "Yidu", "Haidu", "Yuanhe", "Shangdu Liushousi", "Shunde", "Liaoyang", "Ningxia", "Huizhou", "Chaozhou", "Liuzhou", "Guangzhou", "Hangzhou", "Helin", "Tianshui", "Ganzhou", "Suzhou", "Guazhou", "Shazhou", "Yijinai"]
+	},
+	{//明朝
+		"name": "Ming Dynasty",
+		"leaderName": "Emperor Zhu Di",
+		"adjective": ["Ming"],
+		"outerColor": [0, 128, 0],
+		"innerColor": [255, 255, 255],
+		"startBias": ["Jungle","Marsh"],
+		"preferredVictoryType": "Cultural",
+
+		"uniqueName": "Yongle Prosperity",
+		"uniques": [
+			"[+50]% unhappiness from the number of cities",
+			"[-25]% Unhappiness from [Population] [in all cities]",
+			"[-25]% Unhappiness from [Population] [in all cities] <in cities with at least [10] [Population]>",
+			"[+1 Production] per [4] population [in all cities] <in cities with between [10] and [19] [Population]>",
+			"[+1 Production] per [3] population [in all cities] <in cities with at least [20] [Population]>"
+		],
+		"cities": ["Beijing", "Nanjing", "Suzhou", "Hangzhou", "Xi'an", "Kaifeng", "Wuhan", "Changsha", "Fuzhou", "Guangzhou", "Quanzhou", "Ningbo", "Shaoxing", "Wenzhou", "Taizhou", "Yangzhou", "Chengdu", "Kunming", "Lanzhou", "Zhengzhou"]
 	}
 ]

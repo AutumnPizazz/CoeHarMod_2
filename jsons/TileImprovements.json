@@ -1,4 +1,20 @@
 [	
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
+			"[-1 Production] <in [Hill] tiles>",
+            "Unpillagable", 
+			"Irremovable", 
+			"Unbuildable", 
+			"Excluded from map editor"
+		],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
     {
         "name": "Military Housing",
         "terrainsCanBeBuiltOn": ["Land","Water"],

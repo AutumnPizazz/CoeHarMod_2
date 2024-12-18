@@ -43,7 +43,8 @@
 		"uniques": [
             "Founds a new city <by consuming this unit>", 
 			"Requires at least [2] population",
-            "Cost increases by [40] when built <before adopting [Collective Rule]>"
+            "Cost increases by [40] when built <before adopting [Collective Rule]>",
+			"[+2] Movement <before turn number [3]>"
         ],
 		"hurryCostModifier": 20
 	},
@@ -478,7 +479,7 @@
 
 	
 	{
-		"name": "Janissary",
+		"name": "Janissary",//苏丹亲兵
 		"unitType": "Gunpowder",
 		"replaces": "Musketman",
 		"uniqueTo": "The Ottomans",
@@ -492,5 +493,20 @@
 		"uniques": [
 			"Excess Food converted to Production when under construction"
 		]
-	}
+	},
+	{
+		"name": "Crouching Tiger Cannon",//虎蹲炮
+		"replaces": "Crossbowman",
+		"uniqueTo": "Ming Dynasty",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow",
+		"uniques":["[+50]% Strength <when attacking>"]
+	},
 ]

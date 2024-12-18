@@ -766,11 +766,28 @@
 		"name": "Unable to pillage tiles",
 		"uniques": ["Unable to pillage tiles"]
 	},
-	{
+	{//斡耳朵
 		"name":"Ordo",
 		"uniques":[
 			"[+1] Movement",
 			"[+10]% Strength"
 		]
+	},
+	{
+		"name":"Arthashastra I",
+		"uniques":[
+			"[+1] Movement",
+			"[This Unit] takes [5] damage <upon ending a turn in a [Enemy Land] tile> <for units without [Arthashastra III]>"
+		]
+	},
+	{
+		"name":"Arthashastra II",
+		"uniques":[
+			"[+15]% Strength",
+			"[This Unit] takes [5] damage <upon ending a turn in a [Enemy Land] tile> <for units without [Arthashastra III]>"
+		]
+	},
+	{
+		"name":"Arthashastra III"
 	}
 ]

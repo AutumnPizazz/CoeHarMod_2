@@ -1,5 +1,5 @@
 [
-    {
+    {//城市基址
         "name":"City Centre",
         "cost":0,
         "uniques":[
@@ -17,7 +17,7 @@
             "Provides [1] [Specialized Development Direction] <in cities with at least [22] [Population]> <in this city>"
         ]
     },
-    {
+    {//文化专精
         "name":"Cultural Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -30,7 +30,7 @@
             "Unsellable"
         ]
     },
-    {
+    {//科研专精
         "name":"Scientific Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -44,7 +44,7 @@
             "Unsellable"
         ]
     },
-    {
+    {//陆军专精
         "name":"Military Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -58,7 +58,7 @@
             "Unsellable"
         ]
     },
-    {
+    {//信仰专精
         "name":"Faithful Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -73,7 +73,7 @@
             "Unsellable"
         ]
     },
-    {
+    {//娱乐专精
         "name":"Entertainment Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -87,7 +87,7 @@
             "Unsellable"
         ]
     },
-    {
+    {//产能专精
         "name":"Production Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -101,7 +101,7 @@
             "Unsellable"
         ]
     },
-    {
+    {//经济专精
         "name":"Economic Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -114,7 +114,7 @@
             "Unsellable"
         ]
     },
-    {
+    {//海事专精
         "name":"Maritime Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -149,7 +149,7 @@
 
     //Buildings for vanilla
     
-	{
+	{//纪念碑
 		"name": "Monument",
 		"culture": 2,
 		"cost": 40,
@@ -157,7 +157,7 @@
 		"maintenance": 1,
         "requiredBuilding":"Cultural Expertise"
 	},
-	{
+	{//石碑-埃塞俄比亚
 		"name": "Stele",
         "replaces": "Monument",
 		"uniqueTo": "Ethiopia",
@@ -168,7 +168,7 @@
 		"maintenance": 1,
         "requiredBuilding":"Cultural Expertise"
 	},
-	{
+	{//图书馆
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -178,7 +178,7 @@
         ],
 		"requiredTech": "Writing"
 	},
-	{
+	{//造纸坊-中华
 		"name": "Paper Maker",
 		"replaces": "Library",
 		"uniqueTo": "China",
@@ -190,7 +190,7 @@
         ],
 		"requiredTech": "Writing"
 	},
-	{
+	{//军营
 		"name": "Barracks",
 		"hurryCostModifier": 25,
         "production":1,
@@ -204,7 +204,7 @@
         ],
 		"requiredTech": "Bronze Working"
 	},
-	{
+	{//俄罗斯营垒-俄罗斯
 		"name": "Krepost",
 		"replaces": "Barracks",
 		"uniqueTo": "Russia",
@@ -222,7 +222,7 @@
         ],
 		"requiredTech": "Bronze Working"
 	},
-	{
+	{//军械所
 		"name": "Armory",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -237,7 +237,7 @@
         ],
 		"requiredTech": "Steel"
 	},
-	{
+	{//军事学院
 		"name": "Military Academy",
 		"hurryCostModifier": 0,
 		"maintenance": 1,
@@ -250,7 +250,7 @@
         ],
 		"requiredTech": "Military Science"
 	},
-	{
+	{//神社
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
@@ -258,10 +258,11 @@
 		"requiredTech": "Pottery",
         "requiredBuilding":"Faithful Expertise",
 		"uniques": [
-            "Only available <when religion is enabled>"
+            "Only available <when religion is enabled>",
+			"All newly-trained [Military] units [in this city] receive the [Arthashastra I] promotion <for [India] Civilizations>"
         ]
 	},
-	{
+	{//金字塔-玛雅
 		"name": "Pyramid",
 		"replaces": "Shrine",
 		"uniqueTo": "The Maya",
@@ -275,7 +276,36 @@
             "Only available <when religion is enabled>"
         ]
 	},
-	{
+	{//寺庙
+		"name": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"All newly-trained [Military] units [in this city] receive the [Arthashastra II] promotion <for [India] Civilizations>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{//圣殿
+		"name": "Grand Temple",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"uniques": [
+			"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]",
+			"All newly-trained [Military] units [in this city] receive the [Arthashastra III] promotion <for [India] Civilizations>",
+			"Only available <when religion is enabled>",
+			"Can only be built <in [Holy] cities>"
+		],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+	{//马戏场
 		"name": "Circus",
         "requiredBuilding":"Entertainment Expertise",
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
@@ -286,7 +316,7 @@
             "Destroyed when the city is captured"
         ]
 	},
-	{
+	{//竞技场
 		"name": "Colosseum",
 		"maintenance": 1,
 		"happiness": 3,
@@ -297,7 +327,7 @@
             "Destroyed when the city is captured"
         ]
 	},
-	{
+	{//剧院
 		"name": "Theatre",
 		"happiness": 5,
 		"hurryCostModifier": 10,
@@ -308,7 +338,7 @@
             "Destroyed when the city is captured"
         ]
 	},
-	{
+	{//体育场
 		"name": "Stadium",
 		"happiness": 6,
 		"requiredBuilding": "Theatre",
@@ -318,7 +348,7 @@
             "Destroyed when the city is captured"
         ]
 	},
-	{
+	{//水磨
 		"name": "Water Mill",
 		"maintenance": 2,
 		"food": 2,
@@ -329,7 +359,7 @@
         ],
 		"requiredTech": "The Wheel"
 	},
-	{
+	{//水上苗圃-阿兹特克
 		"name": "Floating Gardens",
 		"replaces": "Water Mill",
 		"uniqueTo": "Aztecs",
@@ -344,7 +374,7 @@
 		"percentStatBonus": {"food": 10},
 		"requiredTech": "The Wheel"
 	},
-	{
+	{//马厩
 		"name": "Stable",
         "requiredBuilding":"Production Expertise",
 		"maintenance": 1,
@@ -356,7 +386,7 @@
         ],
 		"requiredTech": "Horseback Riding"
 	},
-	{
+	{//工坊
 		"name": "Workshop",
         "requiredBuilding":"Production Expertise",
 		"maintenance": 2,
@@ -366,7 +396,7 @@
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Metal Casting"
 	},
-	{
+	{//长屋-易洛魁
 		"name": "Longhouse",
         "requiredBuilding":"Production Expertise",
 		"replaces": "Workshop",
@@ -380,7 +410,7 @@
 		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
-	{
+	{//市场
 		"name": "Market",
         "requiredBuilding":"Economic Expertise",
 		"gold": 2,
@@ -389,7 +419,7 @@
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"
 	},
-	{
+	{//大巴扎-阿拉伯
 		"name": "Bazaar",
         "requiredBuilding":"Economic Expertise",
 		"replaces": "Market",
@@ -405,7 +435,7 @@
         ],
 		"requiredTech": "Currency"
 	},
-	{
+	{//灯塔
 		"name": "Lighthouse",
         "requiredBuilding":"Maritime Expertise",
 		"cost": 75,
@@ -422,7 +452,7 @@
         ],
 		"requiredTech": "Optics"
 	},
-	{
+	{//港口
 		"name": "Harbor",
         "requiredBuilding":"Lighthouse",
 		"cost": 120,
@@ -438,7 +468,7 @@
         ],
 		"requiredTech": "Compass"
 	},
-	{
+	{//海运码头
 		"name": "Seaport",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
@@ -452,10 +482,7 @@
         ],
 		"requiredTech": "Navigation"
 	},
-
-	//wonder
-	
-	{
+	{//民族史诗
 		"name": "National Epic",
 		"cost": 125,
 		"culture": 1,
@@ -468,9 +495,7 @@
 		],
 		"requiredTech": "Pottery"
 	},
-
-	//unique buildings
-	{
+	{//斡耳朵-元朝
 		"name": "Ordo",
 		"replaces": "Stable",
 		"uniqueTo": "Yuan Dynasty",
@@ -484,5 +509,21 @@
 			"All newly-trained [Mounted] units [in this city] receive the [Ordo] promotion"
         ],
 		"requiredTech": "Horseback Riding"
+	},
+	{//明长城-明朝
+		"name": "Great Wall of Ming Dynasty",
+		"replaces": "Great Wall",
+		"uniqueTo": "Ming Dynasty",
+		"culture": 3,
+		"cost": 150,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": [
+			"Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+			"[+25]% [Culture] [in this city] <after discovering [Dynamite]>",
+			"Gain a free [Walls] [in this city]"
+		],
+		"requiredTech": "Engineering",
+		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
 	}
 ]
