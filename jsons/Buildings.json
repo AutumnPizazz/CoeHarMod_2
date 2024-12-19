@@ -25,8 +25,8 @@
         "maintenance":1,
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [30] when built <if [National Epic] is not constructed>",
-            "Cost increases by [15] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <if [National Epic] is not constructed>",
+            "Cost increases by [10] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -39,8 +39,8 @@
         "requiredTech":"Writing",
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [30] when built <if [National Epic] is not constructed>",
-            "Cost increases by [15] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <if [National Epic] is not constructed>",
+            "Cost increases by [10] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -53,8 +53,8 @@
         "requiredResource":"Specialized Development Direction",
         "uniques":[
 			"Provides [1] [Military Size]",
-            "Cost increases by [30] when built <if [National Epic] is not constructed>",
-            "Cost increases by [15] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <if [National Epic] is not constructed>",
+            "Cost increases by [10] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -67,8 +67,8 @@
         "requiredTech":"Pottery",
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [30] when built <if [National Epic] is not constructed>",
-            "Cost increases by [15] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <if [National Epic] is not constructed>",
+            "Cost increases by [10] when built <if [National Epic] is constructed>",
             "Only available <when religion is enabled>",
             "Unsellable"
         ]
@@ -82,8 +82,8 @@
         "requiredTech":"Trapping",
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [30] when built <if [National Epic] is not constructed>",
-            "Cost increases by [15] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <if [National Epic] is not constructed>",
+            "Cost increases by [10] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -96,8 +96,8 @@
         "requiredTech":"The Wheel",
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [30] when built <if [National Epic] is not constructed>",
-            "Cost increases by [15] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <if [National Epic] is not constructed>",
+            "Cost increases by [10] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -109,8 +109,8 @@
         "requiredTech":"Currency",
         "uniques":[
 			"Consumes [1] [Specialized Development Direction] <before adopting [Trade Unions]>",
-            "Cost increases by [30] when built <if [National Epic] is not constructed>",
-            "Cost increases by [15] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <if [National Epic] is not constructed>",
+            "Cost increases by [10] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -124,8 +124,8 @@
         "uniques":[
             "Must be next to [Coast]",
 			"Provides [1] [Military Size]",
-            "Cost increases by [30] when built <if [National Epic] is not constructed>",
-            "Cost increases by [15] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <if [National Epic] is not constructed>",
+            "Cost increases by [10] when built <if [National Epic] is constructed>",
             "Unsellable"
         ]
     },
@@ -296,7 +296,7 @@
 		"faith": 8,
 		"uniques": [
 			"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city",
+			"Cost increases by [20] per owned city",
 			"[+100]% Natural religion spread [in this city]",
 			"All newly-trained [Military] units [in this city] receive the [Arthashastra III] promotion <for [India] Civilizations>",
 			"Only available <when religion is enabled>",
@@ -491,7 +491,7 @@
 			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
 			"[+25]% Great Person generation [in this city]",
 			"Comment [Reduce the price increase of Expertise Construction by half]",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [20] per owned city"
 		],
 		"requiredTech": "Pottery"
 	},
@@ -525,5 +525,33 @@
 		],
 		"requiredTech": "Engineering",
 		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
-	}
+	},
+	{//巴比伦城墙-巴比伦
+		"name": "Walls of Babylon",
+		"replaces": "Walls",
+		"cost": 100,
+		"uniqueTo": "Babylon",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		// "requiredResource": "Specialized Development Direction",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"[+1 Science] from every [Farm] <in [River] tiles> <in tiles not adjacent to [City center] tiles>",
+			"[+1 Culture] from every [Mine] <in [River] tiles> <in tiles not adjacent to [City center] tiles>",
+			"[+1 Production] from every [Lumber mill] <in [River] tiles> <in tiles not adjacent to [City center] tiles>"
+		]
+	},
+	// {//水电站--等待电力系统重做
+	// 	"name": "Hydro Plant",
+	// 	"requiredResource": "Aluminum",
+	// 	"hurryCostModifier": 0,
+	// 	"maintenance": 3,
+	// 	"uniques": [
+	// 		"Must be on [River]",
+	// 		"[+1 Production] from [River] tiles [in this city]"
+	// 	],
+	// 	"requiredTech": "Electricity"
+	// },
 ]
