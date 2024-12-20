@@ -27,7 +27,8 @@
         "uniques":[
             "Cost increases by [20] when built <if [National Epic] is not constructed>",
             "Cost increases by [10] when built <if [National Epic] is constructed>",
-            "Unsellable"
+            "Unsellable",
+			"Expertise Buildings"
         ]
     },
     {//科研专精
@@ -41,7 +42,8 @@
         "uniques":[
             "Cost increases by [20] when built <if [National Epic] is not constructed>",
             "Cost increases by [10] when built <if [National Epic] is constructed>",
-            "Unsellable"
+            "Unsellable",
+			"Expertise Buildings"
         ]
     },
     {//陆军专精
@@ -55,7 +57,8 @@
 			"Provides [1] [Military Size]",
             "Cost increases by [20] when built <if [National Epic] is not constructed>",
             "Cost increases by [10] when built <if [National Epic] is constructed>",
-            "Unsellable"
+            "Unsellable",
+			"Expertise Buildings"
         ]
     },
     {//信仰专精
@@ -70,7 +73,8 @@
             "Cost increases by [20] when built <if [National Epic] is not constructed>",
             "Cost increases by [10] when built <if [National Epic] is constructed>",
             "Only available <when religion is enabled>",
-            "Unsellable"
+            "Unsellable",
+			"Expertise Buildings"
         ]
     },
     {//娱乐专精
@@ -84,7 +88,8 @@
         "uniques":[
             "Cost increases by [20] when built <if [National Epic] is not constructed>",
             "Cost increases by [10] when built <if [National Epic] is constructed>",
-            "Unsellable"
+            "Unsellable",
+			"Expertise Buildings"
         ]
     },
     {//产能专精
@@ -98,7 +103,8 @@
         "uniques":[
             "Cost increases by [20] when built <if [National Epic] is not constructed>",
             "Cost increases by [10] when built <if [National Epic] is constructed>",
-            "Unsellable"
+            "Unsellable",
+			"Expertise Buildings"
         ]
     },
     {//经济专精
@@ -111,7 +117,8 @@
 			"Consumes [1] [Specialized Development Direction] <before adopting [Trade Unions]>",
             "Cost increases by [20] when built <if [National Epic] is not constructed>",
             "Cost increases by [10] when built <if [National Epic] is constructed>",
-            "Unsellable"
+            "Unsellable",
+			"Expertise Buildings"
         ]
     },
     {//海事专精
@@ -126,7 +133,8 @@
 			"Provides [1] [Military Size]",
             "Cost increases by [20] when built <if [National Epic] is not constructed>",
             "Cost increases by [10] when built <if [National Epic] is constructed>",
-            "Unsellable"
+            "Unsellable",
+			"Expertise Buildings"
         ]
     },
 
@@ -482,19 +490,6 @@
         ],
 		"requiredTech": "Navigation"
 	},
-	{//民族史诗
-		"name": "National Epic",
-		"cost": 125,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": [
-			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
-			"[+25]% Great Person generation [in this city]",
-			"Comment [Reduce the price increase of Expertise Construction by half]",
-			"Cost increases by [20] per owned city"
-		],
-		"requiredTech": "Pottery"
-	},
 	{//斡耳朵-元朝
 		"name": "Ordo",
 		"replaces": "Stable",
@@ -528,19 +523,17 @@
 	},
 	{//巴比伦城墙-巴比伦
 		"name": "Walls of Babylon",
-		"replaces": "Walls",
-		"cost": 100,
 		"uniqueTo": "Babylon",
-		"cityStrength": 5,
+		"cost": 200,
 		"cityHealth": 50,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 100,
 		"requiredTech": "Masonry",
 		// "requiredResource": "Specialized Development Direction",
 		"uniques": [
 			"Destroyed when the city is captured",
-			"[+1 Science] from every [Farm] <in [River] tiles> <in tiles not adjacent to [City center] tiles>",
-			"[+1 Culture] from every [Mine] <in [River] tiles> <in tiles not adjacent to [City center] tiles>",
-			"[+1 Production] from every [Lumber mill] <in [River] tiles> <in tiles not adjacent to [City center] tiles>"
+			"[+1 Science] from every [Farm] <in tiles not adjacent to [City center] tiles>",
+			"[+1 Culture] from every [Mine] <in tiles not adjacent to [City center] tiles>",
+			"[+1 Production] from every [Lumber mill] <in tiles not adjacent to [City center] tiles>"
 		]
 	},
 	// {//水电站--等待电力系统重做
@@ -554,4 +547,138 @@
 	// 	],
 	// 	"requiredTech": "Electricity"
 	// },
+	{//民族史诗
+		"name": "National Epic",
+		"cost": 200,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
+			"Free Great Person",
+			"Comment [Reduce the price increase of Expertise Construction by half]"
+		],
+		"requiredTech": "Pottery"
+	},
+	{//国家金库
+		"name": "National Treasury",
+		"cost": 200,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [Market] is constructed in all [non-[Puppeted]] cities>",
+			"[+1 Production, +1 Food] from [Trading post] tiles [in this city]"
+		],
+		"requiredTech": "Guilds"
+	},
+	{//大竞技场
+		"name": "Circus Maximus",
+		"cost": 200,
+		"happiness": 4,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>",
+			"[-50]% Unhappiness from [Population] [in this city]"
+		],
+		"requiredTech": "Horseback Riding"
+	},
+	{//钢铁厂
+		"name": "Ironworks",
+		"cost": 200,
+		"production": 4,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
+			"[+1 Production] per [2] population [in this city]"
+		],
+		"requiredTech": "Machinery"
+	},
+	{//冬宫
+		"name": "Hermitage",
+		"cost": 200,
+		"percentStatBonus": {"culture": 20},
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
+			"[+1 Culture] per [2] population [in this city]"
+		],
+		"requiredTech": "Architecture"
+	},
+	{//阿尔忒弥斯神庙/小弓庙
+		"name": "Temple of Artemis",
+		"food": 4,
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+			"[+1 Happiness, +1 Food] from [Camp] tiles [in this city]",
+			"[+1 Happiness, +1 Food] from [Pasture] tiles [in this city]",
+			"[+1 Happiness, +1 Food] from [Plantation] tiles [in this city]"
+		],
+		"requiredTech": "Archery",
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	},
+	{//巨石阵
+		"name": "Stonehenge",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"requiredTech": "Calendar",
+		"uniques": [
+			"Free [Great Prophet] appears"
+		],
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
+	{//大图书馆
+		"name": "The Great Library",
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": [
+			"Provides the cheapest [Science] building in your first [2] cities for free",
+			"[+25]% [Science] <during the [Ancient era]>"
+		],
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	},
+	{//大金字塔
+		"name": "The Pyramids",
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": [
+			"[2] free [Worker] units appear",
+			"Comment [The price increase for Worker is free]"
+		],
+		"requiredTech": "Masonry",
+		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
+	},
+	{//摩索拉斯王陵墓
+		"name": "Mausoleum of Halicarnassus",
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": [
+			"Free [Worker] appears <upon constructing [Maritime Expertise]>",
+			"[+2 Gold] from every [Maritime Expertise]"
+		],
+		"requiredTech": "Masonry",
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+	},
+	{//宙斯神像
+		"name": "Statue of Zeus",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": [
+			"[+25]% Production when constructing [Anti-mounted] units [in this city]",
+			"[+25]% Production when constructing [Anti-mounted] units [in all cities]",
+			"[3] free [Spearman] units appear"
+		],
+		"requiredTech": "Bronze Working",
+		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
+	}
 ]

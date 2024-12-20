@@ -7,10 +7,11 @@
 		"uniques":[
 			"Turn this tile into a [Forest] tile <by consuming this unit>",
 			"Turn this tile into a [Jungle] tile <by consuming this unit>",
-            "Cost increases by [20] when built",
+			"Can be purchased for [100] [Gold] [in all cities]",
+			"Can move immediately once bought",
+			"Unbuildable",
 			"Uncapturable"
-		],
-		"cost": 40
+		]
 	},
     {
 		"name": "Worker",
@@ -19,7 +20,7 @@
 		"uniques": [
             "Can build [Land] improvements on tiles", 
             "Automation is a primary action",
-            "Cost increases by [20] when built"
+            "Cost increases by [20] when built <if [The Pyramids] is constructed>"
         ],
 		"cost": 40
 	},
@@ -32,8 +33,7 @@
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
             "Can build [Water] improvements on tiles", 
-			"Automation is a primary action",
-            "Cost increases by [20] when built"
+			"Automation is a primary action"
 		]
 	},
 	{

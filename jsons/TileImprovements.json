@@ -1,5 +1,5 @@
 [	
-	{
+	{//城市中心
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
@@ -15,7 +15,7 @@
 			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
 	},
-    {
+    {//军用住房/军容
         "name": "Military Housing",
         "terrainsCanBeBuiltOn": ["Land","Water"],
         "turnsToBuild": 7,
@@ -26,7 +26,7 @@
         ],
         "shortcutKey": "O"
     },
-    {
+    {//堡垒
         "name": "Fort",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
         "turnsToBuild": 1,
@@ -50,7 +50,7 @@
 	// 	],
 	// 	"shortcutKey": "F"
 	// },
-	{
+	{//渔船
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
 		"food": 1,
@@ -62,7 +62,7 @@
 		],
 		"shortcutKey": "F"
 	},
-    {
+    {//农场
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
@@ -77,7 +77,7 @@
         ],
 		"shortcutKey": "F"
 	},
-	{
+	{//矿井
 		"name": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
@@ -91,7 +91,7 @@
         ],
 		"shortcutKey": "M"
 	},
-	{
+	{//锯木厂/伐木场
 		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"production": 1,
@@ -105,7 +105,7 @@
 		],
 		"shortcutKey": "L"
 	},
-	{
+	{//贸易站
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 2,
@@ -120,7 +120,89 @@
 		],
 		"shortcutKey": "T"
 	},
-	{
+	{//营地
+		"name": "Camp",
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Trapping",
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Production] <after discovering [Civil Service]>",
+			"[+1 Food] <after discovering [Metallurgy]>",
+			"[+2 Gold] <after discovering [Flight]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "C"
+	},
+	{//油井
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"production": 2,
+		"techRequired": "Biology",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Cannot be built on [Water] tiles",
+			"[+1 Production] <after discovering [Combustion]>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "W"
+	},
+	{//海上油井
+		"name": "Offshore Platform",
+		"turnsToBuild": 9,
+		"production": 2,
+		"techRequired": "Refrigeration",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Can only be built on [Water] tiles",
+			"[+1 Production] <after discovering [Combustion]>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+	{//牧场
+		"name": "Pasture",
+		"turnsToBuild": 8,
+		"techRequired": "Animal Husbandry",
+		"uniques": [
+			"[+1 Food] <after discovering [Chivalry]>",
+			"[+1 Production] <after discovering [Industrialization]>",
+			"[+1 Food] <after discovering [Nuclear Fusion]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+	{//种植园
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 2,
+		"techRequired": "Calendar",
+		"uniques": [
+			"[+1 Food] <after discovering [Civil Service]>",
+			"[+1 Food] <after discovering [Scientific Theory]>",
+			"[+2 Gold] <after discovering [Archaeology]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+	{//采石场
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": [
+			"[+1 Production] <after discovering [Engineering]>",
+			"[+1 Production] <after discovering [Chemistry]>",
+			"[+1 Production] <after discovering [Combustion]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "Q"
+	},
+	{//道路
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
@@ -133,7 +215,7 @@
             {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
         ]
 	},
-	{
+	{//铁路
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,

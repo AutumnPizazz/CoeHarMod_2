@@ -65,7 +65,7 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+15]% growth [in all cities]",
+                    "[+20]% growth [in all cities]",
                     "Provides a [Aqueduct] in your first [4] cities for free"
                 ]
             }
@@ -81,7 +81,10 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["[+1 Production, +1 Culture] [in all cities]"],
+        "uniques": [
+            "[+1 Culture] [in all cities]",
+            "[+100]% Production when constructing [Expertise Buildings] buildings [in all cities]"
+        ],
         "policies": [
             {
                 "name": "Republic",
@@ -116,7 +119,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [20]% less than normal",
+                    "Each city founded increases culture cost of policies [25]% less than normal",
                     "Empire enters golden age"
                 ],
                 "requires": ["Citizenship"],
@@ -136,8 +139,8 @@
             {
                 "name": "Liberty Complete",
                 "uniques": [
-                    "[+100]% Production when constructing [National Epic] wonders [in all cities]",
-                    "Gain a free [Monument] [in all cities]"
+                    "Provides [1] [Specialized Development Direction]",
+                    "[-25]% unhappiness from the number of cities"
                 ]
             }
         ]
