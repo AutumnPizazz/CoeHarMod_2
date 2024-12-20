@@ -146,4 +146,29 @@
 			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
+	{//美国
+		"name": "America",
+		"leaderName": "George Washington",
+		"adjective": ["American"],
+		"preferredVictoryType": "Scientific",
+		"personality": "George Washington",
+        "outerColor": [ 28,51,119],
+        "innerColor": [255,255,255],
+        "favoredReligion": "Christianity",
+
+		"uniqueName": "Manifest Destiny",
+		"uniques": [
+			"[+2 Science] from every [Forest] <in tiles adjacent to [Mountain] tiles>",
+			"[+2 Culture] from every [Jungle] <in tiles adjacent to [Mountain] tiles>",
+			"All newly-trained [All] units [in all cities] receive the [Minuteman] promotion"
+		],
+
+		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+	},
 ]

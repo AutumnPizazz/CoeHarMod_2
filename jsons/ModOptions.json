@@ -1,7 +1,7 @@
 {
     "isBaseRuleset":false,
     "buildingsToRemove":["Hydro Plant"],
-    // "unitsToRemove":["Work Boats"],
+    "unitsToRemove":["Minuteman"],
     "uniques":[
         "Allow raze capital",
         "Allow raze holy city"

@@ -96,98 +96,105 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Great Wall of Ming Dynasty
   rotate: false
-  xy: 140, 204
+  xy: 140, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ordo
   rotate: false
-  xy: 4, 176
+  xy: 4, 284
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Scientific Expertise
   rotate: false
-  xy: 4, 312
+  xy: 4, 420
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 ImprovementIcons/Simple Fishing Boats
   rotate: false
-  xy: 1700, 724
+  xy: 4, 68
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Ming Dynasty
   rotate: false
-  xy: 1564, 588
+  xy: 1564, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Yuan Dynasty
   rotate: false
-  xy: 1564, 588
+  xy: 1564, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Specialized Development Direction
   rotate: false
-  xy: 524, 312
+  xy: 524, 420
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Simple Fishing Boats
   rotate: false
-  xy: 4, 4
+  xy: 248, 356
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Simple Fishing Boats-Industrial era
   rotate: false
-  xy: 248, 248
+  xy: 1564, 632
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Whales+Simple Fishing Boats
   rotate: false
-  xy: 1564, 524
+  xy: 1808, 876
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Whales+Simple Fishing Boats-Industrial era
   rotate: false
-  xy: 1808, 768
+  xy: 4, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/Crouching Tiger Cannon
   rotate: false
-  xy: 4, 68
+  xy: 4, 176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tree Planter
   rotate: false
-  xy: 1044, 312
+  xy: 1044, 420
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Minuteman
+  rotate: false
+  xy: 1700, 832
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Ordo
   rotate: false
-  xy: 1564, 696
+  xy: 1564, 804
   size: 128, 128
   orig: 128, 128
   offset: 0, 0

@@ -773,21 +773,25 @@
 			"[+10]% Strength"
 		]
 	},
-	{
+	{//政事论1级
 		"name":"Arthashastra I",
 		"uniques":[
 			"[+1] Movement",
 			"[This Unit] takes [5] damage <upon ending a turn in a [Enemy Land] tile> <for units without [Arthashastra III]>"
 		]
 	},
-	{
+	{//政事论2级
 		"name":"Arthashastra II",
 		"uniques":[
 			"[+15]% Strength",
 			"[This Unit] takes [5] damage <upon ending a turn in a [Enemy Land] tile> <for units without [Arthashastra III]>"
 		]
 	},
-	{
+	{//政事论3级
 		"name":"Arthashastra III"
+	},
+	{//快速民兵
+		"name":"Minuteman",
+		"uniques":["[+1] Movement <in [Friendly Land] tiles>"]
 	}
 ]

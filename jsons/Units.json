@@ -1,5 +1,5 @@
 [	
-	{
+	{//植树员
 		"name":"Tree Planter",
 		"unitType":"Civilian",
 		"requiredTech":"Construction",
@@ -7,7 +7,8 @@
 		"uniques":[
 			"Turn this tile into a [Forest] tile <by consuming this unit>",
 			"Turn this tile into a [Jungle] tile <by consuming this unit>",
-            "Cost increases by [20] when built"
+            "Cost increases by [20] when built",
+			"Uncapturable"
 		],
 		"cost": 40
 	},
