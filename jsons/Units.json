@@ -479,8 +479,8 @@
 	},
 
 	
-	{
-		"name": "Janissary",//苏丹亲兵
+	{//苏丹亲兵
+		"name": "Janissary",
 		"unitType": "Gunpowder",
 		"replaces": "Musketman",
 		"uniqueTo": "The Ottomans",
@@ -495,8 +495,8 @@
 			"Excess Food converted to Production when under construction"
 		]
 	},
-	{
-		"name": "Crouching Tiger Cannon",//虎蹲炮
+	{//虎蹲炮
+		"name": "Crouching Tiger Cannon",
 		"replaces": "Crossbowman",
 		"uniqueTo": "Ming Dynasty",
 		"unitType": "Archery",
@@ -508,6 +508,162 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"attackSound": "crossbow",
-		"uniques":["[+50]% Strength <when attacking>"]
+		"uniques":[
+			"[+50]% Strength <when attacking> <in [Hill] tiles>",
+			"[+10]% Strength <when attacking> <in [non-[Hill]] tiles>"
+		]
 	},
+	{//救国军1级(近战)
+		"name": "Armia Krajowa I (Melee)",
+		"unitType": "Armia Krajowa",
+		"uniqueTo": "Poland",
+		"movement": 2,
+		"strength": 10,
+		"attackSound": "shot",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Armia Krajowa II (Melee)",
+		"uniques": [
+			"Only available <when above [1] [Patriotism]>",
+			"Instantly consumes [2] [Patriotism]"
+		]
+	},
+	{//救国军2级(近战)
+		"name": "Armia Krajowa II (Melee)",
+		"unitType": "Armia Krajowa",
+		"uniqueTo": "Poland",
+		"movement": 2,
+		"strength": 16,
+		"attackSound": "shot",
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Armia Krajowa III (Melee)",
+		"uniques": [
+			"Only available <when above [3] [Patriotism]>",
+			"Instantly consumes [4] [Patriotism]"
+		]
+	},
+	{//救国军3级(近战)
+		"name": "Armia Krajowa III (Melee)",
+		"unitType": "Armia Krajowa",
+		"uniqueTo": "Poland",
+		"movement": 3,
+		"strength": 24,
+		"attackSound": "shot",
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Armia Krajowa IV (Melee)",
+		"uniques": [
+			"Only available <when above [7] [Patriotism]>",
+			"Instantly consumes [8] [Patriotism]"
+		]
+	},
+	{//救国军4级(近战)
+		"name": "Armia Krajowa IV (Melee)",
+		"unitType": "Armia Krajowa",
+		"uniqueTo": "Poland",
+		"movement": 3,
+		"strength": 50,
+		"attackSound": "shot",
+		"requiredTech": "Replaceable Parts",
+		"obsoleteTech": "Mobile Tactics",
+		"upgradesTo": "Armia Krajowa V (Melee)",
+		"uniques": [
+			"Only available <when above [17] [Patriotism]>",
+			"Instantly consumes [18] [Patriotism]"
+		]
+	},
+	{//救国军5级(近战)
+		"name": "Armia Krajowa V (Melee)",
+		"unitType": "Armia Krajowa",
+		"uniqueTo": "Poland",
+		"movement": 4,
+		"strength": 90,
+		"attackSound": "shot",
+		"requiredTech": "Mobile Tactics",
+		"uniques": [
+			"Only available <when above [24] [Patriotism]>",
+			"Instantly consumes [25] [Patriotism]"
+		]
+	},
+	{//救国军1级(远程)
+		"name": "Armia Krajowa I (Ranged)",
+		"unitType": "Armia Krajowa",
+		"uniqueTo": "Poland",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 8,
+		"attackSound": "shot",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Armia Krajowa II (Ranged)",
+		"uniques": [
+			"Only available <when above [1] [Patriotism]>",
+			"Instantly consumes [2] [Patriotism]"
+		]
+	},
+	{//救国军2级(远程)
+		"name": "Armia Krajowa II (Ranged)",
+		"unitType": "Armia Krajowa",
+		"uniqueTo": "Poland",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 12,
+		"attackSound": "shot",
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Armia Krajowa III (Ranged)",
+		"uniques": [
+			"Only available <when above [3] [Patriotism]>",
+			"Instantly consumes [4] [Patriotism]"
+		]
+	},
+	{//救国军3级(远程)
+		"name": "Armia Krajowa III (Ranged)",
+		"unitType": "Armia Krajowa",
+		"uniqueTo": "Poland",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 20,
+		"attackSound": "shot",
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Dynamite",
+		"upgradesTo": "Armia Krajowa IV (Ranged)",
+		"uniques": [
+			"Only available <when above [5] [Patriotism]>",
+			"Instantly consumes [6] [Patriotism]"
+		]
+	},
+	{//救国军4级(远程)
+		"name": "Armia Krajowa IV (Ranged)",
+		"unitType": "Armia Krajowa",
+		"uniqueTo": "Poland",
+		"movement": 2,
+		"range": 3,
+		"strength": 20,
+		"rangedStrength": 30,
+		"attackSound": "shot",
+		"requiredTech": "Dynamite",
+		"obsoleteTech": "Mobile Tactics",
+		"upgradesTo": "Armia Krajowa V (Ranged)",
+		"uniques": [
+			"Only available <when above [11] [Patriotism]>",
+			"Instantly consumes [12] [Patriotism]",
+			"[+200]% Strength <vs cities> <when attacking>"
+		]
+	},
+	{//救国军5级(远程)
+		"name": "Armia Krajowa V (Ranged)",
+		"unitType": "Armia Krajowa",
+		"uniqueTo": "Poland",
+		"movement": 3,
+		"range": 3,
+		"strength": 60,
+		"rangedStrength": 100,
+		"attackSound": "shot",
+		"requiredTech": "Mobile Tactics",
+		"uniques": [
+			"Only available <when above [19] [Patriotism]>",
+			"Instantly consumes [20] [Patriotism]",
+			"[+200]% Strength <vs cities> <when attacking>"
+		]
+	}
 ]

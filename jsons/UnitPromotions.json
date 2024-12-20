@@ -88,7 +88,7 @@
 	{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored","Armia Krajowa"],
         "column": 4,
         "row": 1
 	},
@@ -96,7 +96,7 @@
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored","Armia Krajowa"],
         "column": 4,
         "row": 2
 	},
@@ -104,7 +104,7 @@
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored","Armia Krajowa"],
         "column": 4,
         "row": 3
 	},
@@ -112,7 +112,7 @@
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored","Armia Krajowa"],
         "column": 5,
         "row": 1
 	},
@@ -120,7 +120,7 @@
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored","Armia Krajowa"],
         "column": 5,
         "row": 2
 	},
@@ -128,7 +128,7 @@
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored","Armia Krajowa"],
         "column": 5,
         "row": 3
 	},
@@ -136,7 +136,7 @@
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Mounted","Armored"],
+		"unitTypes": ["Mounted","Armored","Armia Krajowa"],
         "column": 6,
         "row": 2
 	},
@@ -144,7 +144,7 @@
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Armia Krajowa"],
         "column": 6,
         "row": 3
 	},
@@ -152,7 +152,7 @@
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armia Krajowa"],
         "column": 7,
         "row": 2
 	},
@@ -160,7 +160,7 @@
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armia Krajowa"],
         "column": 7,
         "row": 3
 	},
@@ -169,7 +169,7 @@
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Armored","Armia Krajowa"],
         "column": 6,
         "row": 4
 	},
@@ -177,7 +177,7 @@
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Armia Krajowa"],
         "column": 6,
         "row": 5
 	},
@@ -185,7 +185,7 @@
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Armia Krajowa"],
         "column": 6,
         "row": 1
 	},
@@ -193,7 +193,7 @@
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Scout"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Scout","Armia Krajowa"],
         "column": 10, // after scout base
         "row": 1
 	},
@@ -201,7 +201,7 @@
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Scout"],
+		"unitTypes": ["Sword","Anti-mounted","Gunpowder","Mounted","Scout","Armia Krajowa"],
         "column": 10,
         "row": 2
 	},

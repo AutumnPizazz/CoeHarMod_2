@@ -80,8 +80,6 @@
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
         "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
     },
-
-	
 	{//元朝
 		"name": "Yuan Dynasty",
 		"leaderName": "Kublai",
@@ -171,4 +169,25 @@
 			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
+	{//波兰
+		"name": "Poland",
+		"leaderName": "Władysław Raczkiewicz",
+		"adjective": ["Polish"],
+		"preferredVictoryType": "Scientific",
+		"personality": "George Washington",
+		"outerColor": [28, 56, 89], // 深蓝色，参考波兰王国时期的颜色
+  		"innerColor": [173, 124, 89],  // 棕色，参考波兰传统服饰和建筑的颜色
+        "favoredReligion": "Christianity",
+
+		"uniqueName": "Struggle for Survival",
+		"uniques": [
+			"Cannot build [{Military} {Land} {non-[Armia Krajowa]}] units",
+			"Comment [Cannot build Military Expertise]",
+			"May buy [Armia Krajowa] units for [0] [Gold] [in all cities] <in [non-[Puppeted]] cities>",
+			"New [Armia Krajowa] units start with [10] Experience [in all cities] <when above [10] [Patriotism]>",
+			"[+10]% Strength <when above [20] [Patriotism]>",
+			"[+1] Movement <when above [50] [Patriotism]>"
+		],
+		"cities": ["Warsaw","Kraków","Gdańsk","Poznań","Wrocław","Łódź","Szczecin","Bydgoszcz","Lublin","Katowice","Białystok","Gdynia","Sosnowiec","Radom","Gliwice","Toruń","Olsztyn","Rzeszów","Bytom","Zabrze","Bielsko-Biała","Opole","Ruda Śląska","Tychy","Gorzów Wielkopolski","Wałbrzych","Elbląg","Płock","Dąbrowa Górnicza","Chorzów","Koszalin","Legnica","Kalisz","Jelenia Góra","Tarnów","Płońsk","Siedlce"]
+	}
 ]

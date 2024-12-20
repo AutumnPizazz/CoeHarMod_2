@@ -117,6 +117,14 @@
         "movementType": "Land",
         "uniques": ["Consumes [1] [Military Size]","Can pass through impassable tiles"]
     },
+    {
+        "name": "Armia Krajowa",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] heals [50] HP <upon being promoted>",
+            "Can move immediately once bought"
+        ]
+    },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work
 

@@ -58,7 +58,8 @@
             "Cost increases by [20] when built <if [National Epic] is not constructed>",
             "Cost increases by [10] when built <if [National Epic] is constructed>",
             "Unsellable",
-			"Expertise Buildings"
+			"Expertise Buildings",
+			"Unavailable <for [Poland] Civilizations> <hidden from users>"
         ]
     },
     {//信仰专精
@@ -528,7 +529,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 100,
 		"requiredTech": "Masonry",
-		// "requiredResource": "Specialized Development Direction",
+		"requiredResource": "Specialized Development Direction",
 		"uniques": [
 			"Destroyed when the city is captured",
 			"[+1 Science] from every [Farm] <in tiles not adjacent to [City center] tiles>",
@@ -547,6 +548,41 @@
 	// 	],
 	// 	"requiredTech": "Electricity"
 	// },
+	{
+		"name": "Armia Krajowa I",
+		"uniqueTo": "Poland",
+		"cost": 20,
+		"uniques": [
+			"Instantly provides [1] [Patriotism]",
+			"Remove [Armia Krajowa] [in this city]",
+			"Armia Krajowa"
+		]
+	},
+	{
+		"name": "Armia Krajowa II",
+		"uniqueTo": "Poland",
+		"cost": 100,
+		"uniques": [
+			"Instantly provides [6] [Patriotism]",
+			"Remove [Armia Krajowa] [in this city]",
+			"Armia Krajowa"
+		]
+	},
+	{
+		"name": "Armia Krajowa III",
+		"uniqueTo": "Poland",
+		"cost": 500,
+		"uniques": [
+			"Instantly provides [35] [Patriotism]",
+			"Remove [Armia Krajowa] [in this city]",
+			"Armia Krajowa"
+		]
+	},
+
+
+
+
+	//奇观
 	{//民族史诗
 		"name": "National Epic",
 		"cost": 200,
