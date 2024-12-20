@@ -20,7 +20,7 @@
 		"uniques": [
             "Can build [Land] improvements on tiles", 
             "Automation is a primary action",
-            "Cost increases by [20] when built <if [The Pyramids] is constructed>"
+            "Cost increases by [20] when built <if [The Pyramids] is not constructed>"
         ],
 		"cost": 40
 	},
