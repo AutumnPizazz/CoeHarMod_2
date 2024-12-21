@@ -69,14 +69,14 @@ BuildingIcons/Economic Expertise
   index: -1
 BuildingIcons/Entertainment Expertise
   rotate: false
-  xy: 1044, 524
+  xy: 1044, 4
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
-BuildingIcons/Faithful Expertise
+ResourceIcons/Electric Power
   rotate: false
-  xy: 1044, 4
+  xy: 1044, 524
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
@@ -164,142 +164,149 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Faithful Expertise
+  rotate: false
+  xy: 4, 1460
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 BuildingIcons/Great Wall of Ming Dynasty
   rotate: false
-  xy: 4, 68
+  xy: 140, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Maritime Expertise
   rotate: false
-  xy: 4, 1352
+  xy: 4, 940
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 BuildingIcons/Military Expertise
   rotate: false
-  xy: 4, 832
+  xy: 524, 1460
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 BuildingIcons/Ordo
   rotate: false
-  xy: 4, 176
+  xy: 4, 284
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Production Expertise
   rotate: false
-  xy: 524, 832
+  xy: 1044, 1460
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 BuildingIcons/Scientific Expertise
   rotate: false
-  xy: 1044, 1352
+  xy: 524, 420
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 ImprovementIcons/Simple Fishing Boats
   rotate: false
-  xy: 1700, 1764
+  xy: 4, 68
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Ming Dynasty
   rotate: false
-  xy: 140, 204
+  xy: 1564, 1736
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Yuan Dynasty
   rotate: false
-  xy: 140, 204
+  xy: 1564, 1736
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Poland
   rotate: false
-  xy: 4, 312
+  xy: 524, 940
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 ResourceIcons/Patriotism
   rotate: false
-  xy: 524, 1352
+  xy: 4, 420
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 ResourceIcons/Specialized Development Direction
   rotate: false
-  xy: 524, 312
+  xy: 1044, 940
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Simple Fishing Boats
   rotate: false
-  xy: 1044, 660
+  xy: 248, 356
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Simple Fishing Boats-Industrial era
   rotate: false
-  xy: 1152, 768
+  xy: 1564, 1672
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Whales+Simple Fishing Boats
   rotate: false
-  xy: 4, 4
+  xy: 1808, 1916
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Whales+Simple Fishing Boats-Industrial era
   rotate: false
-  xy: 248, 248
+  xy: 4, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/Crouching Tiger Cannon
   rotate: false
-  xy: 1044, 724
+  xy: 4, 176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tree Planter
   rotate: false
-  xy: 1044, 832
+  xy: 1044, 420
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Minuteman
   rotate: false
-  xy: 1564, 1628
+  xy: 1700, 1872
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ordo
   rotate: false
-  xy: 1564, 1736
+  xy: 1564, 1844
   size: 128, 128
   orig: 128, 128
   offset: 0, 0

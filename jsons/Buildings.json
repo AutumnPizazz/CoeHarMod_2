@@ -25,8 +25,7 @@
         "maintenance":1,
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [20] when built <if [National Epic] is not constructed>",
-            "Cost increases by [10] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
@@ -40,8 +39,7 @@
         "requiredTech":"Writing",
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [20] when built <if [National Epic] is not constructed>",
-            "Cost increases by [10] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
@@ -55,8 +53,7 @@
         "requiredResource":"Specialized Development Direction",
         "uniques":[
 			"Provides [1] [Military Size]",
-            "Cost increases by [20] when built <if [National Epic] is not constructed>",
-            "Cost increases by [10] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings",
 			"Unavailable <for [Poland] Civilizations> <hidden from users>"
@@ -69,10 +66,10 @@
         "faith":1,
         "maintenance":1,
         "requiredTech":"Pottery",
-        "requiredResource":"Specialized Development Direction",
+        // "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [20] when built <if [National Epic] is not constructed>",
-            "Cost increases by [10] when built <if [National Epic] is constructed>",
+			"Consumes [1] [Specialized Development Direction] <before adopting [Piety]>",
+            "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Only available <when religion is enabled>",
             "Unsellable",
 			"Expertise Buildings"
@@ -87,8 +84,7 @@
         "requiredTech":"Trapping",
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [20] when built <if [National Epic] is not constructed>",
-            "Cost increases by [10] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
@@ -102,8 +98,7 @@
         "requiredTech":"The Wheel",
         "requiredResource":"Specialized Development Direction",
         "uniques":[
-            "Cost increases by [20] when built <if [National Epic] is not constructed>",
-            "Cost increases by [10] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
@@ -116,8 +111,7 @@
         "requiredTech":"Currency",
         "uniques":[
 			"Consumes [1] [Specialized Development Direction] <before adopting [Trade Unions]>",
-            "Cost increases by [20] when built <if [National Epic] is not constructed>",
-            "Cost increases by [10] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
@@ -132,8 +126,7 @@
         "uniques":[
             "Must be next to [Coast]",
 			"Provides [1] [Military Size]",
-            "Cost increases by [20] when built <if [National Epic] is not constructed>",
-            "Cost increases by [10] when built <if [National Epic] is constructed>",
+            "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
@@ -537,18 +530,18 @@
 			"[+1 Production] from every [Lumber mill] <in tiles not adjacent to [City center] tiles>"
 		]
 	},
-	// {//水电站--等待电力系统重做
-	// 	"name": "Hydro Plant",
-	// 	"requiredResource": "Aluminum",
-	// 	"hurryCostModifier": 0,
-	// 	"maintenance": 3,
-	// 	"uniques": [
-	// 		"Must be on [River]",
-	// 		"[+1 Production] from [River] tiles [in this city]"
-	// 	],
-	// 	"requiredTech": "Electricity"
-	// },
-	{
+	{//水电站
+		"name": "Hydro Plant",
+		"requiredResource": "Aluminum",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": [
+			"Must be on [River]",
+			"Provides [4] [Electric Power]"
+		],
+		"requiredTech": "Electricity"
+	},
+	{//救亡动员1级-波兰
 		"name": "Armia Krajowa I",
 		"uniqueTo": "Poland",
 		"cost": 20,
@@ -558,7 +551,7 @@
 			"Armia Krajowa"
 		]
 	},
-	{
+	{//救亡动员2级-波兰
 		"name": "Armia Krajowa II",
 		"uniqueTo": "Poland",
 		"cost": 100,
@@ -568,7 +561,7 @@
 			"Armia Krajowa"
 		]
 	},
-	{
+	{//救亡动员3级-波兰
 		"name": "Armia Krajowa III",
 		"uniqueTo": "Poland",
 		"cost": 500,
@@ -590,8 +583,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
-			"Free Great Person",
-			"Comment [Reduce the price increase of Expertise Construction by half]"
+			"Free Great Person"
 		],
 		"requiredTech": "Pottery"
 	},

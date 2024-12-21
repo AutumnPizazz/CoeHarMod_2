@@ -11,7 +11,8 @@
         },
         "uniques": [
             "[+3 Culture] [in capital]",
-            "[-40]% Culture cost of natural border growth [in all cities]"
+            "[-40]% Culture cost of natural border growth [in all cities]",
+            "Only available <before adopting [Liberty]>"
         ],
         "policies": [
             {
@@ -83,15 +84,15 @@
         },
         "uniques": [
             "[+1 Culture] [in all cities]",
-            "[+100]% Production when constructing [Expertise Buildings] buildings [in all cities]"
+            "[+100]% Production when constructing [Expertise Buildings] buildings [in all cities]",
+            "Only available <before adopting [Tradition]>"
         ],
         "policies": [
             {
-                "name": "Republic",
+                "name": "Collective Rule",
                 "uniques": [
-                    "[+100]% [Production] <in cities with [1] [Population]>",
-                    "[+30]% [Production] <in cities with [2] [Population]>",
-                    "[+10]% [Production] <in cities with [3] [Population]>"
+                    "Comment [The price increase for Setter is free]",
+                    "Comment [The price increase for Expertise Buildings is free]"
                 ],
                 "row": 1,
                 "column": 1
@@ -107,12 +108,13 @@
                 "column": 4
             },
             {
-                "name": "Collective Rule",
+                "name": "Republic",
                 "uniques": [
-                    "Comment [The price increase for Setter is free]",
-                    "Free [Settler] appears"
+                    "[+100]% [Production] <in cities with [1] [Population]>",
+                    "[+30]% [Production] <in cities with [2] [Population]>",
+                    "[+10]% [Production] <in cities with [3] [Population]>"
                 ],
-                "requires": ["Republic"],
+                "requires": ["Collective Rule"],
                 "row": 2,
                 "column": 1
             },
@@ -229,7 +231,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "Gain a free [Faithful Expertise] [in all cities]",
+            "Comment [Remove the Specialized Development Direction requirement for the Faithful Expertise]",
             "[+50]% Production when constructing [Shrine] buildings [in all cities]",
             "[+50]% Production when constructing [Temple] buildings [in all cities]",
             "[-100]% weight to this choice for AI decisions <when religion is disabled>"

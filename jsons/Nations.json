@@ -185,9 +185,32 @@
 			"Comment [Cannot build Military Expertise]",
 			"May buy [Armia Krajowa] units for [0] [Gold] [in all cities] <in [non-[Puppeted]] cities>",
 			"New [Armia Krajowa] units start with [10] Experience [in all cities] <when above [10] [Patriotism]>",
-			"[+10]% Strength <when above [20] [Patriotism]>",
-			"[+1] Movement <when above [50] [Patriotism]>"
+			"[+10]% Strength <when above [30] [Patriotism]>",
+			"[+1] Movement <when above [100] [Patriotism]>"
 		],
 		"cities": ["Warsaw","Kraków","Gdańsk","Poznań","Wrocław","Łódź","Szczecin","Bydgoszcz","Lublin","Katowice","Białystok","Gdynia","Sosnowiec","Radom","Gliwice","Toruń","Olsztyn","Rzeszów","Bytom","Zabrze","Bielsko-Biała","Opole","Ruda Śląska","Tychy","Gorzów Wielkopolski","Wałbrzych","Elbląg","Płock","Dąbrowa Górnicza","Chorzów","Koszalin","Legnica","Kalisz","Jelenia Góra","Tarnów","Płońsk","Siedlce"]
-	}
+	},
+	{//埃塞俄比亚
+		"name": "Ethiopia",
+		"leaderName": "Haile Selassie",
+		"adjective": ["ethiopian"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Haile Selassie",
+        "outerColor": [18, 66, 22],
+        "innerColor": [255, 56, 56],
+		"favoredReligion": "Christianity",
+
+		"uniqueName": "Spirit of Adwa",
+		"uniques": [
+			"[+2 Production] from every [Hill] <in [City center] tiles>",
+			"[+2 Production] from every [Hill] <in [City center] tiles> <after discovering [Industrialization]>"
+		],
+
+		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
+			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
+			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
+			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"],
+        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]
+    }
 ]
