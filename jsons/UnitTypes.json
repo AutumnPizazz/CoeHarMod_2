@@ -59,7 +59,7 @@
     {
         "name": "Civilian Water",
         "movementType": "Water",
-        "uniques": ["Consumes [1] [Military Size]"]
+        "uniques": []
     },
     {
         "name": "Melee Water",
