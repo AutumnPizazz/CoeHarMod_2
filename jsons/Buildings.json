@@ -1680,5 +1680,33 @@
 		"faith": 2,
 		"happiness": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+
+
+	{
+		"name": "Hidden Chinese Poker",
+		"uniques":["Unbuildable","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Chinese Poker",
+		"cost": 0,
+		"requiredTech": "Agriculture",
+		"happiness": 3,
+		"uniques":[
+			"Only available <for [Human player] Civilizations> <when [Enable Chinese Poker] Victory is enabled>",
+			"Free [Settler] appears",
+			"[+20]% [Production]",
+			"[+50]% [Gold]",
+			"Comment [Military Size granted by the era +4]",
+			"Provides [4] [Military Size] <starting from the [Ancient era]> <hidden from users>",
+			"Provides [4] [Military Size] <starting from the [Classical era]> <hidden from users>",
+			"Provides [4] [Military Size] <starting from the [Medieval era]> <hidden from users>",
+			"Provides [4] [Military Size] <starting from the [Renaissance era]> <hidden from users>",
+			"Provides [4] [Military Size] <starting from the [Industrial era]> <hidden from users>",
+			"Provides [4] [Military Size] <starting from the [Modern era]> <hidden from users>",
+			"Provides [4] [Military Size] <starting from the [Atomic era]> <hidden from users>",
+			"Provides [4] [Military Size] <starting from the [Information era]> <hidden from users>",
+			"Provides [4] [Military Size] <starting from the [Future era]> <hidden from users>"
+		]
 	}
 ]

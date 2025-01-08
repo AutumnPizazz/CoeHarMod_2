@@ -11,7 +11,7 @@
         },
         "uniques": [
             "[+3 Culture] [in capital]",
-            "[-40]% Culture cost of natural border growth [in all cities]",
+            "[-35]% Culture cost of natural border growth [in all cities]",
             "Only available <before adopting [Liberty]>"
         ],
         "policies": [
@@ -27,8 +27,8 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free",
-                    "Provides [2] [Specialized Development Direction] <in [Capital] cities>"
+                    "Provides the cheapest [Culture] building in your first [2] cities for free",
+                    "Provides the cheapest [Science] building in your first [2] cities for free"
                 ],
                 "row": 1,
                 "column": 3
@@ -36,10 +36,9 @@
             {
                 "name": "Oligarchy",
                 "uniques": [
-                    "Units in cities cost no Maintenance",
                     "[+50]% Strength for cities <when attacking>",
                     "[+50]% Strength for cities <when attacking> <after discovering [Machinery]>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "Gain a free [Walls] [cityFilter]"
                 ],
                 "row": 1,
                 "column": 5
@@ -47,7 +46,7 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+10]% growth [in capital]",
+                    "[+20]% growth [in capital]",
                     "[+4 Food] [in capital]"
                 ],
                 "requires": ["Legalism"],
@@ -67,7 +66,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+20]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [4] cities for free"
+                    "Provides a [Aqueduct] in your first [2] cities for free"
                 ]
             }
         ]
@@ -111,8 +110,9 @@
                 "name": "Republic",
                 "uniques": [
                     "[+100]% [Production] <in cities with [1] [Population]>",
-                    "[+30]% [Production] <in cities with [2] [Population]>",
-                    "[+10]% [Production] <in cities with [3] [Population]>"
+                    "[+50]% [Production] <in cities with [2] [Population]>",
+                    "[+20]% [Production] <in cities with [3] [Population]>",
+                    "[+5]% [Production] <in cities with at least [4] [Population]>"
                 ],
                 "requires": ["Collective Rule"],
                 "row": 2,
@@ -121,7 +121,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [25]% less than normal",
+                    "Each city founded increases culture cost of policies [40]% less than normal",
                     "Empire enters golden age"
                 ],
                 "requires": ["Citizenship"],
@@ -142,7 +142,7 @@
                 "name": "Liberty Complete",
                 "uniques": [
                     "Provides [1] [Specialized Development Direction]",
-                    "[-25]% unhappiness from the number of cities"
+                    "[-50]% unhappiness from the number of cities"
                 ]
             }
         ]
@@ -202,7 +202,7 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "[-75]% Gold cost of upgrading <for [Military] units>",
+                    "[-80]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [Castle]",
                     "[+1 Happiness] from every [Arsenal]",
@@ -215,7 +215,8 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [100]% of killed [Military] unit's [Cost] as [Gold]"
+                    "Earn [100]% of killed [Military] unit's [Cost] as [Gold]",
+                    "Provides [6] [Military Size]"
                 ]
             }
         ]
