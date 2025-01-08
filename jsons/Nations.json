@@ -375,8 +375,8 @@
 		"uniqueName": "Ancien Régime",
 		"uniques": [
 			"[+1 Culture] [in all cities] <when number of [[Monument] Buildings] is between [1] and [4]>",
-			"[+25]% [Culture] <when number of [Monument] Buildings] is between [4] and [10]>",
-			"[+50]% [Culture] <when number of [Monument] Buildings] is more than [10]>"
+			"[+25]% [Culture] <when number of [[Monument] Buildings] is between [4] and [10]>",
+			"[+50]% [Culture] <when number of [[Monument] Buildings] is more than [10]>"
 
 		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
