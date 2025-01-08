@@ -793,5 +793,9 @@
 	{//快速民兵
 		"name":"Minuteman",
 		"uniques":["[+1] Movement <in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "Terracotta Army",
+		"uniques":["[This Unit] heals [100] HP"]
 	}
 ]

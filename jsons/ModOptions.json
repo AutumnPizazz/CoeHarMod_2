@@ -1,12 +1,25 @@
 {
-    "isBaseRuleset":false,
-    "buildingsToRemove":["Hydro Plant"],
-    "unitsToRemove":["Minuteman"],
-    "uniques":[
+    "isBaseRuleset":true,
+    "buildingsToRemove": [
+        "Hydro Plant"
+    ],
+    "unitsToRemove": [
+        "Minuteman"
+    ],
+    "constants": {
+        "cityWorkRange": 5
+    },
+    "modUrl": "https://github.com/AutumnPizazz/CoeHarMod_2",
+    "defaultBranch": "main",
+    "author": "AutumnPizazz",
+    "lastUpdated": "2024-12-22T11:12:05Z",
+    "modSize": 1576,
+    "topics": [
+        "unciv-mod",
+        "unciv-mod-expansions"
+    ],
+    "uniques": [
         "Allow raze capital",
         "Allow raze holy city"
-    ],
-    "constants":{
-        "cityWorkRange":5
-    }
+    ]
 }

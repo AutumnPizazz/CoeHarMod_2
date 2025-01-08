@@ -257,28 +257,28 @@ ResourceIcons/Specialized Development Direction
   index: -1
 TileSets/HexaRealm/Tiles/Simple Fishing Boats
   rotate: false
-  xy: 248, 356
+  xy: 1564, 1672
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Simple Fishing Boats-Industrial era
   rotate: false
-  xy: 1564, 1672
+  xy: 1808, 1916
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Whales+Simple Fishing Boats
   rotate: false
-  xy: 1808, 1916
+  xy: 4, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Whales+Simple Fishing Boats-Industrial era
   rotate: false
-  xy: 4, 4
+  xy: 356, 356
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -309,5 +309,12 @@ UnitPromotionIcons/Ordo
   xy: 1564, 1844
   size: 128, 128
   orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Terracotta Army
+  rotate: false
+  xy: 248, 312
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1

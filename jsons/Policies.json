@@ -147,7 +147,7 @@
             }
         ]
     },
-    {
+    {//军功
         "name": "Honor",
         "era": "Ancient era",
         "priorities": {
@@ -220,7 +220,7 @@
             }
         ]
     },
-    {
+    {//虔诚
         "name": "Piety",
         "era": "Classical era",
         "priorities": {
@@ -240,8 +240,8 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Faith, +1 Culture] from every [Shrine]",
-                    "[+2 Faith, +2 Culture] from every [Temple]"
+                    "[+1 Faith, +1 Production] from every [Shrine]",
+                    "[+2 Faith, +2 Production] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 2
@@ -280,8 +280,9 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-20]%",
-                    "[+3 Gold, +3 Culture] from every [Holy site]",
-                    "May buy [Great Prophet] units for [600] [Faith] [in all cities] at an increasing price ([200])"
+                    "[+3 Gold, +3 Culture, +3 Faith] from every [Holy site]",
+                    "May buy [Great Prophet] units for [600] [Faith] [in all cities] at an increasing price ([200])",
+                    "May buy [Military] units with [Faith] [in all cities] <in cities with a [Temple]>"
                 ]
             }
         ]
