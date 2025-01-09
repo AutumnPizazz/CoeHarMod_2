@@ -31,13 +31,13 @@
             "Not shown on world screen"
         ]
     },
-    {//电力
-        "name":"Electric Power",
-        "resourceType":"Strategic",
-        "uniques":[
-            "Doesn't generate naturally"
-        ]
-    },
+    // {//电力
+    //     "name":"Electric Power",
+    //     "resourceType":"Strategic",
+    //     "uniques":[
+    //         "Doesn't generate naturally"
+    //     ]
+    // },
     {//爱国热情-波兰
         "name": "Patriotism",
         "resourceType":"Strategic",

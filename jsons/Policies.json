@@ -38,7 +38,7 @@
                 "uniques": [
                     "[+50]% Strength for cities <when attacking>",
                     "[+50]% Strength for cities <when attacking> <after discovering [Machinery]>",
-                    "Gain a free [Walls] [cityFilter]"
+                    "Gain a free [Walls] [in capital]"
                 ],
                 "row": 1,
                 "column": 5
@@ -176,7 +176,7 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Ranged] unit>"
                 ],
                 "row": 1,
                 "column": 4
@@ -184,7 +184,8 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    "[+50]% XP gained from combat <for [Military] units>"
+                    "[+50]% XP gained from combat <for [Military] units>",
+                    "Heals [10] damage if it kills a unit"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -193,7 +194,7 @@
             {
                 "name": "Military Caste",
                 "uniques": [
-                    "[+1 Happiness, +3 Culture] [in all cities with a garrison]"
+                    "[+33]% Strength <vs cities>"
                 ],
                 "requires": ["Discipline"],
                 "row": 2,
@@ -203,10 +204,10 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[-80]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] from every [Walls]",
-                    "[+1 Happiness] from every [Castle]",
-                    "[+1 Happiness] from every [Arsenal]",
-                    "[+1 Happiness] from every [Military Base]"
+                    "[+1 Happiness, +1 Production] from every [Walls]",
+                    "[+1 Happiness, +1 Production] from every [Castle]",
+                    "[+1 Happiness, +1 Production] from every [Arsenal]",
+                    "[+1 Happiness, +1 Production] from every [Military Base]"
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
@@ -215,7 +216,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [100]% of killed [Military] unit's [Cost] as [Gold]",
+                    "Cities are razed [4] times as fast",
                     "Provides [6] [Military Size]"
                 ]
             }
@@ -366,7 +367,7 @@
             "Domination": 5,
             "Scientific": 5
         },
-        "uniques": ["[+25]% [Gold] [in capital]"],
+        "uniques": ["[-50]% construction time for [Trading post] improvements"],
         "policies": [
             {
                 "name": "Naval Tradition",

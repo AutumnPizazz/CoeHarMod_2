@@ -293,26 +293,13 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Ramesses II",
 
-        "startIntroPart1": "O great Ramesses, Pharaoh of Egypt, bright as the Sun and mighty as the Nile! Lord of all living things, you lead the greatest of all civilizations, which has gifted the world with writing, advanced mathematics, sculpture, and architecture. Egyptian monuments and culture will continue to amaze the world for thousands of years.",
-        "startIntroPart2": "Mighty and eternal Ramesses, Egypt lasted for millenia, whereas other civilisations disappeared into dust after a few centuries. Amun-Ra blesses you again to lead Egypt and its people on the path of light. Will your new empire shine through the ages of history?",
-
-		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
-		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
-		"defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
-		"introduction": "Greetings, I am Ramesses the god. I am the living embodiment of Egypt, mother and father of all civilizations.",
-
-		"neutralHello": "Good day.",
-		"hateHello": "Oh, it's you.",
-
-		"tradeRequest": "Generous Egypt makes you this offer.",
-
 		"outerColor": [255, 252, 3],
 		"innerColor": [83, 0, 208],
 		"favoredReligion": "Islam",
 		"uniqueName": "Monument Builders",
 		"uniques": [
-			"[+15]% Production when constructing [All] wonders [in all cities]",
-			"[+2 Culture, +2 Science, +2 Production] from every [World Wonder]"
+			"[+10]% Production when constructing [All] wonders [in all cities]",
+			"[+1 Culture, +1 Science] from every [World Wonder]"
 		],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
@@ -756,14 +743,6 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Montezuma I",
 
-        "startIntroPart1": "O divine Montezuma, your people welcome you! May your magnificence inspire all living things! The mighty Aztecs were nomads until the 12th century, when they choose to settle in the mesa central, which would later be called Mexico. Wars were frequent with other tribes to control the rich land surrounding the sacred lakes of Texcoco, Xaltocan and Zampango. In some 200 years, double-sided alliances and martial prowess made of the Aztecs the dominant power in the Central American basin, forming a mighty empire stretching from sea to sea. Alas, the empire fell under the assault of foreign devils - the Spaniards and many curses they brought with them! Wars between tribes and weaponry of doom used by the invaders made the great Aztec civilization crumble in only a few decades.",
-        "startIntroPart2": "O mighty King Montezuma, do you hear the call of your people seeking for revenge? Will you lead them to victory under the light of the Five Suns? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
-		"attacked": "Excellent! Let the blood flow in raging torrents!",
-		"defeated": "Monster! Who are you to destroy my greatness?",
-		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
-
 		"neutralHello": "Welcome, friend.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Accept this agreement or suffer the consequences.",
@@ -773,7 +752,10 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sacrificial Captives",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+		"uniques": [
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+			"[+25]% Production when constructing [Melee] units [in all cities]"
+		],
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
 			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
@@ -806,8 +788,11 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Viking Fury",
-		"uniques": ["[+1] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
-			"No movement cost to pillage <for [Melee] units>"],
+		"uniques": [
+			"[+1] Movement <for [Embarked] units>",
+			"[1] Movement point cost to disembark <for [All] units>",
+			"No movement cost to pillage <for [Melee] units>"
+		],
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
@@ -823,23 +808,18 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Attila the Hun",
 
-        "startIntroPart1": "Great Attila, mighty warrior and leader of the Hunnic empire, your men bow down before you. During the 5th century, you and your brother Bleda have conquered many lands, forged a mighty empire and commanded the most powerful and frightening force of antiquity. You inspired fear to the Roman Emperors themselves, who called you 'Flagellum Dei', the 'Scourge of God', as you took kingdom after kingdom in the Balkans, invaded Eastern Roman Empire, into Gaul and Northern Italy, and planned to conquer Rome itself. Your empire didn't survive long after your death, but your name and your legend have, for millenia to come.",
-        "startIntroPart2": "Fearsome General, your mighty hordes are at your command, waiting to crush your foes once again and to conquer all the riches the world has to offer! Will your new empire shine through the ages of history?",
-
-        "declaringWar": "I grow tired of this throne. I think I should like to have yours instead.",
-		"defeated": "My people will mourn me not with tears, but with human blood.",
-		"attacked": "Now what is this?! You ask me to add your riches to my great avails. The invitation is accepted.",
-		"introduction": "You are in the presence of Attila, scourge of Rome. Do not let hubris be your downfall as well.",
-		"neutralHello": "Good day to you.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "This is better than you deserve, but let it not be said that I am an unfair man.",
-
         "outerColor": [180, 178, 164],
         "innerColor": [70, 0, 4],
 
         "favoredReligion": "Tengriism",
 		"uniqueName": "Scourge of God",
-		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
+		"uniques": [
+			"[+1 Production] from every [Pasture]",
+			"[+1 Production] from every [Camp]",
+			"Starts with [Animal Husbandry]",
+			"Gain a free [Courthouse] [in annexed cities]",
+			"\"Borrows\" city names from other civilizations in the game"
+		],
 		"cities": ["Attila's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     },
@@ -979,7 +959,9 @@
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion"],
+		"uniques": [
+			"May choose [1] additional belief(s) of any type when [founding] a religion"
+		],
 
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
@@ -1043,8 +1025,10 @@
 		"innerColor": [24, 63, 66],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Long Count",
-		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
-			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
+		"uniques": [
+			"Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
+			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."
+		],
  		// Parameters: tech, comment, amount, comment. Compare "Free [Great General] appears" as used by policies
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
 			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",

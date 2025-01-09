@@ -919,7 +919,7 @@
 		"strength": 10,
 		"range": 1,
 		"rangedStrength": 10,
-		"replaces": "Composite Bowman",
+		// "replaces": "Composite Bowman",
 		"cost": 90,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
@@ -981,8 +981,8 @@
 		"name": "Galleass",
 		"unitType": "Ranged Water",
 		"movement": 3,
-		"strength": 16,
-		"rangedStrength": 17,
+		"strength": 18,
+		"rangedStrength": 20,
 		"cost": 100,
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
@@ -1204,14 +1204,17 @@
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 25,
-		"rangedStrength": 28,
+		"rangedStrength": 30,
 		"cost": 185,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"
+		"attackSound": "shipCannonVolley",
+		"uniques":[
+			"[+100]% Strength <vs cities>"
+		]
 	},
 	{
 		"name": "Ship of the Line",
@@ -1223,7 +1226,10 @@
 		"rangedStrength": 35,
 		"cost": 185,
 		"requiredResource": "Iron",
-		"uniques": ["[+1] Sight"],
+		"uniques": [
+			"[+1] Sight",
+			"[+100]% Strength <vs cities>"
+		],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
@@ -1249,11 +1255,11 @@
 	{
 		"name": "Gatling Gun",
 		"unitType": "Ranged Gunpowder",
-		"range": 1,
+		"range": 2,
 		"movement": 2,
 		"strength": 30,
 		"rangedStrength": 30,
-		"cost": 225,
+		"cost": 250,
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
 		"obsoleteTech": "Ballistics",
@@ -1264,7 +1270,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
-		"cost": 225,
+		"cost": 250,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
@@ -1277,7 +1283,7 @@
 		"uniqueTo": "Denmark",
 		"movement": 2,
 		"strength": 34,
-		"cost": 225,
+		"cost": 250,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
@@ -1434,13 +1440,16 @@
 		"name": "Battleship",
 		"unitType": "Ranged Water",
 		"movement": 5,
-		"strength": 55,
-		"rangedStrength": 55,
+		"strength": 60,
+		"rangedStrength": 60,
 		"range": 3,
 		"cost": 375,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Never appears as a Barbarian unit",
+			"[+100]% Strength <vs cities>"
+		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 		// Does not actually upgrade to Missile Cruisers
@@ -1448,11 +1457,11 @@
 	{
 		"name": "Machine Gun",
 		"unitType": "Ranged Gunpowder",
-		"range": 1,
+		"range": 2,
 		"movement": 2,
 		"strength": 60,
 		"rangedStrength": 60,
-		"cost": 350,
+		"cost": 400,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mechanized Infantry",
 		"attackSound": "machinegun"
@@ -1813,9 +1822,11 @@
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building",
+		"uniques": [
+			// "Can speed up construction of a building <on [non-[PVP]] difficulty>",
             "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
-            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"
+		],
 		"movement": 2
 	},
 	{

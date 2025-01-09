@@ -116,6 +116,7 @@
 			"[+2 Gold] <with [4] to [5] neighboring [Trading post] tiles> <after discovering [Economics]> <before discovering [Electronics]>",
 			"[+3 Gold] <with [6] to [6] neighboring [Trading post] tiles> <after discovering [Economics]> <before discovering [Electronics]>",
 			"[+1 Gold] for each adjacent [Trading post] <after discovering [Electronics]>",
+			"Tile provides yield without assigned population",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "T"
@@ -320,12 +321,13 @@
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 3,
+		"production": 4,
 		"uniques": [
 			"Great Improvement",
+			"Tile provides yield without assigned population",
 			"[+1 Production] for each adjacent [Mine]",
 			"[+1 Production] for each adjacent [Lumber mill]",
-			"[+1 Production] <after discovering [Chemistry]>",
+			"[+2 Production] <after discovering [Chemistry]>",
 			"Will not be replaced by automated units",
             "Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"
