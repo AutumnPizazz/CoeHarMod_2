@@ -703,7 +703,7 @@
 		"cost": 35,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": [
-			"[This Unit] gains [10] XP",
+			"[This Unit] gains [10] XP <before turn number [2]>",
 			"May upgrade to [Archer] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],

@@ -1035,7 +1035,8 @@
 		"uniqueName": "Nîhithaw",
 		"uniques": [
 			"[+1 Production] from [{Bonus resource} {improved}] tiles [in capital]",
-			"[+1 Production] from [{Bonus resource} {improved}] tiles [in all cities connected to capital]"
+			"[+1 Production] from [{Bonus resource} {improved}] tiles [in all cities connected to capital]",
+			"New [Okihtcitaw] units start with [10] Experience [in all cities]"
 		],
 		"cities": ["Xandar","Hala","Kree-Lar","New Hala","M'Kraan","Tivan","Skrull","Pama","Kree-Em","Kree-Tor","Kree-Tus","Kotati","Mynar","Cassandra","Galador","Morpheus","Kree-Met","Azuros","Hala-Vak","Quarra"]
 	},
