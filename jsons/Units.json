@@ -20,7 +20,7 @@
 		"uniques": [
             "Can build [Land] improvements on tiles", 
             "Automation is a primary action",
-            "Cost increases by [20] when built <if [The Pyramids] is not constructed>"
+            "Cost increases by [20] when built"
         ],
 		"cost": 40
 	},
@@ -28,12 +28,13 @@
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
-		"cost": 40,
+		"cost": 60,
 		"requiredTech": "Sailing",
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
             "Can build [Water] improvements on tiles", 
-			"Automation is a primary action"
+			"Automation is a primary action",
+            "Cost increases by [20] when built"
 		]
 	},
 	{//移民
@@ -678,14 +679,34 @@
 	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 
 	/* Ancient Era */
-	{
+	{//斥候
 		"name": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"May upgrade to [Archer] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},	
+	{//奥克奇塔乌-克里
+		"name": "Okihtcitaw",
+		"uniqueTo": "Cree",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 7,
+		"cost": 35,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"[This Unit] gains [10] XP",
+			"May upgrade to [Archer] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},

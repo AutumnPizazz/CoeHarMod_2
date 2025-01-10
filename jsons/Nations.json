@@ -343,28 +343,15 @@
 		"adjective": ["French"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Napoleon",
-
-        "startIntroPart1": "Vive Napoleon I, First Consul and Emperor of France! After the glorious Revolution which suppressed the centuries-old monarchy, the French nation stood at the heart of Europe as a Republic, and intended to export its ideals to the entire European continent, either by diplomacy or war. The French Capital Paris was more than ever the world center of Culture, Arts, and Letters. With its Great Army, reputed as one of the greatest in the History, France fought gloriously all surrounding enemies, but eventually fell against the coalition of other European powers.",
-        "startIntroPart2": "Napoleon Bonaparte, ruler of the French people, will you rebuild the Empire to take revenge on your foes, and make again of its Capital the City of Lights? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "You're disturbing us, prepare for war.",
-		"attacked": "You've fallen into my trap. I'll bury you.",
-		"defeated": "I congratulate you for your victory.",
-		"introduction": "Welcome. I'm Napoleon, of France; the smartest military man in world history.",
-		"neutralHello": "Hello.",
-		"hateHello": "It's you.",
-		"tradeRequest": "France offers you this exceptional proposition.",
-
         "outerColor": [ 38, 98, 255],
         "innerColor": [239,236,148],
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
 		"uniques": [
-			"[+1 Culture] [in all cities] <when number of [[Monument] Buildings] is between [1] and [4]>",
-			"[+25]% [Culture] <when number of [[Monument] Buildings] is between [4] and [10]>",
-			"[+50]% [Culture] <when number of [[Monument] Buildings] is more than [10]>"
-
+			"[+1 Culture] [in all cities] <when number of [[Monument] Buildings] is more than [1]>",
+			"[+25]% [Culture] <when number of [[Monument] Buildings] is more than [4]>",
+			"[+25]% [Culture] <when number of [[Monument] Buildings] is more than [10]>"
 		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
@@ -1036,6 +1023,22 @@
 			"Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
         "spyNames": ["Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"]
     },
+	{//克里
+		"name": "Cree",
+		"leaderName": "Poundmaker",
+		"adjective": ["Cree"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Pacal",
+		"outerColor": [0, 128, 128],  // 深青色，象征科技和力量
+		"innerColor": [255, 224, 102], // 明亮的金黄色，代表智慧和高级文明
+		"uniqueName": "Nîhithaw",
+		"uniques": [
+			"[+1 Production] from [{Bonus resource} {improved}] tiles [in capital]",
+			"[+1 Production] from [{Bonus resource} {improved}] tiles [in all cities connected to capital]"
+		],
+		"cities": ["Xandar","Hala","Kree-Lar","New Hala","M'Kraan","Tivan","Skrull","Pama","Kree-Em","Kree-Tor","Kree-Tus","Kotati","Mynar","Cassandra","Galador","Morpheus","Kree-Met","Azuros","Hala-Vak","Quarra"]
+	},
 
 
 	// City-States sorted by cityStateType, name

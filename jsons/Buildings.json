@@ -1,8 +1,16 @@
 [
-    {
-		"中文名":"城市基址",
-		"建筑序号":0,
-		
+	{//宫殿
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+    {//城市基址
         "name":"City Centre",
         "cost":0,
         "uniques":[
@@ -20,10 +28,7 @@
             "Provides [1] [Specialized Development Direction] <in cities with at least [22] [Population]> <in this city>"
         ]
     },
-    {
-		"中文名":"文化专精",
-		"建筑序号":1,
-
+    {//文化专精
         "name":"Cultural Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -36,10 +41,7 @@
 			"Expertise Buildings"
         ]
     },
-    {
-		"中文名":"科研专精",
-		"建筑序号":2,
-
+    {//科研专精
 		"name":"Scientific Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -53,10 +55,7 @@
 			"Expertise Buildings"
         ]
     },
-    {
-		"中文名":"陆军专精",
-		"建筑序号":3,
-
+    {//陆军专精
 		"name":"Military Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -71,10 +70,7 @@
 			"Unavailable <for [Poland] Civilizations> <hidden from users>"
         ]
     },
-    {
-		"中文名":"信仰专精",
-		"建筑序号":4,
-
+    {//信仰专精
 		"name":"Faithful Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -89,10 +85,7 @@
 			"Expertise Buildings"
         ]
     },
-    {
-		"中文名":"娱乐专精",
-		"建筑序号":5,
-
+    {//娱乐专精
 		"name":"Entertainment Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -106,10 +99,7 @@
 			"Expertise Buildings"
         ]
     },
-    {
-		"中文名":"产能专精",
-		"建筑序号":6,
-
+    {//产能专精
 		"name":"Production Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -123,10 +113,7 @@
 			"Expertise Buildings"
         ]
     },
-    {
-		"中文名":"经济专精",
-		"建筑序号":7,
-
+    {//经济专精
         "name":"Economic Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -139,10 +126,7 @@
 			"Expertise Buildings"
         ]
     },
-    {
-		"中文名":"海事专精",
-		"建筑序号":8,
-
+    {//海事专精
         "name":"Maritime Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
@@ -157,10 +141,7 @@
 			"Expertise Buildings"
         ]
     },
-	{
-		"中文名":"纪念碑",
-		"建筑序号":9,
-
+	{//纪念碑
 		"name": "Monument",
 		"culture": 2,
 		"cost": 40,
@@ -168,9 +149,7 @@
 		"maintenance": 1,
         "requiredBuilding":"Cultural Expertise"
 	},
-	{
-		"中文名":"石碑",
-		"建筑序号":10,
+	{//石碑-埃塞俄比亚
 
 		"name": "Stele",
         "replaces": "Monument",
@@ -182,10 +161,7 @@
 		"maintenance": 1,
         "requiredBuilding":"Cultural Expertise"
 	},
-	{
-		"中文名":"图书馆",
-		"建筑序号":11,
-
+	{//图书馆
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -195,10 +171,7 @@
         ],
 		"requiredTech": "Writing"
 	},
-	{
-		"中文名":"造纸坊",
-		"建筑序号":12,
-
+	{//造纸坊-中华
 		"name": "Paper Maker",
 		"replaces": "Library",
 		"uniqueTo": "China",
@@ -210,10 +183,7 @@
         ],
 		"requiredTech": "Writing"
 	},
-	{
-		"中文名":"军营",
-		"建筑序号":13,
-
+	{//军营
 		"name": "Barracks",
 		"hurryCostModifier": 25,
         "production":1,
@@ -227,10 +197,7 @@
         ],
 		"requiredTech": "Bronze Working"
 	},
-	{
-		"中文名":"俄罗斯营垒",
-		"建筑序号":14,
-
+	{//俄罗斯营垒
 		"name": "Krepost",
 		"replaces": "Barracks",
 		"uniqueTo": "Russia",
@@ -248,10 +215,7 @@
         ],
 		"requiredTech": "Bronze Working"
 	},
-	{
-		"中文名":"军械所",
-		"建筑序号":15,
-
+	{//军械所
 		"name": "Armory",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -266,10 +230,7 @@
         ],
 		"requiredTech": "Steel"
 	},
-	{
-		"中文名":"军事学院",
-		"建筑序号":16,
-
+	{//军事学院
 		"name": "Military Academy",
 		"hurryCostModifier": 0,
 		"maintenance": 1,
@@ -282,10 +243,7 @@
         ],
 		"requiredTech": "Military Science"
 	},
-	{
-		"中文名":"神社",
-		"建筑序号":17,
-
+	{//神社
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
@@ -297,10 +255,7 @@
 			"All newly-trained [Military] units [in this city] receive the [Arthashastra I] promotion <for [India] Civilizations>"
         ]
 	},
-	{
-		"中文名":"金字塔",
-		"建筑序号":18,
-
+	{//金字塔
 		"name": "Pyramid",
 		"replaces": "Shrine",
 		"uniqueTo": "The Maya",
@@ -314,10 +269,7 @@
             "Only available <when religion is enabled>"
         ]
 	},
-	{
-		"中文名":"寺庙",
-		"建筑序号":19,
-
+	{//寺庙
 		"name": "Temple",
 		"faith": 2,
 		"requiredBuilding": "Shrine",
@@ -330,10 +282,7 @@
 			"Destroyed when the city is captured"
 		]
 	},
-	{
-		"中文名":"圣殿",
-		"建筑序号":20,
-
+	{//圣殿
 		"name": "Grand Temple",
 		"cost": 180,
 		"culture": 1,
@@ -347,10 +296,7 @@
 		"requiredTech": "Theology",
 		"isNationalWonder": true
 	},
-	{
-		"中文名":"马戏场",
-		"建筑序号":21,
-
+	{//马戏场
 		"name": "Circus",
         "requiredBuilding":"Entertainment Expertise",
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
@@ -361,10 +307,7 @@
             "Destroyed when the city is captured"
         ]
 	},
-	{
-		"中文名":"竞技场",
-		"建筑序号":22,
-
+	{//竞技场
 		"name": "Colosseum",
 		"maintenance": 1,
 		"happiness": 3,
@@ -375,10 +318,7 @@
             "Destroyed when the city is captured"
         ]
 	},
-	{
-		"中文名":"剧院",
-		"建筑序号":23,
-
+	{//剧院
 		"name": "Theatre",
 		"happiness": 5,
 		"hurryCostModifier": 10,
@@ -389,10 +329,7 @@
             "Destroyed when the city is captured"
         ]
 	},
-	{
-		"中文名":"体育场",
-		"建筑序号":24,
-
+	{//体育场
 		"name": "Stadium",
 		"happiness": 6,
 		"requiredBuilding": "Theatre",
@@ -402,10 +339,7 @@
             "Destroyed when the city is captured"
         ]
 	},
-	{
-		"中文名":"水磨",
-		"建筑序号":25,
-
+	{//水磨
 		"name": "Water Mill",
 		"maintenance": 2,
 		"food": 2,
@@ -416,10 +350,7 @@
         ],
 		"requiredTech": "The Wheel"
 	},
-	{
-		"中文名":"水上苗圃",
-		"建筑序号":26,
-
+	{//水上苗圃-阿兹特克
 		"name": "Floating Gardens",
 		"replaces": "Water Mill",
 		"uniqueTo": "Aztecs",
@@ -434,10 +365,7 @@
 		"percentStatBonus": {"food": 10},
 		"requiredTech": "The Wheel"
 	},
-	{
-		"中文名":"马厩",
-		"建筑序号":27,
-
+	{//马厩
 		"name": "Stable",
         "requiredBuilding":"Production Expertise",
 		"maintenance": 1,
@@ -449,10 +377,7 @@
         ],
 		"requiredTech": "Horseback Riding"
 	},
-	{
-		"中文名":"工坊",
-		"建筑序号":28,
-
+	{//工坊
 		"name": "Workshop",
         "requiredBuilding":"Production Expertise",
 		"maintenance": 2,
@@ -462,10 +387,7 @@
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Metal Casting"
 	},
-	{
-		"中文名":"长屋",
-		"建筑序号":29,
-
+	{//长屋-易洛魁
 		"name": "Longhouse",
         "requiredBuilding":"Production Expertise",
 		"replaces": "Workshop",
@@ -479,10 +401,7 @@
 		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
-	{
-		"中文名":"市场",
-		"建筑序号":30,
-
+	{//市场
 		"name": "Market",
         "requiredBuilding":"Economic Expertise",
 		"gold": 2,
@@ -491,10 +410,7 @@
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"
 	},
-	{
-		"中文名":"大巴扎",
-		"建筑序号":31,
-
+	{//大巴扎
 		"name": "Bazaar",
         "requiredBuilding":"Economic Expertise",
 		"replaces": "Market",
@@ -510,10 +426,7 @@
         ],
 		"requiredTech": "Currency"
 	},
-	{
-		"中文名":"灯塔",
-		"建筑序号":32,
-
+	{//灯塔
 		"name": "Lighthouse",
         "requiredBuilding":"Maritime Expertise",
 		"cost": 75,
@@ -530,10 +443,7 @@
         ],
 		"requiredTech": "Optics"
 	},
-	{
-		"中文名":"港口",
-		"建筑序号":33,
-
+	{//港口
 		"name": "Harbor",
         "requiredBuilding":"Lighthouse",
 		"cost": 120,
@@ -549,10 +459,7 @@
         ],
 		"requiredTech": "Compass"
 	},
-	{
-		"中文名":"海运码头",
-		"建筑序号":34,
-
+	{//海运码头
 		"name": "Seaport",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
@@ -566,10 +473,7 @@
         ],
 		"requiredTech": "Navigation"
 	},
-	{
-		"中文名":"斡耳朵",
-		"建筑序号":35,
-
+	{//斡耳朵
 		"name": "Ordo",
 		"replaces": "Stable",
 		"uniqueTo": "Yuan Dynasty",
@@ -584,10 +488,7 @@
         ],
 		"requiredTech": "Horseback Riding"
 	},
-	{
-		"中文名":"明长城",
-		"建筑序号":36,
-
+	{//明长城
 		"name": "Great Wall of Ming Dynasty",
 		"replaces": "Great Wall",
 		"uniqueTo": "Ming Dynasty",
@@ -603,10 +504,7 @@
 		"requiredTech": "Engineering",
 		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
 	},
-	{
-		"中文名":"巴比伦城墙",
-		"建筑序号":37,
-
+	{//巴比伦城墙
 		"name": "Walls of Babylon",
 		"uniqueTo": "Babylon",
 		"cost": 200,
@@ -621,10 +519,7 @@
 			"[+1 Production] from every [Lumber mill] <in tiles not adjacent to [City center] tiles>"
 		]
 	},
-	// {
-	// 	"中文名":"水电站",
-	// 	"建筑序号":38,
-
+	// {//水电站
 	// 	"name": "Hydro Plant",
 	// 	"requiredResource": "Aluminum",
 	// 	"hurryCostModifier": 0,
@@ -635,10 +530,7 @@
 	// 	],
 	// 	"requiredTech": "Electricity"
 	// },
-	{
-		"中文名":"救亡动员1级",
-		"建筑序号":39,
-
+	{//救亡动员1级
 		"name": "Armia Krajowa I",
 		"uniqueTo": "Poland",
 		"cost": 20,
@@ -648,10 +540,7 @@
 			"Armia Krajowa"
 		]
 	},
-	{
-		"中文名":"救亡动员2级",
-		"建筑序号":40,
-
+	{//救亡动员2级
 		"name": "Armia Krajowa II",
 		"uniqueTo": "Poland",
 		"cost": 100,
@@ -661,10 +550,7 @@
 			"Armia Krajowa"
 		]
 	},
-	{
-		"中文名":"救亡动员3级",
-		"建筑序号":41,
-
+	{//救亡动员3级
 		"name": "Armia Krajowa III",
 		"uniqueTo": "Poland",
 		"cost": 500,
@@ -674,10 +560,7 @@
 			"Armia Krajowa"
 		]
 	},
-	{
-		"中文名":"民族史诗",
-		"建筑序号":42,
-
+	{//民族史诗
 		"name": "National Epic",
 		"cost": 200,
 		"isNationalWonder": true,
@@ -687,10 +570,7 @@
 		],
 		"requiredTech": "Pottery"
 	},
-	{
-		"中文名":"国家金库",
-		"建筑序号":43,
-
+	{//国家金库
 		"name": "National Treasury",
 		"cost": 200,
 		"gold": 8,
@@ -700,10 +580,7 @@
 		],
 		"requiredTech": "Guilds"
 	},
-	{
-		"中文名":"大竞技场",
-		"建筑序号":44,
-
+	{//大竞技场
 		"name": "Circus Maximus",
 		"cost": 200,
 		"happiness": 4,
@@ -718,10 +595,7 @@
 		],
 		"requiredTech": "Horseback Riding"
 	},
-	{
-		"中文名":"钢铁厂",
-		"建筑序号":45,
-
+	{//钢铁厂
 		"name": "Ironworks",
 		"cost": 200,
 		"production": 4,
@@ -733,10 +607,7 @@
 		],
 		"requiredTech": "Machinery"
 	},
-	{
-		"中文名":"冬宫",
-		"建筑序号":46,
-
+	{//冬宫
 		"name": "Hermitage",
 		"cost": 200,
 		"percentStatBonus": {"culture": 20},
@@ -748,10 +619,7 @@
 		],
 		"requiredTech": "Architecture"
 	},
-	{
-		"中文名":"阿尔忒弥斯神庙",
-		"建筑序号":47,
-
+	{//阿尔忒弥斯神庙/小弓庙
 		"name": "Temple of Artemis",
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -763,10 +631,7 @@
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
-	{
-		"中文名":"巨石阵",
-		"建筑序号":48,
-
+	{//巨石阵
 		"name": "Stonehenge",
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -776,10 +641,7 @@
 		],
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
-	{
-		"中文名":"大图书馆",
-		"建筑序号":49,
-
+	{//大图书馆
 		"name": "The Great Library",
 		"science": 3,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -791,24 +653,18 @@
 		],
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
 	},
-	{
-		"中文名":"大金字塔",
-		"建筑序号":50,
-
+	{//大金字塔
 		"name": "The Pyramids",
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
-			"[2] free [Worker] units appear",
-			"Comment [The price increase for Worker is free]"
+			"[2] free [Worker] units appear"
+			// "Comment [The price increase for Worker is free]"
 		],
 		"requiredTech": "Masonry",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
-	{
-		"中文名":"摩索拉斯王陵墓",
-		"建筑序号":51,
-
+	{//摩索拉斯王陵墓
 		"name": "Mausoleum of Halicarnassus",
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
@@ -821,10 +677,7 @@
 		"requiredTech": "Masonry",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
-	{
-		"中文名":"宙斯神像",
-		"建筑序号":52,
-
+	{//宙斯神像
 		"name": "Statue of Zeus",
 		"culture": 1,
 		"isWonder": true,
@@ -837,32 +690,28 @@
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 	},
-
-
-
-
-
-
-
-	{
-		"name": "Palace",
-		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
-		"culture": 1,
-		"cityStrength": 2,
-		"cost": 1,
-		"uniques": ["Indicates the capital city"]
-	},
-	{
+	{//粮仓
 		"name": "Granary",
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+		"uniques": [
+			"[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
+			"[+1 Food] from [Wheat] tiles [in this city]"
+		],
+		"requiredTech": "Pottery"
+	},
+	{//棚屋-克里
+		"name" :"Mekewap",
+		"uniqueTo": "Cree",
+		"replaces": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Bonus resource] tiles [in this city]"
+		],
 		"requiredTech": "Pottery"
 	},
 	{
