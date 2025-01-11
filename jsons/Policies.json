@@ -38,7 +38,7 @@
                 "uniques": [
                     "[+50]% Strength for cities <when attacking>",
                     "[+50]% Strength for cities <when attacking> <after discovering [Machinery]>",
-                    "Gain a free [Walls] [in capital]"
+                    "Gain a free [Walls] [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
@@ -553,7 +553,7 @@
                 "name": "Democracy",
                 "uniques": [
                     "[+1 Happiness] from every [Culture]",
-                    "[+1 Happiness] from every [Great Improvements]"
+                    "[+1 Happiness] from every [Great Improvement]"
                 ],
                 "requires": ["Civil Society"],
                 "row": 2,

@@ -1544,13 +1544,14 @@
 	},
 
 
-	{
+	{//隐藏的地主建筑
 		"name": "Hidden Chinese Poker",
 		"uniques":["Unbuildable","Will not be displayed in Civilopedia"]
 	},
-	{
+	{//地主身份证
 		"name": "Chinese Poker",
 		"cost": 0,
+		"isWonder": true,
 		"requiredTech": "Agriculture",
 		"happiness": 3,
 		"uniques":[
