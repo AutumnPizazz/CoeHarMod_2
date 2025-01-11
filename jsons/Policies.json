@@ -10,7 +10,7 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+3 Culture] [in capital]",
+            "[+4 Culture] [in capital]",
             "[-35]% Culture cost of natural border growth [in all cities]",
             "Only available <before adopting [Liberty]>"
         ],
@@ -19,7 +19,8 @@
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+15]% Production when constructing [All] buildings [in capital]"
+                    "[+15]% Production when constructing [All] buildings [in capital]",
+                    "[+15]% Production when constructing [All] units [in capital]"
                 ],
                 "row": 1,
                 "column": 1
@@ -47,7 +48,7 @@
                 "name": "Landed Elite",
                 "uniques": [
                     "[+20]% growth [in capital]",
-                    "[+4 Food] [in capital]"
+                    "[+1 Food] from [{Farm} {non-[Luxury resource]} {non-[Strategic resource]} {non-[Bonus resource]}] tiles [in all cities]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -66,7 +67,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+20]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [2] cities for free"
+                    "Gain a free [Aqueduct] [in all cities]"
                 ]
             }
         ]
@@ -111,8 +112,8 @@
                 "uniques": [
                     "[+100]% [Production] <in cities with [1] [Population]>",
                     "[+50]% [Production] <in cities with [2] [Population]>",
-                    "[+20]% [Production] <in cities with [3] [Population]>",
-                    "[+5]% [Production] <in cities with at least [4] [Population]>"
+                    "[+20]% [Production] <in cities with [3] [Population]>"
+                    // "[+5]% [Production] <in cities with at least [4] [Population]>"
                 ],
                 "requires": ["Collective Rule"],
                 "row": 2,
@@ -141,8 +142,7 @@
             {
                 "name": "Liberty Complete",
                 "uniques": [
-                    "Provides [1] [Specialized Development Direction]",
-                    "[-50]% unhappiness from the number of cities"
+                    "Provides [1] [Specialized Development Direction]"
                 ]
             }
         ]
@@ -636,6 +636,7 @@
                 "name": "Autocracy Complete",
                 "uniques": [
                     "[+15]% Strength <when attacking> <for [Military] units>",
+                    "Great General provides double combat bonus",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }

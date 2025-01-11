@@ -99,15 +99,16 @@
 			"Expertise Buildings"
         ]
     },
-    {//产能专精
+    {//生产专精
 		"name":"Production Expertise",
         "cost":30,
 		"hurryCostModifier": 100,
         "production":1,
         "maintenance":1,
         "requiredTech":"The Wheel",
-        "requiredResource":"Specialized Development Direction",
         "uniques":[
+			"Consumes [1] [Specialized Development Direction] <before discovering [Metal Casting]> <for [Germany] Civilizations>",
+			"Consumes [1] [Specialized Development Direction] <for [non-[Germany]] Civilizations>",
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
@@ -132,8 +133,8 @@
 		"hurryCostModifier": 100,
         "gold":2,
         "requiredTech":"Optics",
-        "requiredResource":"Specialized Development Direction",
         "uniques":[
+			"Consumes [1] [Specialized Development Direction] <for [non-[England]] Civilizations>",
             "Must be next to [Coast]",
 			"Provides [1] [Military Size]",
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
@@ -422,8 +423,7 @@
 		"percentStatBonus": {"gold": 25},
 		"uniques": [
             "Provides 1 extra copy of each improved luxury resource near this City",
-			"[+2 Gold] from [Oil] tiles [in this city]", 
-            "[+2 Gold] from [Oasis] tiles [in this city]"
+			"[+2 Food] from every [Desert]"
         ],
 		"requiredTech": "Currency"
 	},
@@ -1107,17 +1107,19 @@
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
-	{
+	{//总督府-波斯
 		"name": "Satrap's Court",
 		"replaces": "Bank",
 		"uniqueTo": "Persia",
-		"gold": 2,
+		"gold": 4,
 		"specialistSlots": {"Merchant": 1},
-		"happiness": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 25},
+		"percentStatBonus": {"gold": 50},
 		"requiredBuilding": "Market",
-		"requiredTech": "Banking"
+		"requiredTech": "Banking",
+		"uniques":[
+			"Empire enters a [2]-turn Golden Age"
+		]
 	},
     {
         "name": "Constabulary",

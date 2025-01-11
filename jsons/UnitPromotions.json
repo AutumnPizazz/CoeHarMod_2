@@ -790,10 +790,10 @@
 	{//政事论3级
 		"name":"Arthashastra III"
 	},
-	{//快速民兵
-		"name":"Minuteman",
-		"uniques":["[+1] Movement <in [Friendly Land] tiles>"]
-	},
+	// {//快速民兵
+	// 	"name":"Minuteman",
+	// 	"uniques":["[+1] Movement <in [Friendly Land] tiles>"]
+	// },
 	{
 		"name": "Terracotta Army",
 		"uniques":["[This Unit] heals [100] HP"]
