@@ -48,7 +48,7 @@
                 "name": "Landed Elite",
                 "uniques": [
                     "[+20]% growth [in capital]",
-                    "[+1 Food] from [{Farm} {non-[Luxury resource]} {non-[Strategic resource]} {non-[Bonus resource]}] tiles [in all cities]"
+                    "[+1 Food] from [Farm] tiles [in all cities]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -92,7 +92,7 @@
                 "name": "Collective Rule",
                 "uniques": [
                     "Comment [The price increase for Setter is free]",
-                    "Comment [The price increase for Expertise Buildings is free]"
+                    "Comment [The price increase for Expertise Buildings -60%]"
                 ],
                 "row": 1,
                 "column": 1

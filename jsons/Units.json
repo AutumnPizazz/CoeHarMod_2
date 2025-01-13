@@ -41,11 +41,11 @@
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 80,
+		"cost": 100,
 		"uniques": [
             "Founds a new city <by consuming this unit>", 
 			"Requires at least [2] population",
-            "Cost increases by [40] when built <before adopting [Collective Rule]>",
+            "Cost increases by [20] when built <before adopting [Collective Rule]>",
 			"[+2] Movement <before turn number [3]>"
         ],
 		"hurryCostModifier": 20
@@ -807,11 +807,13 @@
 	{
 		"name": "Trireme",
 		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 10,
+		"movement": 3,
+		"strength": 12,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Astronomy]>"
+		],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -821,42 +823,50 @@
 		"unitType": "Melee Water",
 		"uniqueTo": "Carthage",
 		"replaces": "Trireme",
-		"movement": 4,
-		"strength": 13,
+		"movement": 3,
+		"strength": 12,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Astronomy]>"
+		],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Dromon",
+		"name": "Galleass",
 		"unitType": "Ranged Water",
-		"uniqueTo": "Byzantium",
-		"replaces": "Trireme",
-		"movement": 4,
+		"movement": 3,
 		"strength": 8,
-		"rangedStrength": 10,
-		"cost": 56,
+		"rangedStrength": 14,
+		"range":1,
+		"cost": 50,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
-		"upgradesTo": "Galleass",
-		"obsoleteTech": "Astronomy",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Astronomy]>"
+		],
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Galley",
-		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
+		"name": "Dromon",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Byzantium",
+		"replaces": "Galleass",
 		"movement": 3,
-		"strength": 7,
-		"cost": 40,
-		"uniques": ["Cannot enter ocean tiles"],
-		"upgradesTo": "Trireme",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit, weaker and slower than Trireme.
+		"strength": 6,
+		"rangedStrength": 10,
+		"range":2,
+		"cost": 50,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Astronomy]>"
+		],
+		"upgradesTo": "Frigate",
+		"obsoleteTech": "Navigation",
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Marauder",
@@ -884,8 +894,12 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"[+100]% Strength <vs [{Water}] units> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -901,8 +915,12 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "[-1] Sight"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"[+100]% Strength <vs [{Water}] units> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -950,18 +968,22 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
-	{
+	{//波斯长生军
 		"name": "Persian Immortal",
 		"unitType": "Sword",
 		"replaces": "Swordsman",
 		"uniqueTo": "Persia",
 		"movement": 3,
-		"strength": 13,
+		"strength": 10,
 		"cost": 65,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Longswordsman",
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"uniques":[
+			"[+40]% Strength <after discovering [Iron Working]>",
+			""
+		]
 	},
 	{
 		"name": "Legion",
@@ -996,19 +1018,6 @@
 	},
 
 	// Medieval Era
-	{
-		"name": "Galleass",
-		"unitType": "Ranged Water",
-		"movement": 3,
-		"strength": 18,
-		"rangedStrength": 20,
-		"cost": 100,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Navigation",
-		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles"],
-		"attackSound": "arrow"
-	},
 	{
 		"name": "Crossbowman",
 		"unitType": "Archery",
@@ -1047,7 +1056,12 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"[+100]% Strength <vs [{Water}] units> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack"
+		],
 		"attackSound": "throw"
 	},
 	{
@@ -1265,7 +1279,12 @@
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"[+100]% Strength <vs [{Water}] units> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack"
+		],
 		"attackSound": "cannon"
 	},
 
@@ -1360,8 +1379,12 @@
 		"cost": 320,
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"[+100]% Strength <vs [{Water}] units> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack"
+		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -1664,8 +1687,11 @@
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"[+100]% Strength <vs [{Water}] units> <when attacking>",
+			"No defensive terrain bonus"
+		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},

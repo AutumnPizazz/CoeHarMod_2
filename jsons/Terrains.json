@@ -130,12 +130,16 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [102, 102, 102],
-		"uniques": ["Rough terrain",
+		"uniques": [
+			"Rough terrain",
+			"Tile provides yield without assigned population",
+			"[+1 Food] for each adjacent [Terrace farm]",
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
             "Units ending their turn on this terrain take [50] damage",
             "Always Fertility [-2] for Map Generation",
-            "Considered [Undesirable] when determining start locations"]
+            "Considered [Undesirable] when determining start locations"
+		]
 	},
 	{
 		"name": "Snow",

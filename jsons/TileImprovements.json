@@ -382,12 +382,12 @@
 	{
 		"name": "Terrace farm",
 		"uniqueTo": "Inca",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
 		"uniques": [
-			"Can only be built on [Hill] tiles <in tiles adjacent to [Mountain] tiles>",
+			"Can only be built on [Land] tiles <in tiles adjacent to [Mountain] tiles>",
 			"[+1 Production] for each adjacent [Mountain]",
             "Pillaging this improvement yields approximately [+18 Gold]"
 		],

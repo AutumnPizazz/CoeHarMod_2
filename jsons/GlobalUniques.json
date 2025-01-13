@@ -9,6 +9,10 @@
         "Rebel units may spawn <when below [-20] Happiness>",
         "[-1] Sight <for [Embarked] units>",
 
+        // "[-10]% Culture cost of adopting new Policies",
+        // "[-90]% Gold cost of acquiring tiles [in all cities]",
+        // "[+2 Production] [in all cities]",
+
         "Provides [6] [Military Size] <starting from the [Ancient era]>",
         "Provides [6] [Military Size] <starting from the [Classical era]>",
         "Provides [6] [Military Size] <starting from the [Medieval era]>",

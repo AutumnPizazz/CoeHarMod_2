@@ -330,9 +330,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
 		"uniques": [
-			"[+1 Culture] [in all cities] <when number of [[Monument] Buildings] is more than [1]>",
-			"[+25]% [Culture] <when number of [[Monument] Buildings] is more than [4]>",
-			"[+25]% [Culture] <when number of [[Monument] Buildings] is more than [10]>"
+			"[+1 Culture] [in all cities] <if [Monument] is constructed>",
+			"[+15]% [Culture] <when number of [[Monument] Buildings] is more than [4]>",
+			"[+15]% [Culture] <when number of [[Monument] Buildings] is more than [10]>"
 		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble","Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes","Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon","Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
         "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]

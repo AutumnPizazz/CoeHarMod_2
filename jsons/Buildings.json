@@ -37,6 +37,7 @@
         "requiredResource":"Specialized Development Direction",
         "uniques":[
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
+            "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
@@ -51,6 +52,7 @@
         "requiredResource":"Specialized Development Direction",
         "uniques":[
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
+            "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
@@ -65,6 +67,7 @@
         "uniques":[
 			"Provides [1] [Military Size]",
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
+            "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings",
 			"Unavailable <for [Poland] Civilizations> <hidden from users>"
@@ -80,6 +83,7 @@
         "uniques":[
 			"Consumes [1] [Specialized Development Direction] <before adopting [Piety]>",
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
+            "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Only available <when religion is enabled>",
             "Unsellable",
 			"Expertise Buildings"
@@ -95,6 +99,7 @@
         "requiredResource":"Specialized Development Direction",
         "uniques":[
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
+            "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
@@ -110,6 +115,7 @@
 			"Consumes [1] [Specialized Development Direction] <before discovering [Metal Casting]> <for [Germany] Civilizations>",
 			"Consumes [1] [Specialized Development Direction] <for [non-[Germany]] Civilizations>",
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
+            "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
@@ -123,6 +129,7 @@
         "uniques":[
 			"Consumes [1] [Specialized Development Direction] <before adopting [Trade Unions]>",
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
+            "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
@@ -138,6 +145,7 @@
             "Must be next to [Coast]",
 			"Provides [1] [Military Size]",
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
+            "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
 			"Expertise Buildings"
         ]
