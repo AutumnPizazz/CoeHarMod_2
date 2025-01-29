@@ -10,7 +10,7 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			"Triggers a Cultural Victory upon completion"
+			"Triggers a [开始游戏] event"
 		]
 	},
     {//城市基址
