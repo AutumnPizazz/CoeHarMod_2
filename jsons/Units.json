@@ -981,8 +981,7 @@
 		"upgradesTo": "Longswordsman",
 		"attackSound": "metalhit",
 		"uniques":[
-			"[+40]% Strength <after discovering [Iron Working]>",
-			""
+			"[+40]% Strength <after discovering [Iron Working]>"
 		]
 	},
 	{

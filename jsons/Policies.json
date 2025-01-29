@@ -1,5 +1,5 @@
 [
-    {
+    {//传统
         "name": "Tradition",
         "era": "Ancient era",
         "priorities": {
@@ -72,7 +72,7 @@
             }
         ]
     },
-    {
+    {//自主
         "name": "Liberty",
         "era": "Ancient era",
         "priorities": {
@@ -84,7 +84,7 @@
         },
         "uniques": [
             "[+1 Culture] [in all cities]",
-            "[+100]% Production when constructing [Expertise Buildings] buildings [in all cities]",
+            "[+1 Production] from every [tag_ExpertiseBuildings]",
             "Only available <before adopting [Tradition]>"
         ],
         "policies": [
@@ -92,7 +92,7 @@
                 "name": "Collective Rule",
                 "uniques": [
                     "Comment [The price increase for Setter is free]",
-                    "Comment [The price increase for Expertise Buildings -60%]"
+                    "Comment [The price increase for tag_ExpertiseBuildings -60%]"
                 ],
                 "row": 1,
                 "column": 1
@@ -234,8 +234,8 @@
         },
         "uniques": [
             "Comment [Remove the Specialized Development Direction requirement for the Faithful Expertise]",
-            "[+50]% Production when constructing [Shrine] buildings [in all cities]",
-            "[+50]% Production when constructing [Temple] buildings [in all cities]",
+            "[+1 Faith] from every [Shrine]",
+            "[+2 Faith] from every [Temple]",
             "[-100]% weight to this choice for AI decisions <when religion is disabled>"
         ],
         "policies": [
@@ -289,7 +289,7 @@
             }
         ]
     },
-    {
+    {//赞助
         "name": "Patronage",
         "era": "Medieval era",
         "priorities": {
@@ -357,7 +357,7 @@
             }
         ]
     },
-    {
+    {//商业
         "name": "Commerce",
         "era": "Medieval era",
         "priorities": {
@@ -427,7 +427,7 @@
             }
         ]
     },
-    {
+    {//理性
         "name": "Rationalism",
         "era": "Renaissance era",
         "priorities": {
@@ -499,7 +499,7 @@
             }
         ]
     },
-    {
+    {//自由
         "name": "Freedom",
         "era": "Industrial era",
         "priorities": {
@@ -569,7 +569,7 @@
             }
         ]
     },
-    {
+    {//独裁
         "name": "Autocracy",
         "era": "Industrial era",
         "priorities": {
@@ -642,7 +642,7 @@
             }
         ]
     },
-    {
+    {//秩序
         "name": "Order",
         "era": "Industrial era",
         "priorities": {

@@ -69,12 +69,34 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
-			"[+1 Food] <with [2] to [3] neighboring [Farm] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
-			"[+2 Food] <with [4] to [5] neighboring [Farm] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
-			"[+3 Food] <with [6] to [6] neighboring [Farm] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
-			"[+1 Food] for each adjacent [Farm] <after discovering [Fertilizer]>",
+			"tag_Plowland",
+			"Can only be built on [non-[Hill]] tiles",
+			"[+1 Food] <with [2] to [3] neighboring [tag_Plowland] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
+			"[+2 Food] <with [4] to [5] neighboring [tag_Plowland] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
+			"[+3 Food] <with [6] to [6] neighboring [tag_Plowland] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
+			"[+1 Food] for each adjacent [tag_Plowland] <after discovering [Fertilizer]>",
             "Pillaging this improvement yields approximately [+18 Gold]"
         ],
+		"shortcutKey": "F"
+	},
+	{//梯田
+		"name": "Terrace farm",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+			"tag_Plowland",
+			"Unavailable <before discovering [Fertilizer]> <for [non-[Inca]] Civilizations>",
+			"[+1 Food] <with [2] to [3] neighboring [tag_Plowland] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
+			"[+2 Food] <with [4] to [5] neighboring [tag_Plowland] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
+			"[+3 Food] <with [6] to [6] neighboring [tag_Plowland] tiles> <after discovering [Civil Service]> <before discovering [Fertilizer]>",
+			"[+1 Food] for each adjacent [tag_Plowland] <after discovering [Fertilizer]>",
+			"[+1 Production] <in tiles adjacent to [Mountain] tiles> <before discovering [Fertilizer]> <for [Inca] Civilizations>",
+			"[+1 Production] for each adjacent [Mountain] <after discovering [Fertilizer]> <for [Inca] Civilizations>",
+			"Removes removable features when built",
+            "Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"techRequired": "Agriculture",
 		"shortcutKey": "F"
 	},
 	{//矿井
@@ -378,21 +400,6 @@
 		"uniques": ["Can only be built on [Coastal] tiles", "[+1 Culture] for each adjacent [Moai]", "[+1 Gold] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
-	},
-	{
-		"name": "Terrace farm",
-		"uniqueTo": "Inca",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"food": 1,
-		"production": 1,
-		"turnsToBuild": 7,
-		"uniques": [
-			"Can only be built on [Land] tiles <in tiles adjacent to [Mountain] tiles>",
-			"[+1 Production] for each adjacent [Mountain]",
-            "Pillaging this improvement yields approximately [+18 Gold]"
-		],
-		"techRequired": "Construction",
-		"shortcutKey": "F"
 	},
 	{
 		"name": "Polder",

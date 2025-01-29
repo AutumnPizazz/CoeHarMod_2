@@ -6,9 +6,12 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
-		"cityStrength": 2,
+		"cityStrength": 2, 
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"uniques": [
+			"Indicates the capital city",
+			"Triggers a Cultural Victory upon completion"
+		]
 	},
     {//城市基址
         "name":"City Centre",
@@ -39,7 +42,7 @@
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
-			"Expertise Buildings"
+			"tag_ExpertiseBuildings"
         ]
     },
     {//科研专精
@@ -54,7 +57,7 @@
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
-			"Expertise Buildings"
+			"tag_ExpertiseBuildings"
         ]
     },
     {//陆军专精
@@ -69,7 +72,7 @@
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
-			"Expertise Buildings",
+			"tag_ExpertiseBuildings",
 			"Unavailable <for [Poland] Civilizations> <hidden from users>"
         ]
     },
@@ -86,7 +89,7 @@
             "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Only available <when religion is enabled>",
             "Unsellable",
-			"Expertise Buildings"
+			"tag_ExpertiseBuildings"
         ]
     },
     {//娱乐专精
@@ -101,7 +104,7 @@
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
-			"Expertise Buildings"
+			"tag_ExpertiseBuildings"
         ]
     },
     {//生产专精
@@ -117,7 +120,7 @@
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
-			"Expertise Buildings"
+			"tag_ExpertiseBuildings"
         ]
     },
     {//经济专精
@@ -131,7 +134,7 @@
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
-			"Expertise Buildings"
+			"tag_ExpertiseBuildings"
         ]
     },
     {//海事专精
@@ -147,7 +150,7 @@
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
             "Cost increases by [8] when built <after adopting [Collective Rule]>",
             "Unsellable",
-			"Expertise Buildings"
+			"tag_ExpertiseBuildings"
         ]
     },
 	{//纪念碑
@@ -354,9 +357,8 @@
 		"maintenance": 2,
 		"food": 2,
 		"hurryCostModifier": 25,
-        "requiredBuilding":"Production Expertise",
 		"uniques": [
-            "[+1 Production] from [Farm] tiles [in this city]"
+            "[+1 Production] from [tag_Plowland] tiles [in this city] <with [2] to [6] neighboring [tag_Plowland] tiles>"
         ],
 		"requiredTech": "The Wheel"
 	},
@@ -366,8 +368,8 @@
 		"uniqueTo": "Aztecs",
 		"food": 4,
 		"uniques": [
-            "[+1 Food] from [Lakes] tiles [in this city]", 
-            "[+1 Production] from [Farm] tiles [in this city]"
+            "[+1 Food] from [Lakes] tiles [in this city]",
+			"[+1 Production] from [tag_Plowland] tiles [in this city] <with [2] to [6] neighboring [tag_Plowland] tiles>"
         ],
 		"hurryCostModifier": 25,
         "requiredBuilding":"Production Expertise",
@@ -864,7 +866,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": [
 			"Must be next to [Desert]",
-			"[+1 Food, +1 Production, +1 Gold] from [{Desert} {non-[Hill]}] tiles without [Flood plains] [in all cities]"
+			"[+2 Food, +1 Production, +2 Gold] from [{Desert} {non-[Hill]}] tiles without [Flood plains] [in all cities]"
 		],
 		"requiredTech": "Currency",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
@@ -985,10 +987,10 @@
 		"name": "University",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
+		"science": 3,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 	{//经院
@@ -1556,6 +1558,10 @@
 
 	{//隐藏的地主建筑
 		"name": "Hidden Chinese Poker",
+		"uniques":["Unbuildable","Will not be displayed in Civilopedia"]
+	},	
+	{//隐藏的超级AI建筑
+		"name": "Hidden Super AI",
 		"uniques":["Unbuildable","Will not be displayed in Civilopedia"]
 	},
 	{//地主身份证

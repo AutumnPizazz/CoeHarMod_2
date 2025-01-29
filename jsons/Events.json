@@ -1,0 +1,214 @@
+[
+    {
+        "name": "开始游戏",
+        "text": "欢迎游玩 和合共生2 ，当前模组版本为 [modVersion]，适合的游戏本体版本为[gameVersion]！\n\n 如果你正在进行联机对局,请保证所有玩家的模组版本和游戏版本一致。\n\n如有BUG请加入QQ群 718331229 反馈。",
+        "choices": [
+            {
+                "text": "开始游玩 和合共生2 ！查看更新日志请移步文明百科-教程-和合共生2 更新日志"
+            }
+        ]
+    }
+    // {
+    //     "name": "选择父政策",
+    //     "text": "请选择将推行的父政策",
+    //     "choices": [
+    //         {
+    //             "text": "下个回合再选择吧"
+    //         },
+    //         {
+    //             "text": "推行父政策-[Tradition]",
+    //             "uniques": [
+    //                 "Triggers a [推行父政策-[Tradition]] event <hidden from users>",
+    //                 "Only available <before adopting [Tradition Complete]> <before adopting [Liberty]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行父政策-[Liberty]",
+    //             "uniques": [
+    //                 "Triggers a [推行父政策-[Liberty]] event <hidden from users>",
+    //                 "Only available <before adopting [Liberty Complete]> <before adopting [Tradition]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行父政策-[Honor]",
+    //             "uniques": [
+    //                 "Triggers a [推行父政策-[Honor]] event <hidden from users>",
+    //                 "Only available <before adopting [Honor Complete]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行父政策-[Piety]",
+    //             "uniques": [
+    //                 "Triggers a [推行父政策-[Piety]] event <hidden from users>",
+    //                 "Only available <before adopting [Piety Complete]>",
+    //                 "Only available <starting from the [Classical era]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行父政策-[Patronage]",
+    //             "uniques": [
+    //                 "Triggers a [推行父政策-[Patronage]] event <hidden from users>",
+    //                 "Only available <before adopting [Patronage Complete]>",
+    //                 "Only available <starting from the [Medieval era]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行父政策-[Commerce]",
+    //             "uniques": [
+    //                 "Triggers a [推行父政策-[Commerce]] event <hidden from users>",
+    //                 "Only available <before adopting [Commerce Complete]>",
+    //                 "Only available <starting from the [Medieval era]>"
+    //             ],
+    //             "conditions": [
+    //                 "<before adopting [Commerce Complete]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行父政策-[Rationalism]",
+    //             "uniques": [
+    //                 "Triggers a [推行父政策-[Rationalism]] event <hidden from users>",
+    //                 "Only available <before adopting [Rationalism Complete]>",
+    //                 "Only available <starting from the [Renaissance era]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行父政策-[Freedom]",
+    //             "uniques": [
+    //                 "Triggers a [推行父政策-[Freedom]] event <hidden from users>",
+    //                 "Only available <before adopting [Freedom Complete]> <before adopting [Autocracy]> <before adopting [Order]>",
+    //                 "Only available <starting from the [Industrial era]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行父政策-[Autocracy]",
+    //             "uniques": [
+    //                 "Triggers a [推行父政策-[Autocracy]] event <hidden from users>",
+    //                 "Only available <before adopting [Autocracy Complete]> <before adopting [Freedom]> <before adopting [Order]>",
+    //                 "Only available <starting from the [Industrial era]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行父政策-[Order]",
+    //             "uniques": [
+    //                 "Triggers a [推行父政策-[Order]] event <hidden from users>",
+    //                 "Only available <before adopting [Order Complete]> <before adopting [Freedom]> <before adopting [Autocracy]>",
+    //                 "Only available <starting from the [Industrial era]>"
+    //             ]
+    //         }
+    //     ]
+    // },
+    // {
+    //     "name": "推行父政策-[Tradition]",
+    //     "text": "请选择将推行的 [Tradition] 的子政策",
+    //     "choices": [
+    //         {
+    //             "text": "下个回合再选择吧"
+    //         },
+    //         {
+    //             "text": "回到上一层选择",
+    //             "uniques": [
+    //                 "Triggers a [选择父政策] event <hidden from users>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Tradition]",
+    //             "uniques": [
+    //                 "Adopt [Tradition] <hidden from users>",
+    //                 "Only available <before adopting [Tradition]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Aristocracy]",
+    //             "uniques": [
+    //                 "Adopt [Aristocracy] <hidden from users>",
+    //                 "Only available <after adopting [Tradition]> <before adopting [Aristocracy]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Legalism]",
+    //             "uniques": [
+    //                 "Adopt [Legalism] <hidden from users>",
+    //                 "Only available <after adopting [Tradition]> <before adopting [Legalism]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Oligarchy]",
+    //             "uniques": [
+    //                 "Adopt [Oligarchy] <hidden from users>",
+    //                 "Only available <after adopting [Tradition]> <before adopting [Oligarchy]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Landed Elite]",
+    //             "uniques": [
+    //                 "Adopt [Landed Elite] <hidden from users>",
+    //                 "Only available <after adopting [Tradition]> <before adopting [Oligarchy]> <after adopting [Legalism]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Monarchy]",
+    //             "uniques": [
+    //                 "Adopt [Monarchy] <hidden from users>",
+    //                 "Only available <after adopting [Tradition]> <before adopting [Oligarchy]> <after adopting [Legalism]>"
+    //             ]
+    //         }
+    //     ]
+    // },
+    // {
+    //     "name": "推行父政策-[Liberty]",
+    //     "text": "请选择将推行的 [Liberty] 的子政策",
+    //     "choices": [
+    //         {
+    //             "text": "下个回合再选择吧"
+    //         },
+    //         {
+    //             "text": "回到上一层选择",
+    //             "uniques": [
+    //                 "Triggers a [选择父政策] event <hidden from users>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Liberty]",
+    //             "uniques": [
+    //                 "Adopt [Liberty] <hidden from users>",
+    //                 "Only available <before adopting [Liberty]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Collective Rule]",
+    //             "uniques": [
+    //                 "Adopt [Collective Rule] <hidden from users>",
+    //                 "Only available <after adopting [Liberty]> <before adopting [Collective Rule]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Citizenship]",
+    //             "uniques": [
+    //                 "Adopt [Citizenship] <hidden from users>",
+    //                 "Only available <after adopting [Liberty]> <before adopting [Citizenship]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Republic]",
+    //             "uniques": [
+    //                 "Adopt [Republic] <hidden from users>",
+    //                 "Only available <after adopting [Liberty]> <before adopting [Republic]> <after adopting [Collective Rule]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Representation]",
+    //             "uniques": [
+    //                 "Adopt [Representation] <hidden from users>",
+    //                 "Only available <after adopting [Liberty]> <before adopting [Representation]> <after adopting [Citizenship]>"
+    //             ]
+    //         },
+    //         {
+    //             "text": "推行子政策-[Meritocracy]",
+    //             "uniques": [
+    //                 "Adopt [Meritocracy] <hidden from users>",
+    //                 "Only available <after adopting [Liberty]> <before adopting [Meritocracy]> <after adopting [Citizenship]>"
+    //             ]
+    //         }
+    //     ]
+    // }
+]

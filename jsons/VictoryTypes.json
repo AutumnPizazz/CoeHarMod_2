@@ -43,5 +43,10 @@
         "name": "Enable Chinese Poker",
         "hiddenInVictoryScreen": true,
         "milestones": ["Build [Hidden Chinese Poker]"]
+    },
+    {
+        "name": "Enable Super AI",
+        "hiddenInVictoryScreen": true,
+        "milestones": ["Build [Hidden Super AI]"]
     }
 ]
