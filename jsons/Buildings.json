@@ -36,6 +36,7 @@
         "cost":30,
 		"hurryCostModifier": 100,
         "culture":1,
+        "requiredTech":"Drama and Poetry",
         "maintenance":1,
         "requiredResource":"Specialized Development Direction",
         "uniques":[
@@ -158,20 +159,17 @@
 		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
-		"maintenance": 1,
-        "requiredBuilding":"Cultural Expertise"
+		"maintenance": 1
 	},
 	{//石碑-埃塞俄比亚
-
 		"name": "Stele",
         "replaces": "Monument",
 		"uniqueTo": "Ethiopia",
 		"culture": 2,
 		"faith": 2,
-		"cost": 40,
+		"cost": 60,
 		"hurryCostModifier": 40,
-		"maintenance": 1,
-        "requiredBuilding":"Cultural Expertise"
+		"maintenance": 1
 	},
 	{//图书馆
 		"name": "Library",
@@ -204,6 +202,7 @@
 		"uniques": [
             "[+10]% Production when constructing [{Military} {Land}] units [in this city]",
             "New [{Military} {Land}] units start with [15] Experience [in this city]",
+			"Provides [1] [Military Size]",
 			"Provides [2] [Iron]",
             "Destroyed when the city is captured"
         ],
@@ -223,6 +222,7 @@
             "[-25]% Gold cost of acquiring tiles [in this city]",
             "[+10]% Production when constructing [{Military} {Land}] units [in this city]",
 			"New [{Military} {Land}] units start with [15] Experience [in this city]", 
+			"Provides [1] [Military Size]",
 			"Provides [2] [Iron]",
             "Destroyed when the city is captured"
         ],
@@ -237,6 +237,7 @@
 		"uniques": [
             "[+10]% Production when constructing [{Military} {Land}] units [in this city]",
             "New [{Military} {Land}] units start with [15] Experience [in this city]",
+			"Provides [2] [Military Size]",
 			"Provides [2] [Horses]",
 			"Provides [2] [Iron]",
             "Destroyed when the city is captured"
@@ -252,6 +253,7 @@
 		"uniques": [
             "[+10]% Production when constructing [{Military} {Land}] units [in this city]",
             "New [{Military} {Land}] units start with [15] Experience [in this city]", 
+			"Provides [3] [Military Size]",
             "Destroyed when the city is captured"
         ],
 		"requiredTech": "Military Science"
@@ -450,6 +452,7 @@
 			"[+1 Production] from [Fishing Boats] tiles [in this city]", 
             "[+10]% Production when constructing [{Military} {Water}] units [in this city]",
             "New [{Military} {Water}] units start with [15] Experience [in this city]",
+			"Provides [1] [Military Size]",
             "Destroyed when the city is captured"
         ],
 		"requiredTech": "Optics"
@@ -466,6 +469,7 @@
 			"Connects trade routes over water","Must be next to [Coast]",
             "[+10]% Production when constructing [{Military} {Water}] units [in this city]",
             "New [{Military} {Water}] units start with [15] Experience [in this city]",
+			"Provides [2] [Military Size]",
             "Destroyed when the city is captured"
         ],
 		"requiredTech": "Compass"
@@ -480,6 +484,7 @@
 			"[+1 Production, +1 Gold] from [Coast] tiles [in this city]", 
             "[+10]% Production when constructing [{Military} {Water}] units [in this city]",
             "New [{Military} {Water}] units start with [15] Experience [in this city]",
+			"Provides [3] [Military Size]",
             "Destroyed when the city is captured"
         ],
 		"requiredTech": "Navigation"
@@ -495,6 +500,7 @@
 		"uniques": [
 			"Provides [3] [Horses]",
 			"[+1 Production] from [Pasture] tiles [in this city]",
+			"Provides [1] [Military Size]",
 			"All newly-trained [Mounted] units [in this city] receive the [Ordo] promotion"
         ],
 		"requiredTech": "Horseback Riding"
@@ -576,8 +582,8 @@
 		"cost": 200,
 		"isNationalWonder": true,
 		"uniques": [
-			"[+1 Culture, +1 Production] from every [Monument]", 
-			"Free Great Person"
+			"Free Social Policy <after adopting [Tradition]>",
+			"[+1 Food, +1 Production] from every [Monument] <after adopting [Liberty]>"
 		],
 		"requiredTech": "Pottery"
 	},
@@ -587,7 +593,8 @@
 		"gold": 8,
 		"isNationalWonder": true,
 		"uniques": [
-			"[+1 Gold] from [Trading post] tiles [in all cities]"
+			"[+3 Gold] per [2] population [in capital] <after adopting [Tradition]>",
+			"[+1 Gold] from [Trading post] tiles [in all cities] <after adopting [Liberty]>"
 		],
 		"requiredTech": "Guilds"
 	},
@@ -598,11 +605,8 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"[-25]% Unhappiness from [Population] [in this city] <after adopting [Tradition]>",
-			"[-25]% Unhappiness from [Population] [in this city] <if [Colosseum] is constructed in all [non-[Puppeted]] cities> <after adopting [Tradition]>",
-			
-			"[-10]% Unhappiness from [Population] [in all cities] <after adopting [Liberty]>",
-			"[-10]% Unhappiness from [Population] [in all cities] <if [Colosseum] is constructed in all [non-[Puppeted]] cities> <after adopting [Liberty]>"
+			"[-50]% Unhappiness from [Population] [in this city] <after adopting [Tradition]>",
+			"[-10]% Unhappiness from [Population] [in all cities] <after adopting [Liberty]>"
 		],
 		"requiredTech": "Horseback Riding"
 	},
@@ -613,8 +617,8 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"[+1 Production] per [2] population [in this city] <after adopting [Tradition]>",
-			"[+3 Production] from every [Workshop] <after adopting [Liberty]>"
+			"[+2 Production] per [3] population [in this city] <after adopting [Tradition]>",
+			"[+2 Production] from every [Workshop] <after adopting [Liberty]>"
 		],
 		"requiredTech": "Machinery"
 	},
@@ -625,7 +629,7 @@
 		"culture": 5,
 		"isNationalWonder": true,
 		"uniques": [
-			"[+1 Culture] per [2] population [in this city] <if [Opera House] is constructed in all [non-[Puppeted]] cities> <after adopting [Tradition]>",
+			"[+2 Culture] per [3] population [in this city] <after adopting [Tradition]>",
 			"[+1 Culture] from every [Culture] <after adopting [Liberty]>"
 		],
 		"requiredTech": "Architecture"
@@ -844,7 +848,7 @@
 	},
 	{//圆形剧场
 		"name": "Amphitheater",
-		"culture": 3,
+		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
@@ -896,7 +900,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion <if [Barracks] is constructed in all [non-[Puppeted]] cities> <after adopting [Tradition]>",
+			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion <after adopting [Tradition]>",
 			"New [non-[Air]] units start with [10] Experience [in all cities] <after adopting [Liberty]>"
 		],
 		"requiredTech": "Iron Working"
@@ -1068,18 +1072,20 @@
 		"requiredTech": "Physics",
 		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
 	},
-	{
+	{//天文台
 		"name": "Observatory",
-		"maintenance": 0,
+		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 50},
 		"requiredBuilding": "Library",
-		"uniques": ["Must be next to [Mountain]"],
+		"uniques": [
+			"[+2 Science] from every [Science] <in this city>",
+			"[+2 Science] from every [Mountain]"
+		],
 		"requiredTech": "Astronomy"
 	},
 	{
 		"name": "Opera House",
-		"culture": 4,
+		"culture": 6,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
@@ -1091,7 +1097,7 @@
 		"name": "Ceilidh Hall",
 		"replaces": "Opera House",
 		"uniqueTo": "Celts",
-		"culture": 4,
+		"culture": 6,
 		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,

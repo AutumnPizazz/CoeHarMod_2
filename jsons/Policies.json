@@ -29,7 +29,9 @@
                 "name": "Legalism",
                 "uniques": [
                     "Provides the cheapest [Culture] building in your first [2] cities for free",
-                    "Provides the cheapest [Science] building in your first [2] cities for free"
+                    "Provides the cheapest [Science] building in your first [2] cities for free",
+                    "[+50]% [Science] [in capital] <during the [Ancient era]>",
+                    "[+50]% [Culture] [in capital] <during the [Ancient era]>"
                 ],
                 "row": 1,
                 "column": 3
@@ -48,7 +50,7 @@
                 "name": "Landed Elite",
                 "uniques": [
                     "[+20]% growth [in capital]",
-                    "[+1 Food] from [Farm] tiles [in all cities]"
+                    "[+1 Food] from [tag_Plowland] tiles [in all cities]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -57,7 +59,9 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+2 Gold, +1 Happiness] per [2] population [in capital]"
+                    "[+1 Gold] per [1] population [in capital]",
+                    "[+1 Happiness] per [2] population [in capital]",
+                    "[+1 Production] per [3] population [in capital]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -110,10 +114,9 @@
             {
                 "name": "Republic",
                 "uniques": [
-                    "[+100]% [Production] <in cities with [1] [Population]>",
-                    "[+50]% [Production] <in cities with [2] [Population]>",
-                    "[+20]% [Production] <in cities with [3] [Population]>"
-                    // "[+5]% [Production] <in cities with at least [4] [Population]>"
+                    "[+80]% [Production] <in cities with [1] [Population]>",
+                    "[+40]% [Production] <in cities with [2] [Population]>",
+                    "[+15]% [Production] <in cities with [3] [Population]>"
                 ],
                 "requires": ["Collective Rule"],
                 "row": 2,
@@ -473,7 +476,7 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-                    "[+1 Science] from every [Farm]",
+                    "[+1 Science] from every [tag_Plowland]",
                     "[+10]% [Science] from every [Scientific Expertise]"
                 ],
                 "requires": ["Humanism"],

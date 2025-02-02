@@ -1,6 +1,10 @@
 {
     "name": "Global uniques",
     "uniques": [
+        // "[-10]% Culture cost of adopting new Policies",
+        // "[-90]% Gold cost of acquiring tiles [in all cities]",
+        // "[+2 Production] [in all cities]",
+
         "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
@@ -8,6 +12,8 @@
         "Cannot build [Settler] units <when below [-10] Happiness>",
         "Rebel units may spawn <when below [-20] Happiness>",
         "[-1] Sight <for [Embarked] units>",
+
+        "[-200]% growth [in all cities] <in [non-[Fresh Water]] tiles> <in cities without a [Aqueduct]> <in cities with at least [4] [Population]>",
 
         "Provides [6] [Military Size] <starting from the [Ancient era]>",
         "Provides [6] [Military Size] <starting from the [Classical era]>",

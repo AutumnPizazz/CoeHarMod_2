@@ -7,7 +7,9 @@
         "Minuteman"
     ],
     "constants": {
-        "cityWorkRange": 5
+        "cityWorkRange": 5,
+        "riverCountMultiplier": 0.05,
+        "religionLimitMultiplier": 1.0
     },
     "modUrl": "https://github.com/AutumnPizazz/CoeHarMod_2",
     "defaultBranch": "main",

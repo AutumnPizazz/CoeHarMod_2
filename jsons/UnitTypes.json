@@ -3,6 +3,7 @@
         "name": "Anti-mounted",
         "movementType": "Land",
         "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
             "Consumes [1] [Military Size]",
             "[+50]% Strength <vs [Mounted] units>",
             "[+50]% Strength <vs [Mounted] units> <when defending>"
@@ -11,7 +12,10 @@
     {
         "name": "Sword",
         "movementType": "Land",
-        "uniques": ["Consumes [1] [Military Size]"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]"
+        ]
     },
     {
         "name": "Civilian",
@@ -20,27 +24,40 @@
     {
         "name": "Gunpowder",
         "movementType": "Land",
-        "uniques": ["Consumes [1] [Military Size]"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]"
+        ]
     },
     {
         "name": "Archery",
         "movementType": "Land",
-        "uniques": ["Consumes [1] [Military Size]"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]"
+        ]
     },
     {
         "name": "Ranged Gunpowder",
         "movementType": "Land",
-        "uniques": ["Consumes [1] [Military Size]"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]"
+        ]
     },
     {
         "name": "Scout",
         "movementType": "Land",
-        "uniques": ["Consumes [1] [Military Size]"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]"
+        ]
     },
     {
         "name": "Mounted",
         "movementType": "Land",
         "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
             "Consumes [1] [Military Size]",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking> <for [non-[Mongolia]] Civilizations>"
@@ -49,12 +66,18 @@
     {
         "name": "Armored",
         "movementType": "Land",
-        "uniques": ["Consumes [1] [Military Size]"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]"
+        ]
     },
     {
         "name": "Siege",
         "movementType": "Land",
-        "uniques": ["Consumes [1] [Military Size]"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]"
+        ]
     },
     {
         "name": "Civilian Water",
@@ -64,17 +87,24 @@
     {
         "name": "Melee Water",
         "movementType": "Water",
-        "uniques": ["Consumes [1] [Military Size]"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]"
+        ]
     },
     {
         "name": "Ranged Water",
         "movementType": "Water",
-        "uniques": ["Consumes [1] [Military Size]"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]"
+        ]
     },
     {
         "name": "Submarine",
         "movementType": "Water",
         "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
             "Consumes [1] [Military Size]",
             "Can enter ice tiles",
             "Invisible to non-adjacent units",
@@ -84,12 +114,16 @@
     {
         "name": "Aircraft Carrier",
         "movementType": "Water",
-        "uniques": ["Consumes [1] [Military Size]"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]"
+        ]
     },
     {
         "name": "Fighter",
         "movementType": "Air",
         "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
             "Consumes [1] [Military Size]",
             "Aircraft",
             "[+4] Sight",
@@ -100,27 +134,45 @@
     {
         "name": "Bomber",
         "movementType": "Air",
-        "uniques": ["Consumes [1] [Military Size]","Aircraft"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]",
+            "Aircraft"
+        ]
     },
     {
         "name": "Atomic Bomber",
         "movementType": "Air",
-        "uniques": ["Consumes [1] [Military Size]","Aircraft"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]",
+            "Aircraft"
+        ]
     },
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Consumes [1] [Military Size]","Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]",
+            "Self-destructs when attacking",
+            "Cannot be intercepted"
+        ]
     },
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["Consumes [1] [Military Size]","Can pass through impassable tiles"]
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
+            "Consumes [1] [Military Size]",
+            "Can pass through impassable tiles"
+        ]
     },
     {
         "name": "Armia Krajowa",
         "movementType": "Land",
         "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted>",
             "[This Unit] heals [50] HP <upon being promoted>",
             "Can move immediately once bought"
         ]

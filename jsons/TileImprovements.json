@@ -130,8 +130,8 @@
 	{//贸易站
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"gold": 2,
-		"turnsToBuild": 7,
+		"gold": 1,
+		"turnsToBuild": 10,
 		"techRequired": "Guilds",
 		"uniques": [
 			"[+1 Gold] <with [2] to [3] neighboring [Trading post] tiles> <after discovering [Economics]> <before discovering [Electronics]>",
