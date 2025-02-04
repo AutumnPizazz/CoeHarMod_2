@@ -114,9 +114,9 @@
             {
                 "name": "Republic",
                 "uniques": [
-                    "[+80]% [Production] <in cities with [1] [Population]>",
-                    "[+40]% [Production] <in cities with [2] [Population]>",
-                    "[+15]% [Production] <in cities with [3] [Population]>"
+                    "[+1 Production] [in all cities]",
+                    "[+1 Production] [in all cities] <in cities with [1] [Population]>",
+                    "[+1 Production] [in all cities] <in cities with [1] [Population]> <when number of [Cities] is less than [5]>"
                 ],
                 "requires": ["Collective Rule"],
                 "row": 2,

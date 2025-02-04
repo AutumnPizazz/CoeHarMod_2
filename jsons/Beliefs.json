@@ -40,7 +40,7 @@
     {
         "name": "God of the Sea",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats] <with [3] to [6] neighboring [Fishing Boats] tiles>"]
+        "uniques": ["[+1 Production] from every [Fishing Boats] <with [2] to [6] neighboring [Fishing Boats] tiles>"]
     },
     {
         "name": "God of War",

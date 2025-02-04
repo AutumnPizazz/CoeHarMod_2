@@ -114,7 +114,7 @@
 		"hurryCostModifier": 100,
         "production":1,
         "maintenance":1,
-        "requiredTech":"The Wheel",
+        "requiredTech":"Metal Casting",
         "uniques":[
 			"Consumes [1] [Specialized Development Direction] <before discovering [Metal Casting]> <for [Germany] Civilizations>",
 			"Consumes [1] [Specialized Development Direction] <for [non-[Germany]] Civilizations>",
@@ -159,7 +159,6 @@
 		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
-		"maintenance": 1
 	},
 	{//石碑-埃塞俄比亚
 		"name": "Stele",
@@ -168,8 +167,7 @@
 		"culture": 2,
 		"faith": 2,
 		"cost": 60,
-		"hurryCostModifier": 40,
-		"maintenance": 1
+		"hurryCostModifier": 40
 	},
 	{//图书馆
 		"name": "Library",
@@ -708,7 +706,6 @@
 	{//粮仓
 		"name": "Granary",
 		"food": 2,
-		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Food] from [Deer] tiles [in this city]",
@@ -722,7 +719,6 @@
 		"uniqueTo": "Cree",
 		"replaces": "Granary",
 		"food": 2,
-		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Food] from [Bonus resource] tiles [in this city]"
@@ -850,7 +846,7 @@
 		"name": "Amphitheater",
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Monument",
+		"requiredBuilding": "Cultural Expertise",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
@@ -880,7 +876,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
-		"requiredTech": "Engineering"
+		"requiredTech": "Masonry"
 	},
 	{//长城
 		"name": "Great Wall",

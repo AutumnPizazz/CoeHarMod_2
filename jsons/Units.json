@@ -1245,7 +1245,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley",
 		"uniques":[
-			"[+100]% Strength <vs cities>"
+			"[+100]% Strength <vs cities> <when attacking>"
 		]
 	},
 	{
@@ -1260,7 +1260,7 @@
 		"requiredResource": "Iron",
 		"uniques": [
 			"[+1] Sight",
-			"[+100]% Strength <vs cities>"
+			"[+100]% Strength <vs cities> <when attacking>"
 		],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
@@ -1489,7 +1489,7 @@
 		"requiredTech": "Electronics",
 		"uniques": [
 			"Never appears as a Barbarian unit",
-			"[+100]% Strength <vs cities>"
+			"[+100]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"

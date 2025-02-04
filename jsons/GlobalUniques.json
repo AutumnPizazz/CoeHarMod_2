@@ -13,7 +13,7 @@
         "Rebel units may spawn <when below [-20] Happiness>",
         "[-1] Sight <for [Embarked] units>",
 
-        "[-200]% growth [in all cities] <in [non-[Fresh Water]] tiles> <in cities without a [Aqueduct]> <in cities with at least [4] [Population]>",
+        "Nullifies Growth [in all cities] <in [non-[Fresh Water]] tiles> <in cities without a [Aqueduct]> <in cities with at least [2] [Population]>",
 
         "Provides [6] [Military Size] <starting from the [Ancient era]>",
         "Provides [6] [Military Size] <starting from the [Classical era]>",
