@@ -1,0 +1,238 @@
+[
+    {
+        "name": "Anti-mounted",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "[+50]% Strength <vs [Mounted] units>",
+            "[+50]% Strength <vs [Mounted] units> <when defending>",
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Sword",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Civilian",
+        "movementType": "Land",
+        "uniques":[
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Gunpowder",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Archery",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Ranged Gunpowder",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Scout",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Mounted",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking> <for [non-[Mongolia]] Civilizations>",
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Civilian Water",
+        "movementType": "Water",
+        "uniques": [
+            "[This Unit] takes [17] damage <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Melee Water",
+        "movementType": "Water",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "[This Unit] takes [17] damage <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Ranged Water",
+        "movementType": "Water",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "[This Unit] takes [17] damage <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Submarine",
+        "movementType": "Water",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "Can enter ice tiles",
+            "Invisible to non-adjacent units",
+            "Can see invisible [Submarine] units",
+            "[This Unit] takes [17] damage <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Aircraft Carrier",
+        "movementType": "Water",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "[This Unit] takes [17] damage <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Fighter",
+        "movementType": "Air",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "Aircraft",
+            "[+4] Sight",
+            "Can see over obstacles",
+            "Can perform Air Sweep"
+        ]
+    },
+    {
+        "name": "Bomber",
+        "movementType": "Air",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "Aircraft"
+        ]
+    },
+    {
+        "name": "Atomic Bomber",
+        "movementType": "Air",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "Aircraft"
+        ]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "Self-destructs when attacking",
+            "Cannot be intercepted"
+        ]
+    },
+    {
+        "name": "Helicopter",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] loses [65535] movement <upon being promoted> <hidden from users>",
+            "Consumes [1] [Military Size]",
+            "Can pass through impassable tiles",
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+    {
+        "name": "Armia Krajowa",
+        "movementType": "Land",
+        "uniques": [
+            "[This Unit] heals [50] HP <upon being promoted>",
+            "Can move immediately once bought",
+            "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations> <hidden from users>"
+        ]
+    },
+
+    // Deprecated unit types required for mods without a UnitTypes.json file to work
+
+    {
+        "name": "Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armor",
+        "movementType": "Land"
+    },
+    {
+        "name": "WaterCivilian",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterMelee",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterRanged",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterSubmarine",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterAircraftCarrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "AtomicBomber",
+        "movementType": "Air"
+    }
+]

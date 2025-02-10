@@ -1,0 +1,37 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+        // "[-10]% Culture cost of adopting new Policies",
+        // "[-90]% Gold cost of acquiring tiles [in all cities]",
+        // "[+2 Production] [in all cities]",
+
+        "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
+        "Nullifies Growth [in all cities] <when below [-10] Happiness>",
+        "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
+        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
+        "Cannot build [Settler] units <when below [-10] Happiness>",
+        "Rebel units may spawn <when below [-20] Happiness>",
+        "[-1] Sight <for [Embarked] units>",
+
+        "Nullifies Growth [in all cities] <in [non-[Fresh Water]] tiles> <in cities without a [Aqueduct]> <in cities with at least [2] [Population]>",
+
+        "Provides [6] [Military Size] <starting from the [Ancient era]>",
+        "Provides [6] [Military Size] <starting from the [Classical era]>",
+        "Provides [6] [Military Size] <starting from the [Medieval era]>",
+        "Provides [6] [Military Size] <starting from the [Renaissance era]>",
+        "Provides [6] [Military Size] <starting from the [Industrial era]>",
+        "Provides [6] [Military Size] <starting from the [Modern era]>",
+        "Provides [6] [Military Size] <starting from the [Atomic era]>",
+        "Provides [6] [Military Size] <starting from the [Information era]>",
+        "Provides [6] [Military Size] <starting from the [Future era]>",
+
+        "Double quantity of [Military Size] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
+        "Double quantity of [Horses] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
+        "Double quantity of [Iron] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
+        "Double quantity of [Coal] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
+        "Double quantity of [Oil] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
+        "Double quantity of [Aluminum] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
+        "Double quantity of [Uranium] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
+        "[+50]% Strength <vs cities> <when attacking> <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>"
+    ]
+}
