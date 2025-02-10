@@ -52,7 +52,7 @@
 	// },
 	{//渔船
 		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Sailing",
@@ -349,6 +349,8 @@
 			"Tile provides yield without assigned population",
 			"[+1 Production] for each adjacent [Mine]",
 			"[+1 Production] for each adjacent [Lumber mill]",
+			"[+1 Production] for each adjacent [Quarry]",
+			"[+1 Production] for each adjacent [Oil well]",
 			"[+2 Production] <after discovering [Chemistry]>",
 			"Will not be replaced by automated units",
             "Removes removable features when built",

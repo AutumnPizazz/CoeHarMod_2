@@ -291,19 +291,23 @@
 		"type": "TerrainFeature",
 		"impassable": true,
 		"overrideStats": true,
-		"occursOn": ["Ocean", "Coast"],
-		"uniques": ["Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
-					"[-1] to Fertility for Map Generation",
-					"Considered [Undesirable] when determining start locations"]
+		"occursOn": ["Ocean","Coast"],
+		"uniques": [
+			"Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
+			"[-1] to Fertility for Map Generation",
+			"Considered [Undesirable] when determining start locations"
+		]
 	},
 	{
 		"name": "Atoll",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-		"food": 1,
 		"production": 1,
-		"occursOn": ["Coast"],
-		"uniques": ["Rare feature"]
+		"defenceBonus": 0.25,
+		"occursOn": ["Ocean","Coast"],
+		"uniques": [
+			"Rare feature"
+		]
 	},
 
     // Virtual River entry, used for stats, Uniques and Civilopedia

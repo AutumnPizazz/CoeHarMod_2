@@ -62,7 +62,10 @@
 				"name": "Sailing",
 				"row": 1,
 				"prerequisites": ["Pottery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+                "uniques": [
+					"[+100]% weight to this choice for AI decisions",
+					"Enables embarkation for land units"
+				],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
@@ -119,7 +122,11 @@
 				"cost": 85,
 				"row": 1,
 				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],
+				"uniques": [
+					"Enables [Embarked] units to enter ocean tiles",
+					"Comment [[All] takes [17] damage in [Ocean] tiles upon turn end before discovering [Astronomy] for [non-[Polynesia]] Civilizations]"
+					// "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations>"
+				],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
@@ -283,7 +290,10 @@
 			{
 				"name": "Astronomy",
 				"row": 2,
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
+				"uniques": [
+					"[+1] Movement <for [Embarked] units>",
+					"[+50]% weight to this choice for AI decisions"
+				],
 				"prerequisites": ["Compass","Education"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},

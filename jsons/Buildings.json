@@ -379,7 +379,6 @@
 	},
 	{//马厩
 		"name": "Stable",
-        "requiredBuilding":"Production Expertise",
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
@@ -687,7 +686,7 @@
 			"Free [Work Boats] appears <upon constructing [Maritime Expertise]>",
 			"[+2 Gold] from every [Maritime Expertise]"
 		],
-		"requiredTech": "Masonry",
+		"requiredTech": "Optics",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
 	{//宙斯神像
@@ -733,7 +732,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Must not be on [Plains]",
+			// "Must not be on [Plains]",
 			"[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"
 		],
@@ -866,7 +865,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": [
 			"Must be next to [Desert]",
-			"[+2 Food, +1 Production, +2 Gold] from [{Desert} {non-[Hill]}] tiles without [Flood plains] [in all cities]"
+			"[+2 Food, +1 Production, +2 Gold] from [Desert] tiles without [Flood plains] [in all cities]"
 		],
 		"requiredTech": "Currency",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
@@ -875,7 +874,10 @@
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"uniques": [
+			"[20]% Food is carried over after population increases [in this city]",
+			"[20]% Food is carried over after population increases [in this city] <after discovering [Engineering]>"
+		],
 		"requiredTech": "Masonry"
 	},
 	{//长城

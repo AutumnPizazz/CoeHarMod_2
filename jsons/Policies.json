@@ -18,9 +18,12 @@
             {
                 "name": "Aristocracy",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+15]% Production when constructing [All] buildings [in capital]",
-                    "[+15]% Production when constructing [All] units [in capital]"
+                    "Comment [All cities gain +30% [Production], but each city reduces this value by 5% until it reaches 0]",
+                    "[+25]% [Production] [in all cities] <when number of [Cities] is equal to [1]> <hidden from users>",
+                    "[+20]% [Production] [in all cities] <when number of [Cities] is equal to [2]> <hidden from users>",
+                    "[+15]% [Production] [in all cities] <when number of [Cities] is equal to [3]> <hidden from users>",
+                    "[+10]% [Production] [in all cities] <when number of [Cities] is equal to [4]> <hidden from users>",
+                    "[+5]% [Production] [in all cities] <when number of [Cities] is equal to [5]> <hidden from users>"
                 ],
                 "row": 1,
                 "column": 1
@@ -30,8 +33,8 @@
                 "uniques": [
                     "Provides the cheapest [Culture] building in your first [2] cities for free",
                     "Provides the cheapest [Science] building in your first [2] cities for free",
-                    "[+50]% [Science] [in capital] <during the [Ancient era]>",
-                    "[+50]% [Culture] [in capital] <during the [Ancient era]>"
+                    "[+100]% [Science] [in capital] <during the [Ancient era]>",
+                    "[+100]% [Culture] [in capital] <during the [Ancient era]>"
                 ],
                 "row": 1,
                 "column": 3
@@ -49,8 +52,9 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+20]% growth [in capital]",
-                    "[+1 Food] from [tag_Plowland] tiles [in all cities]"
+                    "[+25]% growth [in capital]",
+                    "[+1 Food] from [tag_Plowland] tiles [in all cities]",
+                    "[-50]% construction time for [tag_Plowland] improvements"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -60,8 +64,7 @@
                 "name": "Monarchy",
                 "uniques": [
                     "[+1 Gold] per [1] population [in capital]",
-                    "[+1 Happiness] per [2] population [in capital]",
-                    "[+1 Production] per [3] population [in capital]"
+                    "[+1 Happiness] per [2] population [in capital]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -71,7 +74,10 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+20]% growth [in all cities]",
-                    "Gain a free [Aqueduct] [in all cities]"
+                    "Gain a free [Aqueduct] [in all cities]",
+                    "[+10 Production] [in all cities] <when number of [Cities] is equal to [1]>",
+                    "[+5 Production] [in all cities] <when number of [Cities] is equal to [2]>",
+                    "[+3 Production] [in all cities] <when number of [Cities] is equal to [3]>"
                 ]
             }
         ]
