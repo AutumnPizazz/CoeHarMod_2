@@ -1,10 +1,10 @@
 [
     {
-        "name": "开始游戏",
-        "text": "欢迎游玩 和合共生2 ，当前模组版本为 [modVersion]，适合的游戏本体版本为 [gameVersion]！\n\n 如果你正在进行联机对局,请保证所有玩家的模组版本和游戏版本一致。\n\n如有BUG请加入QQ群 718331229 反馈。",
+        "name": "gameStart",
+        "text": "Welcome to Harmony and CoeHarMod_2! The current mod version is [modVersion], compatible with the game version [gameVersion]!\n\nIf you are engaging in a multiplayer session, please ensure that all players have the same mod version and game version.\n\nIf you encounter any bugs, please join QQ group 718331229 to provide feedback.",
         "choices": [
             {
-                "text": "开始游玩 和合共生2 ！查看更新日志请移步文明百科-教程-和合共生2 更新日志"
+                "text": "Start playing Harmony and CoeHarMod_2! To view the update log, please navigate to the Civilopedia - Tutorials - Harmony and Coexistence 2 Update Log"
             }
         ]
     }

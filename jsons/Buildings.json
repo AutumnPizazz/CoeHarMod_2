@@ -10,7 +10,7 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			"Triggers a [开始游戏] event"
+			"Triggers a [gameStart] event"
 		]
 	},
     {//城市基址
@@ -1077,7 +1077,7 @@
 		"requiredBuilding": "Library",
 		"uniques": [
 			"[+2 Science] from every [Science] <in this city>",
-			"[+2 Science] from every [Mountain]"
+			"[+2 Science] from every [Mountain] <in this city>"
 		],
 		"requiredTech": "Astronomy"
 	},

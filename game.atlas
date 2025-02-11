@@ -137,27 +137,6 @@ BuildingIcons/Scientific Expertise
   orig: 128, 128
   offset: 0, 0
   index: -1
-Desert
-  rotate: false
-  xy: 1500, 412
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-Desert2
-  rotate: false
-  xy: 76, 4
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-Desert3
-  rotate: false
-  xy: 1364, 204
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
 ImprovementIcons/Simple Fishing Boats
   rotate: false
   xy: 1092, 76
@@ -230,35 +209,35 @@ TileSets/HexaRealm/Tiles/Cactus
   index: -1
 TileSets/HexaRealm/Tiles/Cactus2
   rotate: false
-  xy: 1364, 276
+  xy: 1500, 412
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Simple Fishing Boats
   rotate: false
-  xy: 1500, 348
+  xy: 1364, 148
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Simple Fishing Boats-Industrial era
   rotate: false
-  xy: 1436, 284
+  xy: 76, 12
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Whales+Simple Fishing Boats
   rotate: false
-  xy: 1572, 420
+  xy: 1500, 348
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Whales+Simple Fishing Boats-Industrial era
   rotate: false
-  xy: 148, 12
+  xy: 1572, 420
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -349,7 +328,7 @@ UnitIcons/Okihtcitaw
   index: -1
 UnitIcons/Tree Planter
   rotate: false
-  xy: 1228, 76
+  xy: 1364, 212
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -375,9 +354,16 @@ UnitPromotionIcons/Ordo
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Terracotta Army
+UnitPromotionIcons/Strict Discipline
   rotate: false
   xy: 1364, 348
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Terracotta Army
+  rotate: false
+  xy: 1228, 76
   size: 128, 128
   orig: 128, 128
   offset: 0, 0

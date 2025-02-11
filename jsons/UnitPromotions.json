@@ -796,6 +796,16 @@
 	// },
 	{
 		"name": "Terracotta Army",
-		"uniques":["[This Unit] heals [100] HP"]
+		"uniques":[
+			"[This Unit] heals [100] HP <upon losing at least [1] HP in a single attack>",
+			"[This Unit] loses the [Terracotta Army] promotion <upon losing at least [1] HP in a single attack>"
+		]
+	},
+	{
+		"name": "Strict Discipline",
+		"uniques": [
+			"[This Unit] heals [5] HP <upon losing at least [1] HP in a single attack>",
+			"[This Unit] heals [5] HP <upon damaging a [All] unit>"
+		]
 	}
 ]

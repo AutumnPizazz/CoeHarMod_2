@@ -52,7 +52,7 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+25]% growth [in capital]",
+                    "[+30]% growth [in capital]",
                     "[+1 Food] from [tag_Plowland] tiles [in all cities]",
                     "[-50]% construction time for [tag_Plowland] improvements"
                 ],
@@ -64,7 +64,8 @@
                 "name": "Monarchy",
                 "uniques": [
                     "[+1 Gold] per [1] population [in capital]",
-                    "[+1 Happiness] per [2] population [in capital]"
+                    "[+1 Happiness] per [2] population [in capital]",
+                    "Gain a free [Aqueduct] [in all cities]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -74,10 +75,10 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+20]% growth [in all cities]",
-                    "Gain a free [Aqueduct] [in all cities]",
                     "[+10 Production] [in all cities] <when number of [Cities] is equal to [1]>",
                     "[+5 Production] [in all cities] <when number of [Cities] is equal to [2]>",
-                    "[+3 Production] [in all cities] <when number of [Cities] is equal to [3]>"
+                    "[+3 Production] [in all cities] <when number of [Cities] is equal to [3]>",
+                    "[+1 Production] [in all cities] <when number of [Cities] is more than [3]>"
                 ]
             }
         ]
@@ -111,7 +112,6 @@
                 "name": "Citizenship",
                 "uniques": [
                     "[-25]% construction time for [non-[All Road]] improvements",
-                    "Free [Worker] appears",
                     "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
@@ -120,9 +120,7 @@
             {
                 "name": "Republic",
                 "uniques": [
-                    "[+1 Production] [in all cities]",
-                    "[+1 Production] [in all cities] <in cities with [1] [Population]>",
-                    "[+1 Production] [in all cities] <in cities with [1] [Population]> <when number of [Cities] is less than [5]>"
+                    "[+2 Production] [in all cities] <in cities with less than [3] [Population]>"
                 ],
                 "requires": ["Collective Rule"],
                 "row": 2,
@@ -185,7 +183,7 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Ranged] unit>"
+                    "[Military] units gain the [Strict Discipline] promotion"
                 ],
                 "row": 1,
                 "column": 4
