@@ -48,5 +48,10 @@
         "name": "Enable Super AI",
         "hiddenInVictoryScreen": true,
         "milestones": ["Build [Hidden Super AI]"]
+    },
+    {
+        "name": "Enable Peaceful World",
+        "hiddenInVictoryScreen": true,
+        "milestones": ["Build [Hidden Peaceful World]"]
     }
 ]

@@ -1,7 +1,4 @@
 [
-    // Source: the fandom, so take these with a grain of salt
-    // I also did some testing in the official version, but by far not all
-
     {
         "name": "Ancient era",
         "researchAgreementCost": 150,
@@ -22,7 +19,7 @@
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 2,
-        "startingMilitaryUnit": "Spearman",
+        "startingMilitaryUnit": "Warrior",
         "startingGold": 10,
         "startingCulture": 100,
         "settlerPopulation": 1,
@@ -38,7 +35,7 @@
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 3,
-        "startingMilitaryUnit": "Spearman",
+        "startingMilitaryUnit": "Swordsman",
         "startingGold": 25,
         "startingCulture": 200,
         "settlerPopulation": 1,
@@ -59,7 +56,7 @@
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 3,
-        "startingMilitaryUnit": "Pikeman",
+        "startingMilitaryUnit": "Longswordsman",
         "startingGold": 50,
         "startingCulture": 300,
         "settlerPopulation": 2,

@@ -6,364 +6,385 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Armia Krajowa I
   rotate: false
-  xy: 4, 348
+  xy: 4, 68
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Armia Krajowa II
   rotate: false
-  xy: 4, 348
+  xy: 4, 68
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Armia Krajowa III
   rotate: false
-  xy: 4, 348
+  xy: 4, 68
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Chinese Poker
   rotate: false
-  xy: 276, 348
+  xy: 812, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/City Centre
   rotate: false
-  xy: 140, 76
+  xy: 948, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ImprovementIcons/Military Housing
   rotate: false
-  xy: 140, 76
+  xy: 948, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/City Number
   rotate: false
-  xy: 140, 76
+  xy: 948, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Military Size
   rotate: false
-  xy: 140, 76
+  xy: 948, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Cultural Expertise
   rotate: false
-  xy: 276, 76
+  xy: 1356, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Economic Expertise
   rotate: false
-  xy: 412, 212
+  xy: 1492, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Entertainment Expertise
   rotate: false
-  xy: 412, 76
+  xy: 1764, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Faithful Expertise
   rotate: false
-  xy: 548, 212
+  xy: 1900, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Great Wall of Ming Dynasty
   rotate: false
-  xy: 684, 348
+  xy: 140, 68
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Maritime Expertise
   rotate: false
-  xy: 548, 76
+  xy: 276, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Mekewap
   rotate: false
-  xy: 684, 212
+  xy: 548, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Military Expertise
   rotate: false
-  xy: 820, 348
+  xy: 684, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Ordo
   rotate: false
-  xy: 820, 76
+  xy: 1228, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Production Expertise
   rotate: false
-  xy: 1092, 212
+  xy: 1772, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Scientific Expertise
   rotate: false
-  xy: 1228, 348
+  xy: 276, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ImprovementIcons/Simple Fishing Boats
   rotate: false
-  xy: 1092, 76
+  xy: 412, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Cree
   rotate: false
-  xy: 276, 212
+  xy: 1084, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Ming Dynasty
   rotate: false
-  xy: 684, 76
+  xy: 820, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Yuan Dynasty
   rotate: false
-  xy: 684, 76
+  xy: 820, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Poland
   rotate: false
-  xy: 956, 76
+  xy: 1636, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+NationIcons/Prussia
+  rotate: false
+  xy: 4, 204
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 ResourceIcons/Cactus
   rotate: false
-  xy: 140, 212
+  xy: 676, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Electric Power
   rotate: false
-  xy: 548, 348
+  xy: 1628, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Patriotism
   rotate: false
-  xy: 1092, 348
+  xy: 1500, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Specialized Development Direction
   rotate: false
-  xy: 1228, 212
+  xy: 548, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cactus
   rotate: false
-  xy: 4, 4
+  xy: 1908, 260
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cactus2
   rotate: false
-  xy: 1500, 412
+  xy: 1980, 260
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Simple Fishing Boats
   rotate: false
-  xy: 1364, 148
+  xy: 4, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Simple Fishing Boats-Industrial era
   rotate: false
-  xy: 76, 12
+  xy: 1228, 132
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Whales+Simple Fishing Boats
   rotate: false
-  xy: 1500, 348
+  xy: 1908, 196
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Whales+Simple Fishing Boats-Industrial era
   rotate: false
-  xy: 1572, 420
+  xy: 1980, 196
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/Armia Krajowa I (Melee)
   rotate: false
-  xy: 4, 212
+  xy: 268, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Armia Krajowa II (Melee)
   rotate: false
-  xy: 4, 212
+  xy: 268, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Armia Krajowa III (Melee)
   rotate: false
-  xy: 4, 212
+  xy: 268, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Armia Krajowa IV (Melee)
   rotate: false
-  xy: 4, 212
+  xy: 268, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Armia Krajowa V (Melee)
   rotate: false
-  xy: 4, 212
+  xy: 268, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Armia Krajowa I (Ranged)
   rotate: false
-  xy: 140, 348
+  xy: 404, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Armia Krajowa II (Ranged)
   rotate: false
-  xy: 140, 348
+  xy: 404, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Armia Krajowa III (Ranged)
   rotate: false
-  xy: 140, 348
+  xy: 404, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Armia Krajowa IV (Ranged)
   rotate: false
-  xy: 140, 348
+  xy: 404, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Armia Krajowa V (Ranged)
   rotate: false
-  xy: 140, 348
+  xy: 404, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Crouching Tiger Cannon
   rotate: false
-  xy: 412, 348
+  xy: 1220, 332
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Matrimonial Embassy
+  rotate: false
+  xy: 412, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Okihtcitaw
   rotate: false
-  xy: 956, 348
+  xy: 1092, 196
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Territorial Expansion Mission
+  rotate: false
+  xy: 956, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Tree Planter
   rotate: false
-  xy: 1364, 212
+  xy: 1092, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Arthashastra
   rotate: false
-  xy: 4, 76
+  xy: 540, 332
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Minuteman
   rotate: false
-  xy: 820, 212
+  xy: 956, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ordo
   rotate: false
-  xy: 956, 212
+  xy: 1364, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Strict Discipline
   rotate: false
-  xy: 1364, 348
+  xy: 684, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Terracotta Army
   rotate: false
-  xy: 1228, 76
+  xy: 820, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0

@@ -1,11 +1,5 @@
 {
     "isBaseRuleset":true,
-    "buildingsToRemove": [
-        "Hydro Plant"
-    ],
-    "unitsToRemove": [
-        "Minuteman"
-    ],
     "constants": {
         "cityWorkRange": 5,
         "riverCountMultiplier": 0.05,

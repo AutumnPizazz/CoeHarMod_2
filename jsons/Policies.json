@@ -33,8 +33,8 @@
                 "uniques": [
                     "Provides the cheapest [Culture] building in your first [2] cities for free",
                     "Provides the cheapest [Science] building in your first [2] cities for free",
-                    "[+100]% [Science] [in capital] <during the [Ancient era]>",
-                    "[+100]% [Culture] [in capital] <during the [Ancient era]>"
+                    "[+50]% [Culture] [in capital] <during the [Ancient era]>",
+                    "[+50]% [Science] [in capital] <during the [Ancient era]>"
                 ],
                 "row": 1,
                 "column": 3
@@ -120,7 +120,7 @@
             {
                 "name": "Republic",
                 "uniques": [
-                    "[+2 Production] [in all cities] <in cities with less than [3] [Population]>"
+                    "Comment [[+2 Production] in cities with its [Food] less than [4]]"
                 ],
                 "requires": ["Collective Rule"],
                 "row": 2,
@@ -243,7 +243,8 @@
             "Comment [Remove the Specialized Development Direction requirement for the Faithful Expertise]",
             "[+1 Faith] from every [Shrine]",
             "[+2 Faith] from every [Temple]",
-            "[-100]% weight to this choice for AI decisions <when religion is disabled>"
+            "[-100]% weight to this choice for AI decisions <when religion is disabled>",
+            "Only available <before adopting [Rationalism]>"
         ],
         "policies": [
             {
@@ -445,7 +446,8 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+15]% [Science] <while the empire is happy>"
+            "[+15]% [Science] <while the empire is happy>",
+            "Only available <before adopting [Piety]>"
         ],
         "policies": [
             {

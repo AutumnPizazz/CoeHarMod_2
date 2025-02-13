@@ -734,10 +734,6 @@
 		"uniques": ["[+50]% Strength <vs [Wounded] units>"]
 	},
 	{
-		"name": "[Hussar] ability",
-		"uniques": ["[+50]% to Flank Attack bonuses"]
-	},
-	{
 		"name": "[Norwegian Ski Infantry] ability",
 		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
 			"[+25]% Strength <when fighting in [Tundra] tiles>",
@@ -776,19 +772,24 @@
 	{//政事论1级
 		"name":"Arthashastra I",
 		"uniques":[
-			"[+1] Movement",
+			"[+5]% Strength",
+			"[+15]% Strength <when below [66] HP>",
+			"[+15]% Strength <when below [33] HP>",
 			"[This Unit] takes [5] damage <upon ending a turn in a [Enemy Land] tile> <for units without [Arthashastra III]>"
 		]
 	},
 	{//政事论2级
 		"name":"Arthashastra II",
 		"uniques":[
-			"[+15]% Strength",
+			"[+1] Movement",
 			"[This Unit] takes [5] damage <upon ending a turn in a [Enemy Land] tile> <for units without [Arthashastra III]>"
 		]
 	},
 	{//政事论3级
-		"name":"Arthashastra III"
+		"name":"Arthashastra III",
+		"uniques": [
+			"[+1] Sight"
+		]
 	},
 	// {//快速民兵
 	// 	"name":"Minuteman",
@@ -804,8 +805,9 @@
 	{
 		"name": "Strict Discipline",
 		"uniques": [
-			"[This Unit] heals [5] HP <upon losing at least [1] HP in a single attack>",
-			"[This Unit] heals [5] HP <upon damaging a [All] unit>"
+			"Comment [This units heals 5 HP in each fight]",
+			"[This Unit] heals [5] HP <when defending> <upon losing at least [1] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [5] HP <upon damaging a [All] unit> <hidden from users>"
 		]
 	}
 ]

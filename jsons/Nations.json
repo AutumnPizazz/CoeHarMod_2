@@ -60,7 +60,8 @@
 		"uniqueName": "Barbary Corsairs",
 		"uniques": [
 			"[-100]% maintenance costs <for [Water] units>",
-			"[+10]% Production when constructing [Ranged] units [in all cities]"
+			"[+10]% Production when constructing [Ranged] units [in all cities]",
+			"Comment [Siege units do not need to set up to attack]"
 		],
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya","Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin","Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar","Bitlis","Yalova"],
         "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
@@ -81,10 +82,22 @@
 		"uniques": [
 			"Comment [Shrine and Temple provide powerful bonuses to military units]"
 		],
-		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
-			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
-			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
-        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad","Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur","Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"],
+		"civilopediaText": [
+			{
+				"link": "Promotion/Arthashastra I",
+				"text": "Arthashastra I"
+			},
+			{
+				"link": "Promotion/Arthashastra II",
+				"text": "Arthashastra II"
+			},
+			{
+				"link": "Promotion/Arthashastra III",
+				"text": "Arthashastra III"
+			}
+		]
     },
 	{//元朝
 		"name": "Yuan Dynasty",
@@ -98,13 +111,18 @@
 
 		"uniqueName": "Magnificent Qian Yuan",
 		"uniques": [
-			"[+2 Production] [in all cities] <when above [4] [City Number]>",
-			"[+50]% Production when constructing [Mounted] units [in all cities] <when above [8] [City Number]>",
-			"Double quantity of [Horses] produced <when above [8] [City Number]>",
-			"[+50]% Strength <for [Mounted] units> <vs [Anti-mounted] units> <when above [12] [City Number]>",
-			"Double quantity of [City Number] produced <after discovering [Chivalry]>"
+			"[-50]% unhappiness from the number of cities",
+			"[-25]% Unhappiness from [Population] [in puppeted cities]",
+			"[+25]% [Science] [in puppeted cities]",
+			"[+25]% [Culture] [in puppeted cities]"
 		],
-		"cities": ["Shangdu", "Zhongdu", "Dadu", "Xingqing", "Shangdu Road", "Daming", "Xijin", "Dade", "Qingning", "Da'an", "Dexing", "Xuande", "Hening", "Yidu", "Haidu", "Yuanhe", "Shangdu Liushousi", "Shunde", "Liaoyang", "Ningxia", "Huizhou", "Chaozhou", "Liuzhou", "Guangzhou", "Hangzhou", "Helin", "Tianshui", "Ganzhou", "Suzhou", "Guazhou", "Shazhou", "Yijinai"]
+		"cities": ["Shangdu", "Zhongdu", "Dadu", "Xingqing", "Shangdu Road", "Daming", "Xijin", "Dade", "Qingning", "Da'an", "Dexing", "Xuande", "Hening", "Yidu", "Haidu", "Yuanhe", "Shangdu Liushousi", "Shunde", "Liaoyang", "Ningxia", "Huizhou", "Chaozhou", "Liuzhou", "Guangzhou", "Hangzhou", "Helin", "Tianshui", "Ganzhou", "Suzhou", "Guazhou", "Shazhou", "Yijinai"],
+		"civilopediaText":[
+			{
+				"link": "Promotion/Ordo",
+				"text": "Ordo"
+			}
+		]
 	},
 	{//明朝
 		"name": "Ming Dynasty",
@@ -236,7 +254,7 @@
 		"uniqueName": "Hellenic League",
 		"uniques": [
 			"[+1 Culture] per [1] social policies adopted",
-			"Comment [Each Traditional policy contributes +5% Culture, each Liberty policy contributes +3% Production capacity, and each Honor policy contributes +3% Strength. The opening and closing policies are not included]",
+			"Comment [Each [Tradition] contributes +5% [Culture], each [Liberty] contributes +3% [Production] capacity, and each [Honor] policy contributes +3% [Strength]. The opening and closing policies are not included]",
 
 			"[+5]% [Culture] <after adopting [Aristocracy]> <hidden from users>",
 			"[+5]% [Culture] <after adopting [Legalism]> <hidden from users>",
@@ -420,7 +438,7 @@
 		"uniqueName": "Bushido",
 		"uniques": [
 			"No damage penalty for wounded units <for [non-[Air]] units>",
-			"[+1 Production] from every [Expertise Buildings]"
+			"[+1 Production] from every [tag_ExpertiseBuildings]"
 		],
 
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
@@ -429,7 +447,7 @@
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
         "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
     },
-	{//德意志/德国
+	{//神圣罗马帝国/神罗
 		"name": "Germany",
 		"leaderName": "Otto von Bismarck",
 		"adjective": ["German"],
@@ -510,7 +528,7 @@
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir","Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz","Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube","Dura Europos","Aleppo","Qatna","Kabul","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada","Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava","Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka","Paishiyauvada","Patigrbana","Phrada"],
         "spyNames": ["Azi", "Dabir", "Firuz", "Gaspar", "Shahzad", "Aga", "Marjane", "Peri", "Sartaj ", "Yasmin"]
     },
-	{
+	{//波利尼西亚
 		"name": "Polynesia",
 		"leaderName": "Kamehameha I",
 		"adjective": ["Polynesia"],
@@ -532,16 +550,20 @@
 		"innerColor": [255,255,75],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Wayfinding",
-		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+		"uniques": [
+			"Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
             "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
-            "[+1] Sight <for [Embarked] units>",  "[+10]% Strength <within [2] tiles of a [Moai]>"],
+            "[+1] Sight <for [Embarked] units>",
+			"[+2] Movement <for [Settler] units> <in [Water] tiles>",
+			"[+10]% Strength <within [2] tiles of a [Moai]>"
+		],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
 			"Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
     },
-	{
+	{//暹罗
 		"name": "Siam",
 		"leaderName": "Ramkhamhaeng",
 		"adjective": ["Siamese"],
@@ -563,14 +585,19 @@
 		"innerColor": [177, 8, 3],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Father Governs Children",
-		"uniques": ["[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States","Military Units gifted from City-States start with [+10] XP"],
+		"uniques": [
+			"[+50]% [Food] from City-States",
+			"[+50]% [Culture] from City-States",
+			"[+50]% [Faith] from City-States",
+			"Military Units gifted from City-States start with [+10] XP"
+		],
 		"cities": ["Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
 			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
 			"Nan","Tak","Suphanburi","Hongsawadee","Thawaii","Ayutthaya","Taphan Hin","Uthai Thani","Lap Buri","Ratchasima",
 			"Ban Phai","Loci","Khon Kaen","Surin"],
         "spyNames": ["Aran", "Chanarong", "Kiet", "Niran", "Virote", "Kulap", "Mayuree", "Phueng", "Ratana", "Tola"]
     },
-	{
+	{//西班牙
 		"name": "Spain",
 		"leaderName": "Isabella",
 		"adjective": ["Spanish"],
@@ -592,15 +619,18 @@
 		"innerColor": [255,168,168],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Seven Cities of Gold",
-		"uniques": ["[+100 Gold] for discovering a Natural Wonder (bonus enhanced to [+500 Gold] if first to discover it)",
-			"[+1 Happiness] for every known Natural Wonder", "[+100]% Yield from every [Natural Wonder]"],
+		"uniques": [
+			"[+100 Gold] for discovering a Natural Wonder (bonus enhanced to [+500 Gold] if first to discover it)",
+			"[+1 Happiness] for every known Natural Wonder",
+			"[+100]% Yield from every [Natural Wonder]"
+		],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
 			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
 			"San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"],
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]
     },
-	{
+	{//桑海
 		"name": "Songhai",
 		"leaderName": "Askia",
 		"adjective": ["Songhai"],
@@ -622,14 +652,17 @@
 		"innerColor": [90, 0, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "River Warlord",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "[+100]% Strength <when defending> <for [Embarked] units>",
-			"[{Military} {Land}] units gain the [Amphibious] promotion"],
+		"uniques": [
+			"Receive triple Gold from Barbarian encampments and pillaging Cities",
+			"[+100]% Strength <when defending> <for [Embarked] units>",
+			"[{Military} {Land}] units gain the [Amphibious] promotion"
+		],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
 			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
 			"Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"],
         "spyNames": ["Ahmadou", "Ayub", "Badru", "Bokhari", "Guedado", "Adhiambo", "Chinaka", "Laila", "Mariama", "Oni"]
     },
-	{
+	{//阿兹特克
 		"name": "Aztecs",
 		"leaderName": "Montezuma I",
 		"adjective": ["Aztec"],
@@ -658,7 +691,7 @@
         "spyNames": ["Metztli", "Xitllali", "Chimalli", "Quauhtli", "Teyacapan", "Yaotl", "Coatl", "Huitzilin", "Itzli", "Tepin"]
 
     },
-	{
+	{//丹麦
 		"name": "Denmark",
 		"leaderName": "Harald Bluetooth",
 		"adjective": ["Danish"],
@@ -694,7 +727,7 @@
 			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"],
         "spyNames": ["Jørgen", "Mette", "Henrik", "Niels", "Helle", "Frederik", "Ida", "Thea", "Freja", "Morten"]
     },
-	{
+	{//匈人
 		"name": "The Huns",
 		"leaderName": "Attila the Hun",
 		"adjective": ["Hunnic"],
@@ -717,7 +750,7 @@
 		"cities": ["Attila's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     },
-	{
+	{//荷兰
 		"name": "The Netherlands",
 		"leaderName": "William of Orange",
 		"adjective": ["Dutch"],
@@ -737,8 +770,7 @@
 		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "Den Haag", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
         "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]
     },
-
-	{
+	{//瑞典
 	    "name": "Sweden",
 		"leaderName": "Gustavus Adolphus",
 		"adjective": ["Swedish"],
@@ -761,7 +793,10 @@
 		"innerColor": [249, 247, 3],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Nobel Prize",
-		"uniques": ["Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [10]% boost to great person generation"],
+		"uniques": [
+			"Gain [90] Influence with a [Great Person] gift to a City-State",
+			"When declaring friendship, both parties gain a [10]% boost to great person generation"
+		],
 		"cities": ["Stockholm","Uppsala","Gothenburg","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
             "Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
             "Helsingborg","Härnösand","Vadstena","Lund","Västervik","Enköping","Skövde","Eskilstuna","Luleå","Lidköping",
@@ -770,7 +805,7 @@
         ],
         "spyNames": ["Leif", "Ingegard", "Sören", "Ragnhild", "Lars", "Lina", "Herr Grå", "Magnus", "Vilma", "Kusin"]
     },
-	{
+	{//奥地利
 		"name": "Austria",
 		"leaderName": "Maria Theresa",
 		"adjective": ["Austrian"],
@@ -796,7 +831,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Diplomatic Marriage",
 		"uniques": [
-			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"
+			"Can spend Gold to annex or puppet a City-State that has been your Ally for [1] turns <when number of [[Coffee House] Buildings] is more than [5]>",
+			"[-50]% Unhappiness from [Population] [in puppeted cities]",
+			"[Gold] cost of purchasing [All] buildings [-50]% <in [Puppeted] cities>"
 		],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
 			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
@@ -805,7 +842,7 @@
 		],
         "spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
     },
-	{
+	{//迦太基
 		"name": "Carthage",
 		"leaderName": "Dido",
 		"adjective": ["Carthaginian"],
@@ -834,7 +871,7 @@
 			"Saldae"],
         "spyNames": ["Hamilcar", "Mago", "Baalhaan", "Sophoniba", "Yzebel", "Similce", "Kandaulo", "Zinnridi", "Gisgo", "Fierelus"]
     },
-	{
+	{//拜占庭
 		"name": "Byzantium",
 		"leaderName": "Theodora",
 		"adjective": ["Byzantine"],
@@ -856,7 +893,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
 		"uniques": [
-			"May choose [1] additional belief(s) of any type when [founding] a religion"
+			"May choose [1] additional belief(s) of any type when [founding] a religion",
+			"Gain [100] [Faith] <upon entering a new era> <(modified by game speed)>",
+			"[+1 Culture] from every [Faith]"
 		],
 
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
@@ -865,7 +904,7 @@
 			"Patra", "Korinthos"],
         "spyNames": ["Basil", "Nikophoros", "Demetrios", "Philippos", "Theophylaktos", "Simonis", "Zoe", "Ioanno", "Xene", "Euphrosyne"]
     },
-	{
+	{//凯尔特
 		"name": "Celts",
 		"leaderName": "Boudicca",
 		"adjective": ["celtic"],
@@ -890,8 +929,10 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
-		"uniques": ["[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
-			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>"],
+		"uniques": [
+			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
+			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>"
+		],
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
 			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
@@ -899,7 +940,7 @@
 		// Llanfairpwllgwyngyll should actually be Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]
     },
-	{
+	{//玛雅
 		"name": "The Maya",
 		"leaderName": "Pacal",
 		"adjective": ["mayan"],
@@ -949,6 +990,42 @@
 		],
 		"cities": ["Xandar","Hala","Kree-Lar","New Hala","M'Kraan","Tivan","Skrull","Pama","Kree-Em","Kree-Tor","Kree-Tus","Kotati","Mynar","Cassandra","Galador","Morpheus","Kree-Met","Azuros","Hala-Vak","Quarra"]
 	},
+	// {//普鲁士
+	// 	"name": "Prussia",
+	// 	"leaderName": "Frederick the Great",
+	// 	"adjective": ["Prussian"],
+	// 	"startBias": ["Plains", "Hill"],
+	// 	"preferredVictoryType": "Domination", // 军事征服胜利
+	// 	"personality": "Alexander", // 强调军事扩张
+	// 	"outerColor": [0, 49, 83],
+	// 	"innerColor": [255, 204, 0],
+	// 	"uniqueName": "Preußen",
+	// 	"uniques": [
+			
+	// 	],
+	// 	"cities": ["Berlin", "Königsberg", "Potsdam", "Breslau", "Danzig", "Stettin", "Magdeburg", "Halle", "Fredericksburg", "Prusstadt", "Friedrichshain", "Rheinland", "Brandenburg", "Silesia", "Pomerania", "Westphalia", "Junkerhof", "Ironkreuz", "Scharnhorst", "Blücherburg"
+	// 	]
+	// },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	// City-States sorted by cityStateType, name

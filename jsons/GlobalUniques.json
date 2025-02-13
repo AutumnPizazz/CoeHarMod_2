@@ -14,6 +14,10 @@
         "[-1] Sight <for [Embarked] units>",
 
         "Nullifies Growth [in all cities] <in [non-[Fresh Water]] tiles> <in cities without a [Aqueduct]> <in cities with at least [2] [Population]>",
+        "Cannot build [Military] units <when [Enable Peaceful World] Victory is enabled>",
+        "[+50]% [Production] <for [City-States] Civilizations>",
+        "[+50]% growth [in all cities] <for [City-States] Civilizations>",
+        "May buy items in puppet cities",
 
         "Provides [6] [Military Size] <starting from the [Ancient era]>",
         "Provides [6] [Military Size] <starting from the [Classical era]>",
@@ -25,13 +29,7 @@
         "Provides [6] [Military Size] <starting from the [Information era]>",
         "Provides [6] [Military Size] <starting from the [Future era]>",
 
-        "Double quantity of [Military Size] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
-        "Double quantity of [Horses] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
-        "Double quantity of [Iron] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
-        "Double quantity of [Coal] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
-        "Double quantity of [Oil] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
-        "Double quantity of [Aluminum] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
-        "Double quantity of [Uranium] produced <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
+        "Quantity of strategic resources produced by the empire +[100]% <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>",
         "[+50]% Strength <vs cities> <when attacking> <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>"
     ]
 }

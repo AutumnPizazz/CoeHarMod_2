@@ -46,7 +46,33 @@
             "Founds a new city <by consuming this unit>", 
 			"Requires at least [2] population",
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
-			"[+2] Movement <before turn number [3]>"
+			"[+2] Movement <before turn number [3]> <hidden from users>"
+        ],
+		"hurryCostModifier": 20
+	},
+	{//联姻使团
+		"name" :"Matrimonial Embassy",
+		"uniqueTo": "Austria",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 100,
+		"uniques": [
+            "Founds a new puppet city <by consuming this unit>", 
+			"Requires at least [2] population",
+            "Cost increases by [20] when built <before adopting [Collective Rule]>",
+			"[+2] Movement <before turn number [3]> <hidden from users>"
+        ],
+		"hurryCostModifier": 20
+	},
+	{//拓疆使团
+		"name" :"Territorial Expansion Mission",
+		"uniqueTo": "Yuan Dynasty",
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": 120,
+		"uniques": [
+            "Founds a new puppet city <[2] times> <after which this unit is consumed>", 
+            "Cost increases by [40] when built <before adopting [Collective Rule]>"
         ],
 		"hurryCostModifier": 20
 	},
@@ -445,23 +471,6 @@
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"
 	},
-	{
-		"name": "Hussar",
-		"unitType": "Mounted",
-		"replaces": "Cavalry",
-		"uniqueTo": "Austria",
-		"movement": 5,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"upgradesTo": "Landship",
-		"uniques": [
-			"[+1] Sight"],
-		"promotions": ["[Hussar] ability"],
-		"attackSound": "horse"
-	},
 
 	
 	{//苏丹亲兵
@@ -470,14 +479,15 @@
 		"replaces": "Musketman",
 		"uniqueTo": "The Ottomans",
 		"movement": 2,
-		"strength": 26,
-		"cost": 100,
+		"strength": 30,
+		"cost": 90,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot",
 		"uniques": [
-			"Excess Food converted to Production when under construction"
+			"[-1] population [in this city]",
+			"Can only be built <in cities with at least [7] [Population]>"
 		]
 	},
 	{//虎蹲炮
@@ -721,7 +731,10 @@
 		"obsoleteTech": "Metal Casting",
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
+		"uniques": [
+			"Can build [Moai] improvements on tiles"
+		]
 	},
 	{
 		"name": "Brute",
@@ -898,7 +911,7 @@
 			"[+200]% Strength <vs cities> <when attacking>",
 			"[+100]% Strength <vs [{Water}] units> <when attacking>",
 			"No defensive terrain bonus",
-			"Must set up to ranged attack"
+			"Must set up to ranged attack <for [non-[The Ottomans]] Civilizations>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
@@ -919,7 +932,7 @@
 			"[+200]% Strength <vs cities> <when attacking>",
 			"[+100]% Strength <vs [{Water}] units> <when attacking>",
 			"No defensive terrain bonus",
-			"Must set up to ranged attack"
+			"Must set up to ranged attack <for [non-[The Ottomans]] Civilizations>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
@@ -1059,7 +1072,7 @@
 			"[+200]% Strength <vs cities> <when attacking>",
 			"[+100]% Strength <vs [{Water}] units> <when attacking>",
 			"No defensive terrain bonus",
-			"Must set up to ranged attack"
+			"Must set up to ranged attack <for [non-[The Ottomans]] Civilizations>"
 		],
 		"attackSound": "throw"
 	},
@@ -1075,7 +1088,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack <for [non-[The Ottomans]] Civilizations>"],
 		"attackSound": "throw"
 	},
 	{
@@ -1282,7 +1295,7 @@
 			"[+200]% Strength <vs cities> <when attacking>",
 			"[+100]% Strength <vs [{Water}] units> <when attacking>",
 			"No defensive terrain bonus",
-			"Must set up to ranged attack"
+			"Must set up to ranged attack <for [non-[The Ottomans]] Civilizations>"
 		],
 		"attackSound": "cannon"
 	},
@@ -1382,7 +1395,7 @@
 			"[+200]% Strength <vs cities> <when attacking>",
 			"[+100]% Strength <vs [{Water}] units> <when attacking>",
 			"No defensive terrain bonus",
-			"Must set up to ranged attack"
+			"Must set up to ranged attack <for [non-[The Ottomans]] Civilizations>"
 		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"

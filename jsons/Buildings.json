@@ -20,15 +20,19 @@
             "Unsellable",
             "Never destroyed when the city is captured",
             "Automatically built in all cities where it is buildable",
-            "Provides [1] [City Number]",
-            "Provides [1] [Specialized Development Direction] <in this city>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [4] [Population]> <in this city>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [7] [Population]> <in this city>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [10] [Population]> <in this city>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [13] [Population]> <in this city>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [16] [Population]> <in this city>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [19] [Population]> <in this city>",
-            "Provides [1] [Specialized Development Direction] <in cities with at least [22] [Population]> <in this city>"
+            // "Provides [1] [City Number] <hidden from users>",
+
+			"Comment [1 Specialized Development Direction is granted for every 3 population, with 1 Specialized Development Direction awarded initially]",
+            "Provides [1] [Specialized Development Direction] <in this city> <hidden from users>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [4] [Population]> <in this city> <hidden from users>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [7] [Population]> <in this city> <hidden from users>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [10] [Population]> <in this city> <hidden from users>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [13] [Population]> <in this city> <hidden from users>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [16] [Population]> <in this city> <hidden from users>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [19] [Population]> <in this city> <hidden from users>",
+            "Provides [1] [Specialized Development Direction] <in cities with at least [22] [Population]> <in this city> <hidden from users>",
+
+			"[+2 Production] [in this city] <when number of [Food] is less than [4]> <after adopting [Republic]> <hidden from users>"
         ]
     },
     {//文化专精
@@ -490,11 +494,11 @@
 		"name": "Ordo",
 		"replaces": "Stable",
 		"uniqueTo": "Yuan Dynasty",
-        "requiredBuilding":"Production Expertise",
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[-25]% Unhappiness from [Population] [in puppeted cities] <in this city>",
 			"Provides [3] [Horses]",
 			"[+1 Production] from [Pasture] tiles [in this city]",
 			"Provides [1] [Military Size]",
@@ -1205,12 +1209,12 @@
 		"name": "Coffee House",
 		"replaces": "Windmill",
 		"uniqueTo": "Austria",
-		"production": 2,
-		"percentStatBonus": {"production": 10},
-		"specialistSlots": {"Engineer": 1},
-		"hurryCostModifier": 25,
+		"specialistSlots": {"Merchant": 1},
 		"maintenance": 2,
-		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"uniques": [
+			"[+1 Gold] per [1] population [in this city]",
+			"Gifts of Gold to City-States generate [10]% more Influence"
+		],
 		"requiredTech": "Economics"
 	},
 	{
@@ -1568,6 +1572,10 @@
 		"name": "Hidden Super AI",
 		"uniques":["Unbuildable","Will not be displayed in Civilopedia"]
 	},
+	{//隐藏的和平模式建筑
+		"name": "Hidden Peaceful World",
+		"uniques":["Unbuildable","Will not be displayed in Civilopedia"]
+	},	
 	{//地主身份证
 		"name": "Chinese Poker",
 		"cost": 0,
