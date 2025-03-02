@@ -1,10 +1,9 @@
 [	
-	{//观海
+	{
 		"name": "Spectator",
 		"outerColor": [255,255,255]
-		// "innerColor": [255,255,255]
 	},
-	{//印加
+	{
 		"name": "Inca",
 		"uniqueName": "Great Andean Road",
 		"uniques": [
@@ -45,7 +44,7 @@
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan","Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg","Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor","Har-Ayrag","Nalayh","Tes"],
         "spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]
     },
-	{//奥斯曼
+	{
 		"name": "The Ottomans",
 		"leaderName": "Suleiman I",
 		"adjective": ["Ottoman"],
@@ -60,7 +59,7 @@
 		"uniqueName": "Barbary Corsairs",
 		"uniques": [
 			"[-100]% maintenance costs <for [Water] units>",
-			"[+10]% Production when constructing [Ranged] units [in all cities]",
+			"[+50]% Production when constructing [Siege] units [in all cities]",
 			"Comment [Siege units do not need to set up to attack]"
 		],
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya","Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin","Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar","Bitlis","Yalova"],
@@ -211,7 +210,7 @@
 			"Cannot build [{Military} {Land} {non-[Armia Krajowa]}] units",
 			"Comment [Cannot build Military Expertise]",
 			"May buy [Armia Krajowa] units for [0] [Gold] [in all cities] <in [non-[Puppeted]] cities>",
-			"New [Armia Krajowa] units start with [10] Experience [in all cities] <when above [10] [Patriotism]>",
+			"New [Armia Krajowa] units start with [10] XP [in all cities] <when above [10] [Patriotism]>",
 			"[+10]% Strength <when above [30] [Patriotism]>",
 			"[+1] Movement <when above [100] [Patriotism]>"
 		],
@@ -276,7 +275,7 @@
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes","Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios","Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis","Patras","Lamia","Nafplion","Apolyton"],
         "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"]
     },
-	{//中华
+	{
 		"name": "China",
 		"leaderName": "Wu Zetian",
 		"adjective": ["Chinese"],
@@ -300,14 +299,14 @@
 		"favoredReligion": "Taoism",
 		"uniqueName": "Art of War",
 		"uniques": [
-			// "Great General provides double combat bonus",
-			"[Great General] is earned [100]% faster"
+			"[Great General] is earned [100]% faster",
+			"[+1 Culture] <for every [3] [[Military] Units]>"
 		],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong","Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang","Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi","Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
 
     },
-	{//埃及
+	{
 		"name": "Egypt",
 		"leaderName": "Ramesses II",
 		"adjective": ["Egyptian"],
@@ -326,7 +325,7 @@
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten","Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis","Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant","Balat","Ellahun","Hawara","Dashur","Damanhur","Abusir","Herakleopolis","Akoris","Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
-	{//英格兰/英国
+	{
 		"name": "England",
 		"leaderName": "Elizabeth",
 		"adjective": ["English"],
@@ -340,14 +339,12 @@
 		"uniqueName": "Sun Never Sets",
 		"uniques": [
 			"[+2] Movement <for [Water] units>",
-			"Comment [Remove the Specialized Development Direction requirement for the Maritime Expertise]",
-			"[+100]% Production when constructing [Lighthouse] buildings [in all cities]",
-			"[+100]% Production when constructing [Harbor] buildings [in all cities]"
+			"[+100]% Production when constructing [Naval Building] buildings [in all cities]"
 		],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool","Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester","Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton","Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
         "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
     },
-	{//法兰西/法国
+	{
 		"name": "France",
 		"leaderName": "Napoleon",
 		"adjective": ["French"],
@@ -424,7 +421,7 @@
         "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
 
     },
-	{//日本
+	{
 		"name": "Japan",
 		"leaderName": "Oda Nobunaga",
 		"adjective": ["Japanese"],
@@ -438,7 +435,8 @@
 		"uniqueName": "Bushido",
 		"uniques": [
 			"No damage penalty for wounded units <for [non-[Air]] units>",
-			"[+1 Production] from every [tag_ExpertiseBuildings]"
+			"[+1 Food] from every [Base Building]",
+			"[+1 Production] from every [Base Building] <when number of [Cities] is more than [[Base Building] Buildings]>"
 		],
 
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
@@ -447,7 +445,7 @@
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
         "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
     },
-	{//神圣罗马帝国/神罗
+	{
 		"name": "Germany",
 		"leaderName": "Otto von Bismarck",
 		"adjective": ["German"],
@@ -460,7 +458,7 @@
 		"uniqueName": "Furor Teutonicus",
 		"uniques": [
 			"Gain a free [Production Expertise] [in all cities] <when number of [Cities] is less than [5]>",
-			"Comment [Remove the Specialized Development Direction requirement for the Production Expertise after discovering Metal Casting]"
+			"Discover [Metal Casting] <upon discovering [Engineering] technology>"
 		],
 
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen","Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden","Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen","Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrücken","Krefeld","Pirmasens","Potsdam","Solingen","Osnabrück","Ludwigshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg","Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
@@ -716,15 +714,13 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Viking Fury",
 		"uniques": [
+			"Starts with [Sailing]",
+			"Starts with [Optics]",
 			"[+1] Movement <for [Embarked] units>",
 			"[1] Movement point cost to disembark <for [All] units>",
 			"No movement cost to pillage <for [Melee] units>"
 		],
-		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
-			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
-			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
-			"Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen",
-			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"],
+		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso","Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore","Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers","Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen","Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"],
         "spyNames": ["Jørgen", "Mette", "Henrik", "Niels", "Helle", "Frederik", "Ida", "Thea", "Freja", "Morten"]
     },
 	{//匈人
@@ -895,7 +891,7 @@
 		"uniques": [
 			"May choose [1] additional belief(s) of any type when [founding] a religion",
 			"Gain [100] [Faith] <upon entering a new era> <(modified by game speed)>",
-			"[+1 Culture] from every [Faith]"
+			"[+1 Culture] from every [Faith Building]"
 		],
 
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
@@ -930,14 +926,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
 		"uniques": [
-			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
-			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>"
+			"Comment [Invisible to non-adjacent units <for [All] units> <in [Forest] tiles>]"
 		],
-		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
-			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
-			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
-			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"],
-		// Llanfairpwllgwyngyll should actually be Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
+		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth","Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen","Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy","St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"],
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]
     },
 	{//玛雅
@@ -986,7 +977,7 @@
 		"uniques": [
 			"[+1 Production] from [{Bonus resource} {improved} {non-[Farm]} {non-[Mine]}] tiles [in capital]",
 			"[+1 Production] from [{Bonus resource} {improved} {non-[Farm]} {non-[Mine]}] tiles [in all cities connected to capital]",
-			"New [Okihtcitaw] units start with [10] Experience [in all cities]"
+			"New [Okihtcitaw] units start with [10] XP [in all cities]"
 		],
 		"cities": ["Xandar","Hala","Kree-Lar","New Hala","M'Kraan","Tivan","Skrull","Pama","Kree-Em","Kree-Tor","Kree-Tus","Kotati","Mynar","Cassandra","Galador","Morpheus","Kree-Met","Azuros","Hala-Vak","Quarra"]
 	},

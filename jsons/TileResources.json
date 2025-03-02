@@ -1,6 +1,6 @@
 [
     {//剩余专精点
-        "name":"Specialized Development Direction",
+        "name":"SDD",
         "resourceType":"Strategic",
         "uniques":[
             "Doesn't generate naturally",
@@ -9,7 +9,7 @@
         ],
         "civilopediaText":[
             {
-                "text":"Specialized Development Direction is a strategic choice where a player's civilization or nation focuses on developing specific areas of expertise to gain an edge over others, reflecting their unique historical, cultural, and resource-based advantages, and shaping their role and influence within the game's global landscape."
+                "text":"SDD(Specialized Development Direction) is a strategic choice where a player's civilization or nation focuses on developing specific areas of expertise to gain an edge over others, reflecting their unique historical, cultural, and resource-based advantages, and shaping their role and influence within the game's global landscape."
             }
         ]
     },
@@ -21,15 +21,6 @@
             "Doesn't generate naturally"
         ]
     },
-    // {//城市数量
-    //     "name":"City Number",
-    //     "resourceType":"Strategic",
-    //     "uniques":[
-    //         "Doesn't generate naturally",
-    //         "Cannot be traded",
-    //         "Not shown on world screen"
-    //     ]
-    // },
     // {//电力
     //     "name":"Electric Power",
     //     "resourceType":"Strategic",

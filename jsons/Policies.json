@@ -1,5 +1,5 @@
 [
-    {//传统
+    {
         "name": "Tradition",
         "era": "Ancient era",
         "priorities": {
@@ -31,8 +31,7 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [2] cities for free",
-                    "Provides the cheapest [Science] building in your first [2] cities for free",
+                    "Provides [3] [SDD] <in [Capital] cities>",
                     "[+50]% [Culture] [in capital] <during the [Ancient era]>",
                     "[+50]% [Science] [in capital] <during the [Ancient era]>"
                 ],
@@ -53,8 +52,8 @@
                 "name": "Landed Elite",
                 "uniques": [
                     "[+30]% growth [in capital]",
-                    "[+1 Food] from [tag_Plowland] tiles [in all cities]",
-                    "[-50]% construction time for [tag_Plowland] improvements"
+                    "[+1 Food] from [Plow Land Improvement] tiles [in all cities]",
+                    "[-50]% construction time for [Plow Land Improvement] improvements"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -75,15 +74,13 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+20]% growth [in all cities]",
-                    "[+10 Production] [in all cities] <when number of [Cities] is equal to [1]>",
-                    "[+5 Production] [in all cities] <when number of [Cities] is equal to [2]>",
-                    "[+3 Production] [in all cities] <when number of [Cities] is equal to [3]>",
-                    "[+1 Production] [in all cities] <when number of [Cities] is more than [3]>"
+                    "[+25 Production] [in all cities] <when number of [Cities] is less than [5]>",
+                    "[-5 Production] [in all cities] <for every [Cities]> <when number of [Cities] is less than [5]>"
                 ]
             }
         ]
     },
-    {//自主
+    {
         "name": "Liberty",
         "era": "Ancient era",
         "priorities": {
@@ -95,15 +92,16 @@
         },
         "uniques": [
             "[+1 Culture] [in all cities]",
-            "[+1 Production] from every [tag_ExpertiseBuildings]",
+            "[+1 Production] from every [Base Building]",
             "Only available <before adopting [Tradition]>"
         ],
         "policies": [
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "Comment [The price increase for Setter is free]",
-                    "Comment [The price increase for tag_ExpertiseBuildings -60%]"
+                    "Comment [The price increase for Settler is free]",
+                    "Free [Settler] appears",
+                    "[+1] Movement <for [Settler] units>"
                 ],
                 "row": 1,
                 "column": 1
@@ -112,6 +110,7 @@
                 "name": "Citizenship",
                 "uniques": [
                     "[-25]% construction time for [non-[All Road]] improvements",
+                    "[+1] Movement <for [Worker] units>",
                     "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
@@ -120,7 +119,8 @@
             {
                 "name": "Republic",
                 "uniques": [
-                    "Comment [[+2 Production] in cities with its [Food] less than [4]]"
+                    "[+1 Culture] <for every [8] [Owned [Land] Tiles]>",
+                    "[+1 Science] <for every [10] [Owned [Land] Tiles]>"
                 ],
                 "requires": ["Collective Rule"],
                 "row": 2,
@@ -149,12 +149,12 @@
             {
                 "name": "Liberty Complete",
                 "uniques": [
-                    "Provides [1] [Specialized Development Direction]"
+                    "Provides [1] [SDD]"
                 ]
             }
         ]
     },
-    {//军功
+    {
         "name": "Honor",
         "era": "Ancient era",
         "priorities": {
@@ -192,7 +192,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-                    "Heals [10] damage if it kills a unit"
+                    "Comment [Unit promotion no longer loses [1] [Movement]]"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -210,11 +210,8 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "[-80]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness, +1 Production] from every [Walls]",
-                    "[+1 Happiness, +1 Production] from every [Castle]",
-                    "[+1 Happiness, +1 Production] from every [Arsenal]",
-                    "[+1 Happiness, +1 Production] from every [Military Base]"
+                    "[-80]% Gold cost of upgrading <for [{Military} {Land}] units>",
+                    "[+1 Happiness, +1 Production] from every [Defensive Fortification]"
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
@@ -229,7 +226,7 @@
             }
         ]
     },
-    {//虔诚
+    {
         "name": "Piety",
         "era": "Classical era",
         "priorities": {
@@ -240,9 +237,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "Comment [Remove the Specialized Development Direction requirement for the Faithful Expertise]",
-            "[+1 Faith] from every [Shrine]",
-            "[+2 Faith] from every [Temple]",
+            "[+1 Faith] from every [Faith Building]",
+            "[+2 Production] from every [Sacrificial Building]",
             "[-100]% weight to this choice for AI decisions <when religion is disabled>",
             "Only available <before adopting [Rationalism]>"
         ],
@@ -297,7 +293,7 @@
             }
         ]
     },
-    {//赞助
+    {
         "name": "Patronage",
         "era": "Medieval era",
         "priorities": {
@@ -308,7 +304,7 @@
             "Scientific": 5
         },
         "uniques": [
-            "[-25]% City-State Influence degradation",
+            "[-33]% City-State Influence degradation",
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
         ],
         "policies": [
@@ -323,7 +319,7 @@
             {
                 "name": "Aesthetics",
                 "uniques": [
-                    "Resting point for Influence with City-States is increased by [20]"
+                    "Resting point for Influence with City-States is increased by [45]"
                 ],
                 "row": 1,
                 "column": 4
@@ -331,7 +327,7 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
+                    "Allied City-States provide [Science] equal to [100]% of what they produce for themselves"
                 ],
                 "requires": ["Philantropy"],
                 "row": 2,
@@ -365,7 +361,7 @@
             }
         ]
     },
-    {//商业
+    {
         "name": "Commerce",
         "era": "Medieval era",
         "priorities": {
@@ -435,7 +431,7 @@
             }
         ]
     },
-    {//理性
+    {
         "name": "Rationalism",
         "era": "Renaissance era",
         "priorities": {
@@ -453,7 +449,7 @@
             {
                 "name": "Secularism",
                 "uniques": [
-                    "[+2 Science] from every specialist [in all cities]"
+                    "[+1 Science] from every specialist [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -461,9 +457,9 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness, +1 Science] from every [University]",
-                    "[+1 Happiness, +1 Science] from every [Observatory]",
-                    "[+1 Happiness, +1 Science] from every [Public School]",
+                    "[+1 Science] from every [Science Building]",
+                    "[+1 Happiness] from every [Observatory]",
+                    "[+1 Happiness] from every [Public School]",
                     "[-50]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
@@ -472,7 +468,7 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "[+1 Science] from every [Trading post]",
+                    "[+1 Science] <for every [2] [Owned [Trading post] Tiles]>",
                     "[+17]% [Science] from every [University]"
                 ],
                 "requires": ["Secularism"],
@@ -482,7 +478,7 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-                    "[+1 Science] from every [tag_Plowland]",
+                    "[+1 Science] <for every [3] [Owned [Plow Land Improvement] Tiles]>",
                     "[+10]% [Science] from every [Scientific Expertise]"
                 ],
                 "requires": ["Humanism"],
@@ -492,7 +488,7 @@
             {
                 "name": "Scientific Revolution",
                 "uniques": [
-                    "Science gained from research agreements [+50]%",
+                    "Science gained from research agreements [+75]%",
                     "[-100]% weight to this choice for AI decisions"
                 ],
                 "requires": ["Free Thought"],
@@ -508,7 +504,7 @@
             }
         ]
     },
-    {//自由
+    {
         "name": "Freedom",
         "era": "Industrial era",
         "priorities": {
@@ -527,8 +523,8 @@
             {
                 "name": "Constitution",
                 "uniques": [
-                    "[+3 Culture] from every [Wonder]",
-                    "[+1 Culture] from every [Culture]"
+                    "[+3 Culture] from every [World Wonder]",
+                    "[+1 Culture] from every [Culture Building]"
                 ],
                 "row": 1,
                 "column": 1
@@ -545,7 +541,7 @@
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[+2 Culture] from every specialist [in all cities]",
+                    "[+1 Culture] from every specialist [in all cities]",
                     "[-50]% Food consumption by specialists [in all cities]"
                 ],
                 "row": 1,
@@ -561,7 +557,7 @@
             {
                 "name": "Democracy",
                 "uniques": [
-                    "[+1 Happiness] from every [Culture]",
+                    "[+1 Happiness] from every [Culture Building]",
                     "[+1 Happiness] from every [Great Improvement]"
                 ],
                 "requires": ["Civil Society"],
@@ -578,7 +574,7 @@
             }
         ]
     },
-    {//独裁
+    {
         "name": "Autocracy",
         "era": "Industrial era",
         "priorities": {
@@ -635,7 +631,7 @@
                 "name": "Total War",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] Experience [in all cities]"
+                    "New [Military] units start with [15] XP [in all cities]"
                 ],
                 "requires": ["Police State", "Fascism"],
                 "row": 3,
@@ -651,7 +647,7 @@
             }
         ]
     },
-    {//秩序
+    {
         "name": "Order",
         "era": "Industrial era",
         "priorities": {
@@ -698,7 +694,7 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-30]% maintenance cost for buildings [in all cities]"
+                    "[-50]% maintenance cost for buildings [in all cities]"
                 ],
                 "row": 2,
                 "column": 3

@@ -124,8 +124,7 @@
 				"prerequisites": ["Sailing"],
 				"uniques": [
 					"Enables [Embarked] units to enter ocean tiles",
-					"Comment [[All] takes [17] damage in [Ocean] tiles upon turn end before discovering [Astronomy] for [non-[Polynesia]] Civilizations]"
-					// "[This Unit] takes [17] damage <when [Embarked]> <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations>"
+					"Comment [[All] takes [15] damage in [Ocean] tiles upon turn end before discovering [Astronomy] for [non-[Polynesia]] Civilizations]"
 				],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
@@ -703,7 +702,12 @@
 				"name": "Future Tech",
 				"row": 5,
 				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Nanotechnology","Stealth"],
-				"uniques": ["Can be continually researched"],
+				"uniques": [
+					"Can be continually researched",
+					"[+5]% [Production] [in all cities]",
+					"[+5]% Strength <for [Military] units>",
+					"Gain [1000] [Gold]"
+				],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
 			}

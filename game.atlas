@@ -118,28 +118,28 @@ BuildingIcons/Military Expertise
   index: -1
 BuildingIcons/Ordo
   rotate: false
-  xy: 1228, 196
+  xy: 1364, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Production Expertise
   rotate: false
-  xy: 1772, 196
+  xy: 276, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Scientific Expertise
   rotate: false
-  xy: 276, 60
+  xy: 548, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ImprovementIcons/Simple Fishing Boats
   rotate: false
-  xy: 412, 60
+  xy: 684, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -153,21 +153,21 @@ NationIcons/Cree
   index: -1
 NationIcons/Ming Dynasty
   rotate: false
-  xy: 820, 196
+  xy: 956, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Yuan Dynasty
   rotate: false
-  xy: 820, 196
+  xy: 956, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Poland
   rotate: false
-  xy: 1636, 196
+  xy: 1772, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -195,14 +195,14 @@ ResourceIcons/Electric Power
   index: -1
 ResourceIcons/Patriotism
   rotate: false
-  xy: 1500, 196
+  xy: 1636, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-ResourceIcons/Specialized Development Direction
+ResourceIcons/SDD
   rotate: false
-  xy: 548, 60
+  xy: 412, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -230,7 +230,7 @@ TileSets/HexaRealm/Tiles/Simple Fishing Boats
   index: -1
 TileSets/HexaRealm/Tiles/Simple Fishing Boats-Industrial era
   rotate: false
-  xy: 1228, 132
+  xy: 1364, 132
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -335,21 +335,21 @@ UnitIcons/Matrimonial Embassy
   index: -1
 UnitIcons/Okihtcitaw
   rotate: false
-  xy: 1092, 196
+  xy: 1228, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Territorial Expansion Mission
   rotate: false
-  xy: 956, 60
+  xy: 1092, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Tree Planter
   rotate: false
-  xy: 1092, 60
+  xy: 1228, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -361,30 +361,37 @@ UnitPromotionIcons/Arthashastra
   orig: 128, 128
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Military Training
+  rotate: false
+  xy: 820, 196
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Minuteman
   rotate: false
-  xy: 956, 196
+  xy: 1092, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ordo
   rotate: false
-  xy: 1364, 196
+  xy: 1500, 196
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Strict Discipline
   rotate: false
-  xy: 684, 60
+  xy: 820, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Terracotta Army
   rotate: false
-  xy: 820, 60
+  xy: 956, 60
   size: 128, 128
   orig: 128, 128
   offset: 0, 0

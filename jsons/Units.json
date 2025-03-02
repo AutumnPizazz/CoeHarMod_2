@@ -76,18 +76,16 @@
         ],
 		"hurryCostModifier": 20
 	},
-	{//雄鹰战士
+	{
 		"name": "Jaguar",
 		"unitType": "Sword",
 		"uniqueTo": "Aztecs",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 8,
-		"cost": 40,
+		"strength": 10,
+		"cost": 55,
 		"obsoleteTech": "Metal Casting",
 		"uniques": [
-			"[+33]% Strength <when fighting in [Forest] tiles>", 
-			"[+33]% Strength <when fighting in [Jungle] tiles>", 
 			"Heals [25] damage if it kills a unit",
 			"Double movement in [Forest]",
 			"Double movement in [Jungle]"
@@ -714,7 +712,6 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -957,7 +954,7 @@
 		"strength": 10,
 		"range": 2,
 		"rangedStrength": 10,
-		// "replaces": "Composite Bowman",
+		"replaces": "Composite Bowman",
 		"cost": 90,
 		"requiredTech": "Construction",
 		"upgradesTo": "Gatling Gun",
@@ -965,7 +962,8 @@
 		"promotions": ["[Chu-Ko-Nu] ability"],
 		"attackSound": "crossbow",
 		"uniques":[
-			"[+1] Range <after discovering [Machinery]>"
+			"[+1] Range <after discovering [Machinery]>",
+			"[+33]% Strength <after discovering [Machinery]>"
 		]
 	},
 	{
@@ -1133,8 +1131,11 @@
 		"requiredResource": "Iron",
 		"promotions": ["Amphibious"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
+		"attackSound": "metalhit",
+		"uniques":[
+			"[+50]% Strength <when attacking>",
+			"[-25]% Strength <when defending>"
+		]
 	},
 
 	// Rennaisance Era
