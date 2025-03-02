@@ -1481,7 +1481,7 @@
 		"isWonder": true,
 		"requiredTech": "Writing",
 		"uniques": [
-			"Gains [100] [Science] <(modified by game speed)>",
+			"Gain [100] [Science] <(modified by game speed)>",
 			"[+25]% [Science] <during the [Ancient era]>"
 		],
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
