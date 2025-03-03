@@ -1,7 +1,9 @@
-        // globalUniques.json
+        /*globalUniques.json*/
+
         // "[-10]% Culture cost of adopting new Policies",
         // "[-90]% Gold cost of acquiring tiles [in all cities]",
         // "[+2 Production] [in all cities]",
 
-
-        
+        // "[-15]% growth [in all cities] <for every [-1] [Happiness]> <when below [0] Happiness>",
+        // "[-10]% [Production] <for every [-1] [Happiness]> <when below [0] Happiness>",
+        // "[-3]% Strength <for [All] units> <for every [-1] [Happiness]> <when below [0] Happiness>",

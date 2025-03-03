@@ -462,7 +462,8 @@
     {
         "name": "Scouting I",
         "uniques": [
-            "[+1] Sight"
+            "[+1] Sight",
+            "Can see invisible [Land] units"
         ],
         "unitTypes": [
             "Scout"
@@ -476,7 +477,8 @@
             "Scouting I"
         ],
         "uniques": [
-            "[+1] Sight"
+            "[+1] Sight",
+            "Can see over obstacles"
         ],
         "unitTypes": [
             "Scout"
@@ -1348,9 +1350,8 @@
     {
         "name": "Pictish Courage",
         "uniques": [
-            "No movement cost to pillage",
-            "[+20]% Strength <when fighting in [Foreign Land] tiles>",
-            "Invisible to others  <in [Forest] tiles>"
+            "Invisible to others <in [Forest] tiles>",
+            "[This Unit] loses the [Pictish Courage] promotion <upon damaging a [All] unit>"
         ]
     },
     {
@@ -1504,5 +1505,5 @@
             "[This Unit] heals [100] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
             "[This Unit] loses the [Military Training III] promotion <upon losing at least [1] HP in a single attack> <hidden from users>"
 		]
-	},
+	}
 ]

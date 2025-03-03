@@ -900,7 +900,7 @@
 			"Patra", "Korinthos"],
         "spyNames": ["Basil", "Nikophoros", "Demetrios", "Philippos", "Theophylaktos", "Simonis", "Zoe", "Ioanno", "Xene", "Euphrosyne"]
     },
-	{//凯尔特
+	{
 		"name": "Celts",
 		"leaderName": "Boudicca",
 		"adjective": ["celtic"],
@@ -926,7 +926,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
 		"uniques": [
-			"Comment [Invisible to non-adjacent units <for [All] units> <in [Forest] tiles>]"
+			"[{Military} {Land}] units gain the [Pictish Courage] promotion"
 		],
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth","Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen","Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy","St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"],
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]

@@ -43,7 +43,7 @@
 		"movement": 2,
 		"cost": 100,
 		"uniques": [
-            "Founds a new city <by consuming this unit>", 
+            "Founds a new city <by consuming this unit> <when below [0] Happiness>", 
 			"Requires at least [2] population",
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
 			"[+2] Movement <before turn number [3]> <hidden from users>"
@@ -57,7 +57,7 @@
 		"movement": 2,
 		"cost": 100,
 		"uniques": [
-            "Founds a new puppet city <by consuming this unit>", 
+            "Founds a new puppet city <by consuming this unit> <when below [0] Happiness>", 
 			"Requires at least [2] population",
             "Cost increases by [20] when built <before adopting [Collective Rule]>",
 			"[+2] Movement <before turn number [3]> <hidden from users>"
@@ -71,7 +71,7 @@
 		"movement": 4,
 		"cost": 120,
 		"uniques": [
-            "Founds a new puppet city <[2] times> <after which this unit is consumed>", 
+            "Founds a new puppet city <[2] times> <when below [0] Happiness> <after which this unit is consumed> ", 
             "Cost increases by [40] when built <before adopting [Collective Rule]>"
         ],
 		"hurryCostModifier": 20
@@ -139,13 +139,12 @@
 		"replaces": "Spearman",
 		"uniqueTo": "Celts",
 		"movement": 2,
-		"strength": 8,
+		"strength": 10,
 		"cost": 48,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -389,7 +388,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Founds a new city <on foreign continents>", "[+2] Sight"],
+		"uniques": ["Founds a new city <on foreign continents> <when below [0] Happiness>", "[+2] Sight"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities

@@ -2,8 +2,38 @@
     {
         "name":"[CoeHarMod_2] Changelog",
         "civilopediaText":[
+            {"text":"\n[v1.0.1] for [4.15.14]"},
+            {"text":"Fix the issue where the unhappiness penalty in [Global uniques] is not taking effect\nthe specific effects of [Global uniques] are demonstrated in [Tutorials]"},
+
             {"text":"\n[v1.0.0] for [4.15.13]"},
             {"text":"Redesigned the [Expertise] system, official release\nAdjusted [Policy] and [Wonder] in the beta version"}
+        ]
+    },
+    {
+        "name": "Global uniques",
+        "civilopediaText":[
+            {"text": "Global uniques","header":1},
+            {"text": "Nullifies Growth [in all cities] <when below [0] Happiness>"},
+            {"text": "[-1] Sight <for [Embarked] units>"},
+            {"text": "[-40]% growth [in all cities] <in [non-[Fresh Water]] tiles> <in cities without a [Aqueduct]>"},
+            {"text": "Cannot build [Military] units <when [Enable Peaceful World] Victory is enabled>"},
+            {"text": "[+50]% [Production] <for [City-States] Civilizations>"},
+            {"text": "[+50]% growth [in all cities] <for [City-States] Civilizations>"},
+            {"text": "May buy items in puppet cities"},
+            {"text": "Provides [6] [Military Size] <starting from the [Ancient era]>"},
+            {"text": "Provides [6] [Military Size] <starting from the [Classical era]>"},
+            {"text": "Provides [6] [Military Size] <starting from the [Medieval era]>"},
+            {"text": "Provides [6] [Military Size] <starting from the [Renaissance era]>"},
+            {"text": "Provides [6] [Military Size] <starting from the [Industrial era]>"},
+            {"text": "Provides [6] [Military Size] <starting from the [Modern era]>"},
+            {"text": "Provides [6] [Military Size] <starting from the [Atomic era]>"},
+            {"text": "Provides [6] [Military Size] <starting from the [Information era]>"},
+            {"text": "Provides [6] [Military Size] <starting from the [Future era]>"},
+            {"text": "Quantity of strategic resources produced by the empire +[100]% <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>"},
+            {"text": "[+50]% Strength <vs cities> <when attacking> <for [AI player] Civilizations> <when [Enable Super AI] Victory is enabled>"},
+            {"text": "unitUniques","header":1},
+            {"text": "[This Unit] loses [1] movement <upon being promoted> <before adopting [Military Tradition]>"},
+            {"text": "[This Unit] takes [15] damage <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations>"}
         ]
     }
 ]

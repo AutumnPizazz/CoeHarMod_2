@@ -1,10 +1,7 @@
 {
     "name": "Global uniques",
     "uniques": [
-        "[-15]% growth [in all cities] <for every [-1] [Happiness]> <when below [0] Happiness>",
-        "[-10]% [Production] <for every [-1] [Happiness]> <when below [0] Happiness>",
-        "[-3]% Strength <for [All] units> <for every [-1] [Happiness]> <when below [0] Happiness>",
-        "Rebel units may spawn <when below [-20] Happiness>",
+        "Nullifies Growth [in all cities] <when below [0] Happiness>",
         "[-1] Sight <for [Embarked] units>",
         "[-40]% growth [in all cities] <in [non-[Fresh Water]] tiles> <in cities without a [Aqueduct]>",
         "Cannot build [Military] units <when [Enable Peaceful World] Victory is enabled>",
@@ -25,7 +22,6 @@
     ],
     "unitUniques": [
         "[This Unit] loses [1] movement <upon being promoted> <before adopting [Military Tradition]>",
-        "[This Unit] takes [15] damage <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations>",
-        "Invisible to non-adjacent units <for [Celts] civilizations> <in [Forest] tiles>"
+        "[This Unit] takes [15] damage <in [Ocean] tiles> <upon turn end> <before discovering [Astronomy]> <for [non-[Polynesia]] Civilizations>"
     ]
 }
