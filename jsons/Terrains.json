@@ -3,7 +3,7 @@
 	{
 		"name": "Ocean",
 		"type": "Water",
-		"food": 2,
+		"food": 1,
 		"gold": 1,
 		"movementCost": 1,
 		"RGB": [43, 87, 151]
@@ -11,7 +11,7 @@
 	{
 		"name": "Coast",
 		"type": "Water",
-		"food": 2,
+		"food": 1,
         "gold": 1,
 		"movementCost": 1,
 		"RGB": [70, 138, 216],
@@ -22,7 +22,7 @@
 	{
 		"name": "Grassland",
 		"type": "Land",
-		"food": 3,
+		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
@@ -47,7 +47,7 @@
 	{
 		"name": "Plains",
 		"type": "Land",
-		"food": 2,
+		"food": 1,
 		"production": 1,
 		"movementCost": 1,
 		"RGB": [153, 180, 51],
@@ -75,7 +75,7 @@
 	{
 		"name": "Tundra",
 		"type": "Land",
-		"food": 2,
+		"food": 1,
 		"movementCost": 1,
 		"RGB": [124, 62, 57],
 		"uniques": ["Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
@@ -109,7 +109,7 @@
 	{
 		"name": "Lakes",
 		"type": "Water",
-		"food": 3,
+		"food": 2,
 		"gold": 1,
 		"RGB": [0, 171, 169],
 		"uniques": ["Fresh water",
@@ -275,7 +275,7 @@
 	{
 		"name": "Flood plains",
 		"type": "TerrainFeature",
-		"food": 3,
+		"food": 2,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
