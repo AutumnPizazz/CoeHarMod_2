@@ -43,7 +43,7 @@
                 "uniques": [
                     "[+50]% Strength for cities <when attacking>",
                     "[+50]% Strength for cities <when attacking> <after discovering [Machinery]>",
-                    "Gain a free [Walls] [in all cities]"
+                    "Gain a free [Walls] [in all cities] <when number of [Cities] is less than [5]>"
                 ],
                 "row": 1,
                 "column": 5
@@ -64,7 +64,7 @@
                 "uniques": [
                     "[+1 Gold] per [1] population [in capital]",
                     "[+1 Happiness] per [2] population [in capital]",
-                    "Gain a free [Aqueduct] [in all cities]"
+                    "Gain a free [Aqueduct] [in all cities] <when number of [Cities] is less than [5]>"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -74,8 +74,8 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+20]% growth [in all cities]",
-                    "[+25 Production] [in all cities] <when number of [Cities] is less than [5]>",
-                    "[-5 Production] [in all cities] <for every [Cities]> <when number of [Cities] is less than [5]>"
+                    "[+9 Production] [in all cities] <when number of [Cities] is less than [3]>",
+                    "[-3 Production] [in all cities] <for every [Cities]> <when number of [Cities] is less than [3]>"
                 ]
             }
         ]
