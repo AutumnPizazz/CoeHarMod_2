@@ -1505,5 +1505,25 @@
             "[This Unit] heals [100] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
             "[This Unit] loses the [Military Training III] promotion <upon losing at least [1] HP in a single attack> <hidden from users>"
 		]
-	}
+	},
+    {
+        "name": "2 Stars",
+        "uniques":[
+            "[+50]% Strength"
+        ]
+    },
+    {
+        "name": "3 Stars",
+        "uniques":[
+            "[+100]% Strength"
+        ]
+    },
+    {
+        "name": "Hero",
+        "uniques":[
+            "[+200]% Strength",
+            "[+1] Sight",
+            "[+1] Movement"
+        ]
+    }
 ]
