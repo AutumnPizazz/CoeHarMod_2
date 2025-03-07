@@ -35,7 +35,6 @@
 	{
 		"name": "Monument",
 		"cost": 40,
-		"hurryCostModifier": 40,
         "uniques":[
 			"Comment [Label:]",
 			"Base Building",
@@ -49,7 +48,6 @@
         "replaces": "Monument",
 		"uniqueTo": "Ethiopia",
 		"cost": 60,
-		"hurryCostModifier": 40,
         "uniques":[
 			"Comment [Label:]",
 			"Base Building",
@@ -62,7 +60,6 @@
 	{
 		"name": "Granary",
 		"cost": 60,
-		"hurryCostModifier": 25,
 		"requiredTech": "Pottery",
 		"uniques": [
 			"Comment [Label:]",
@@ -79,7 +76,6 @@
 		"name" :"Mekewap",
 		"uniqueTo": "Cree",
 		"replaces": "Granary",
-		"hurryCostModifier": 25,
 		"requiredTech": "Pottery",
 		"uniques": [
 			"Comment [Label:]",
@@ -95,7 +91,6 @@
 		"cost":75,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
-		"hurryCostModifier": 0,
 		"uniques": [
 			"Comment [Label:]",
 			"Base Building",
@@ -111,7 +106,6 @@
 		"name": "Water Mill",
 		"cost":75,
 		"maintenance": 2,
-		"hurryCostModifier": 25,
 		"requiredTech": "The Wheel",
 		"uniques": [
 			"Comment [Label:]",
@@ -127,7 +121,6 @@
 		"replaces": "Water Mill",
 		"uniqueTo": "Aztecs",
 		"cost":75,
-		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "The Wheel",
 		"uniques": [
@@ -144,7 +137,6 @@
 		"name": "Stable",
 		"cost": 100,
 		"maintenance": 1,
-		"hurryCostModifier": 25,
 		"uniques": [
 			"Comment [Label:]",
 			"Base Building",
@@ -161,7 +153,6 @@
 		"uniqueTo": "Yuan Dynasty",
 		"cost": 100,
 		"maintenance": 1,
-		"hurryCostModifier": 25,
 		"requiredTech": "Horseback Riding",
 		"uniques": [
 			"Comment [Label:]",
@@ -176,10 +167,23 @@
         ]
 	},
 	{
+		"name": "Forge",
+		"cost": 150,
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": [
+			"Comment [Label:]",
+			"Base Building",
+			" ",
+			"Comment [Uniques:]",
+			"[+2 Production]"
+		]
+	},
+	{
 		"name": "Aqueduct",
 		"cost": 75,
 		"maintenance": 1,
-		"hurryCostModifier": 0,
 		"requiredTech": "Masonry",
 		"uniques": [
 			"Comment [Label:]",
@@ -195,7 +199,6 @@
 		"name": "Windmill",
 		"cost": 250,
 		"specialistSlots": {"Engineer": 1},
-		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "Economics",
 		"uniques": [
@@ -243,7 +246,6 @@
 		"name": "Walls",
 		"cityStrength": 5,
 		"cityHealth": 50,
-		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
 		"uniques": [
 			"Comment [Label:]",
@@ -257,7 +259,6 @@
 		"uniqueTo": "Babylon",
 		"cost": 200,
 		"cityHealth": 50,
-		"hurryCostModifier": 100,
 		"requiredTech": "Masonry",
 		"uniques": [
 			"Comment [Label:]",
@@ -275,7 +276,6 @@
 		"name": "Castle",
 		"cityStrength": 7,
 		"cityHealth": 25,
-		"hurryCostModifier": 25,
 		"requiredTech": "Chivalry",
 		"uniques": [
 			"Comment [Label:]",
@@ -292,7 +292,6 @@
 		"uniqueTo": "India",
 		"cityStrength": 7,
 		"cityHealth": 25,
-		"hurryCostModifier": 25,
 		"requiredTech": "Chivalry",
 		"uniques": [
 			"Comment [Label:]",
@@ -310,7 +309,6 @@
 		"cost": 300,
 		"cityStrength": 9,
 		"cityHealth": 25,
-		"hurryCostModifier": 25,
 		"requiredTech": "Metallurgy",
 		"uniques": [
 			"Comment [Label:]",
@@ -324,7 +322,6 @@
 		"name": "Military Base",
 		"cityStrength": 12,
 		"cityHealth": 25,
-		"hurryCostModifier": 25,
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
 			"Comment [Label:]",
@@ -352,7 +349,7 @@
     },
 	{
 		"name": "Shrine",
-		"cost": 40,
+		"cost": 70,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": [
@@ -360,7 +357,7 @@
 			"Faith Building",
 			" ",
 			"Comment [Uniques:]",
-			"[+50]% production cost <in cities without a [Faithful Expertise]>",
+			"[+25]% production cost <in cities without a [Faithful Expertise]>",
 			"[+1 Faith]",
 			"[+10]% [Faith] [in this city] <in cities with a [Faithful Expertise]>",
 			"All newly-trained [Military] units [in this city] receive the [Arthashastra I] promotion <for [India] Civilizations>"
@@ -370,7 +367,7 @@
 		"name": "Pyramid",
 		"replaces": "Shrine",
 		"uniqueTo": "The Maya",
-		"cost": 40,
+		"cost": 70,
 		"requiredTech": "Pottery",
 		"uniques": [
 			"Comment [Label:]",
@@ -385,9 +382,8 @@
 	},
 	{
 		"name": "Temple",
-		"cost": 100,
+		"cost": 120,
 		"maintenance": 2,
-		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": [
 			"Comment [Label:]",
@@ -395,7 +391,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Shrine]>",
-			"[+50]% production cost <in cities without a [Faithful Expertise]>",
+			"[+25]% production cost <in cities without a [Faithful Expertise]>",
 			"[+2 Faith]",
 			"[+10]% [Faith] [in this city] <in cities with a [Faithful Expertise]>",
 			"All newly-trained [Military] units [in this city] receive the [Arthashastra II] promotion <for [India] Civilizations>"
@@ -405,9 +401,8 @@
 		"name": "Burial Tomb",
 		"replaces": "Temple",
 		"uniqueTo": "Egypt",
-		"cost": 100,
+		"cost": 120,
 		"maintenance": 0,
-		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": [
 			"Comment [Label:]",
@@ -425,9 +420,8 @@
 		"name": "Mud Pyramid Mosque",
 		"replaces": "Temple",
 		"uniqueTo": "Songhai",
-		"cost": 100,
+		"cost": 120,
 		"maintenance": 0,
-		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": [
 			"Comment [Label:]",
@@ -520,15 +514,14 @@
     },
 	{
 		"name": "Library",
-		"cost": 60,
-		"hurryCostModifier": 25,
+		"cost": 90,
 		"maintenance": 1,
 		"uniques": [
 			"Comment [Label:]",
 			"Science Building",
 			" ",
 			"Comment [Uniques:]",
-			"[+50]% production cost <in cities without a [Scientific Expertise]>",
+			"[+25]% production cost <in cities without a [Scientific Expertise]>",
             "[+1 Science] per [2] population [in this city]",
 			"[+2 Science] <in cities with a [Scientific Expertise]>"
         ],
@@ -538,8 +531,7 @@
 		"name": "Paper Maker",
 		"replaces": "Library",
 		"uniqueTo": "China",
-		"cost": 60,
-		"hurryCostModifier": 25,
+		"cost": 90,
 		"maintenance": 1,
 		"uniques": [
 			"Comment [Label:]",
@@ -553,8 +545,7 @@
 	},
 	{
 		"name": "University",
-		"cost": 150,
-		"hurryCostModifier": 25,
+		"cost": 250,
 		"maintenance": 2,
 		"specialistSlots": {"Scientist": 2},
 		"requiredTech": "Education",
@@ -564,7 +555,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Library]>",
-			"[+50]% production cost <in cities without a [Scientific Expertise]>",
+			"[+25]% production cost <in cities without a [Scientific Expertise]>",
             "[+33]% [Science] [in this city]",
 			"[+2 Science] <in cities with a [Scientific Expertise]>",
 			"[+4 Science] <in cities with at least [10] [Population]> <in cities with a [Scientific Expertise]>"
@@ -574,8 +565,7 @@
 		"name": "Wat",
 		"replaces": "University",
 		"uniqueTo": "Siam",
-		"cost": 150,
-		"hurryCostModifier": 25,
+		"cost": 250,
 		"maintenance": 2,
 		"specialistSlots": {"Scientist": 2},
 		"requiredTech": "Education",
@@ -592,9 +582,8 @@
 	},
 	{
 		"name": "Observatory",
-		"cost": 200,
+		"cost": 250,
 		"maintenance": 2,
-		"hurryCostModifier": 15,
 		"requiredBuilding": "Library",
 		"uniques": [
 			"Comment [Label:]",
@@ -602,7 +591,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Library]>",
-			"[+50]% production cost <in cities without a [Scientific Expertise]>",
+			"[+25]% production cost <in cities without a [Scientific Expertise]>",
 			"[+2 Science] from every [Mountain] <in this city>",
 			"[+2 Science] from every [Mountain] <in this city> <in cities with a [Scientific Expertise]>",
 			"[+2 Science] from every [Science] <in this city> <in cities with a [Scientific Expertise]>"
@@ -612,8 +601,7 @@
 	{
 		"name": "Public School",
 		"specialistSlots": {"Scientist": 1},
-		"cost": 280,
-		"hurryCostModifier": 50,
+		"cost": 440,
 		"maintenance": 3,
 		"uniques": [
 			"Comment [Label:]",
@@ -621,7 +609,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [University]>",
-			"[+50]% production cost <in cities without a [Scientific Expertise]>",
+			"[+25]% production cost <in cities without a [Scientific Expertise]>",
 			"[+3 Science]",
 			"[+1 Science] per [2] population [in this city] <in cities without a [Scientific Expertise]>",
 			"[+1 Science] per [2] population [in this city] <in cities with less than [10] [Population]> <in cities with a [Scientific Expertise]>",
@@ -631,8 +619,7 @@
 	},
 	{
 		"name": "Research Lab",
-		"cost": 500,
-		"hurryCostModifier": 50,
+		"cost": 600,
 		"maintenance": 3,
 		"specialistSlots": {"Scientist": 1},
 		"requiredTech": "Plastics",
@@ -642,7 +629,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Public School]>",
-			"[+50]% production cost <in cities without a [Scientific Expertise]>",
+			"[+25]% production cost <in cities without a [Scientific Expertise]>",
 			"[+4 Science]",
 			"[+35]% [Science] [in this city]",
 			"[+15]% [Science] [in this city] <in cities with a [Scientific Expertise]>",
@@ -667,8 +654,7 @@
     },
 	{
 		"name": "Amphitheater",
-		"cost": 90,
-		"hurryCostModifier": 25,
+		"cost": 150,
 		"maintenance": 2,
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Drama and Poetry",
@@ -677,7 +663,7 @@
 			"Culture Building",
 			" ",
 			"Comment [Uniques:]",
-			"[+50]% production cost <in cities without a [Cultural Expertise]>",
+			"[+25]% production cost <in cities without a [Cultural Expertise]>",
 			"[+3 Culture]",
 			"[+2 Culture] <in cities with a [Cultural Expertise]>",
 			"[-10]% Culture cost of natural border growth [in this city] <in cities with a [Cultural Expertise]>"
@@ -685,8 +671,7 @@
 	},
 	{
 		"name": "Opera House",
-		"cost": 180,
-		"hurryCostModifier": 50,
+		"cost": 290,
 		"maintenance": 2,
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Acoustics",
@@ -696,7 +681,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Amphitheater]>",
-			"[+50]% production cost <in cities without a [Cultural Expertise]>",
+			"[+25]% production cost <in cities without a [Cultural Expertise]>",
 			"[+5 Culture]",
 			"[+1 Culture] <in cities with a [Cultural Expertise]>",
 			"[-10]% Culture cost of natural border growth [in this city] <in cities with a [Cultural Expertise]>",
@@ -705,8 +690,7 @@
 	},
 	{
 		"name": "Ceilidh Hall",
-		"cost": 180,
-		"hurryCostModifier": 50,
+		"cost": 290,
 		"maintenance": 2,
 		"replaces": "Opera House",
 		"uniqueTo": "Celts",
@@ -726,8 +710,7 @@
 	},
 	{
 		"name": "Museum",
-		"cost": 300,
-		"hurryCostModifier": 50,
+		"cost": 440,
 		"maintenance": 3,
 		"specialistSlots": {"Artist": 2},
 		"requiredTech": "Archaeology",
@@ -737,7 +720,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Opera House]>",
-			"[+50]% production cost <in cities without a [Cultural Expertise]>",
+			"[+25]% production cost <in cities without a [Cultural Expertise]>",
 			"[+1 Culture] <for every [Horses]>",
 			"[+1 Culture] <for every [Iron]>",
 			"[+3 Culture] <in cities with a [Cultural Expertise]>",
@@ -748,8 +731,7 @@
 	},
 	{
 		"name": "Broadcast Tower",
-		"cost": 500,
-		"hurryCostModifier": 50,
+		"cost": 600,
 		"maintenance": 3,
 		"requiredTech": "Radio",
 		"uniques": [
@@ -758,7 +740,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Museum]>",
-			"[+50]% production cost <in cities without a [Cultural Expertise]>",
+			"[+25]% production cost <in cities without a [Cultural Expertise]>",
 			"[+3 Culture]",
 			"[+33]% [Culture] [in this city]",
 			"[+2 Culture] <in cities with a [Cultural Expertise]>",
@@ -785,15 +767,14 @@
     },
 	{
 		"name": "Circus",
-		"cost": 60,
-		"hurryCostModifier": 25,
+		"cost": 90,
 		"requiredTech": "Trapping",
         "uniques":[
 			"Comment [Label:]",
 			"Happiness Building",
 			" ",
 			"Comment [Uniques:]",
-			"[+50]% production cost <in cities without a [Entertainment Expertise]>",
+			"[+25]% production cost <in cities without a [Entertainment Expertise]>",
 			"[+1 Happiness]",
 			"[+1 Happiness] <in cities with a [Entertainment Expertise]>",
 			"[+1 Happiness] from [{Ivory} {Camp}] tiles [in this city] <in cities with a [Entertainment Expertise]>",
@@ -802,8 +783,7 @@
 	},
 	{
 		"name": "Colosseum",
-		"cost": 90,
-		"hurryCostModifier": 25,
+		"cost": 120,
 		"maintenance": 1,
 		"requiredTech": "Construction",
         "uniques":[
@@ -811,7 +791,7 @@
 			"Happiness Building",
 			" ",
 			"Comment [Uniques:]",
-			"[+50]% production cost <in cities without a [Entertainment Expertise]>",
+			"[+25]% production cost <in cities without a [Entertainment Expertise]>",
 			"[+2 Happiness]",
 			"[+1 Happiness] <in cities with a [Entertainment Expertise]>",
 			"[-5]% Unhappiness from [Population] [in this city] <in cities with a [Entertainment Expertise]>"
@@ -819,8 +799,7 @@
 	},
 	{
 		"name": "Theatre",
-		"cost": 180,
-		"hurryCostModifier": 10,
+		"cost": 360,
 		"maintenance": 2,
 		"requiredTech": "Printing Press",
         "uniques":[
@@ -829,7 +808,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Colosseum]>",
-			"[+50]% production cost <in cities without a [Entertainment Expertise]>",
+			"[+25]% production cost <in cities without a [Entertainment Expertise]>",
 			"[+3 Happiness]",
 			"[+1 Happiness] <in cities with a [Entertainment Expertise]>",
 			"[-5]% Unhappiness from [Population] [in this city] <in cities with a [Entertainment Expertise]>"
@@ -837,7 +816,7 @@
 	},
 	{
 		"name": "Stadium",
-		"cost": 500,
+		"cost": 600,
 		"maintenance": 3,
 		"requiredBuilding": "Theatre",
 		"requiredTech": "Refrigeration",
@@ -847,7 +826,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Colosseum]>",
-			"[+50]% production cost <in cities without a [Entertainment Expertise]>",
+			"[+25]% production cost <in cities without a [Entertainment Expertise]>",
 			"[+5 Happiness]",
 			"[-5]% Unhappiness from [Population] [in this city] <in cities with a [Entertainment Expertise]>",
 			"[-5]% Unhappiness from [Population] [in this city] <in [Puppeted] cities> <in cities with a [Entertainment Expertise]>"
@@ -871,14 +850,14 @@
     },
 	{
 		"name": "Mint",
-		"cost": 90,
+		"cost": 100,
 		"maintenance": 0,
-		"hurryCostModifier": 25,
 		"uniques": [
 			"Comment [Label:]",
 			"Gold Building",
 			" ",
 			"Comment [Uniques:]",
+			"[+30]% production cost <for every [10] [turns]> <(modified by game speed)>",
 			"Can only be built <in cities with a [Economic Expertise]>",
 			"Limited to [2] per Civilization",
 			"[+15]% [Gold] from every [Gold Ore]",
@@ -888,8 +867,7 @@
 	},
 	{
 		"name": "Market",
-		"cost": 90,
-		"hurryCostModifier": 25,
+		"cost": 120,
 		"specialistSlots": {"Merchant": 1},
 		"requiredTech": "Currency",
         "uniques":[
@@ -897,7 +875,7 @@
 			"Gold Building",
 			" ",
 			"Comment [Uniques:]",
-			"[+50]% production cost <in cities without a [Economic Expertise]>",
+			"[+25]% production cost <in cities without a [Economic Expertise]>",
 			"[+2 Gold]",
 			"[+15]% [Gold] [in this city]",
 			"[+2 Gold] <in cities with a [Economic Expertise]>",
@@ -906,8 +884,7 @@
 	},
 	{
 		"name": "Bazaar",
-		"cost": 90,
-		"hurryCostModifier": 25,
+		"cost": 120,
         "requiredBuilding":"Economic Expertise",
 		"replaces": "Market",
 		"uniqueTo": "Arabia",
@@ -928,8 +905,7 @@
 	},
 	{
 		"name": "Bank",
-		"cost": 200,
-		"hurryCostModifier": 15,
+		"cost": 300,
 		"specialistSlots": {"Merchant": 1},
 		"requiredTech": "Banking",
         "uniques":[
@@ -938,7 +914,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Market]>",
-			"[+50]% production cost <in cities without a [Economic Expertise]>",
+			"[+25]% production cost <in cities without a [Economic Expertise]>",
 			"[+4 Gold]",
 			"[+20]% [Gold] [in this city]",
 			"[+4 Gold] <in cities with a [Economic Expertise]>",
@@ -947,8 +923,7 @@
 	},
 	{
 		"name": "Satrap's Court",
-		"cost": 200,
-		"hurryCostModifier": 15,
+		"cost": 300,
 		"replaces": "Bank",
 		"uniqueTo": "Persia",
 		"specialistSlots": {"Merchant": 1},
@@ -968,8 +943,7 @@
 	},
 	{
 		"name": "Stock Exchange",
-		"cost": 340,
-		"hurryCostModifier": 15,
+		"cost": 500,
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
 		"requiredBuilding": "Bank",
@@ -980,7 +954,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Bank]>",
-			"[+50]% production cost <in cities without a [Economic Expertise]>",
+			"[+25]% production cost <in cities without a [Economic Expertise]>",
 			"[+6 Gold]",
 			"[+25]% [Gold] [in this city]",
 			"[+4 Gold] <in cities with a [Economic Expertise]>",
@@ -1005,8 +979,7 @@
     },
 	{
 		"name": "Workshop",
-		"cost": 100,
-		"hurryCostModifier": 25,
+		"cost": 200,
 		"maintenance": 2,
 		"specialistSlots": {"Engineer": 1},
 		"requiredTech": "Metal Casting",
@@ -1015,17 +988,14 @@
 			"Production Building",
 			" ",
 			"Comment [Uniques:]",
-			"[+50]% production cost <in cities without a [Production Expertise]>",
-			"[+2 Production]",
-			"[+10]% [Production] [in this city]",
-			"[+2 Production] <in cities with a [Production Expertise]>",
-			"[+1 Production] <for every [3] [Owned [Productivity Improvement] Tiles]> <in this city> <in cities with a [Production Expertise]>"
+			"[+25]% production cost <in cities without a [Production Expertise]>",
+			"[+3 Production]",
+			"[+2 Production] <in cities with a [Production Expertise]>"
 		]
 	},
 	{
 		"name": "Longhouse",
-		"cost": 100,
-		"hurryCostModifier": 25,
+		"cost": 200,
 		"maintenance": 2,
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
@@ -1037,16 +1007,13 @@
 			"Comment [Uniques:]",
 			"[+1 Production] from [Forest] tiles [in this city]",
 			"[+2 Production]",
-			"[+10]% [Production] [in this city]",
-			"[+2 Production] <in cities with a [Production Expertise]>",
-			"[+1 Production] <for every [3] [Owned [Productivity Improvement] Tiles]> <in this city> <in cities with a [Production Expertise]>"
+			"[+2 Production] <in cities with a [Production Expertise]>"
 		],
 		"requiredTech": "Metal Casting"
 	},
 	{
 		"name": "Factory",
-		"cost": 340,
-		"hurryCostModifier": 0,
+		"cost": 350,
 		"maintenance": 3,
 		"specialistSlots": {"Engineer": 2},
 		"requiredTech": "Industrialization",
@@ -1057,11 +1024,10 @@
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Workshop]>",
 			"Consumes [1] [Coal]",
-			"[+50]% production cost <in cities without a [Production Expertise]>",
-			"[+4 Production]",
-			"[+10]% [Production] [in this city]",
-			"[+10]% [Production] [in this city] <in cities with at least [10] [Population]> <in cities with a [Production Expertise]>",
-			"[+1 Production] <for every [3] [Owned [Productivity Improvement] Tiles]> <in this city> <in cities with a [Production Expertise]>"
+			"[+25]% production cost <in cities without a [Production Expertise]>",
+			"[+3 Production]",
+			"[+3 Production] <in cities with a [Power Generation Facility]>",
+			"[+3 Production] <in cities with a [Production Expertise]>"
 		]
 	},
 	{
@@ -1076,17 +1042,15 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Factory]> <in cities without a [Power Generation Facility]>",
-			"[+50]% production cost <in cities without a [Production Expertise]>",
+			"[+25]% production cost <in cities without a [Production Expertise]>",
 			"[+5 Production]",
-			"[+10]% [Production] [in this city]",
-			"[+5]% [Production] [in this city] <for every [Owned [{non-[Hill]} {Desert}] Tiles]> <in this city> <in cities with a [Production Expertise]>",
-			"[+5]% [Production] [in this city] <for every [3] [Owned [{non-[Hill]} {Featureless} {non-[Desert]}] Tiles]> <in this city> <in cities with a [Production Expertise]>"
+			"[+5]% [Production] [in this city] <for every [2] [Owned [{non-[Hill]} {Desert}] Tiles]> <in cities with a [Production Expertise]>",
+			"[+5]% [Production] [in this city] <for every [5] [Owned [{non-[Hill]} {Featureless} {non-[Desert]}] Tiles]> <in cities with a [Production Expertise]>"
 		]
 	},
 	{
 		"name": "Hydro Plant",
 		"cost":500,
-		"hurryCostModifier": 0,
 		"maintenance": 3,
 		"uniques": [
 			"Comment [Label:]",
@@ -1098,9 +1062,7 @@
 			"Must be on [River]",
 			"Consumes [2] [Aluminum]",
 			"Consumes [6] [Iron]",
-			"[+50]% production cost <in cities without a [Production Expertise]>",
-			"[+5 Production]",
-			"[+10]% [Production] [in this city]",
+			"[+25]% production cost <in cities without a [Production Expertise]>",
 			"[+1 Production] from [River] tiles [in this city] <in cities with a [Production Expertise]>"
 		],
 		"requiredTech": "Electricity"
@@ -1118,8 +1080,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Factory]> <in cities without a [Power Generation Facility]>",
-			"[+50]% production cost <in cities without a [Production Expertise]>",
-			"[+5 Production]",
+			"[+25]% production cost <in cities without a [Production Expertise]>",
 			"[+10]% [Production] [in this city]",
 			"[+10]% [Production] [in this city] <in cities with a [Production Expertise]>"
 		]
@@ -1142,8 +1103,7 @@
     },
 	{
 		"name": "Barracks",
-		"cost":60,
-		"hurryCostModifier": 25,
+		"cost":90,
 		"maintenance": 1,
 		"requiredTech": "Bronze Working",
 		"uniques": [
@@ -1151,7 +1111,7 @@
 			"Military Building",
 			" ",
 			"Comment [Uniques:]",
-			"[+50]% production cost <in cities without a [Military Expertise]>",
+			"[+25]% production cost <in cities without a [Military Expertise]>",
 			"[+1 Production]",
 			"New [{Military} {Land}] units start with [10] XP [in this city]",
 			"Provides [1] [Military Size]",
@@ -1164,8 +1124,7 @@
 		"name": "Krepost",
 		"replaces": "Barracks",
 		"uniqueTo": "Russia",
-		"cost": 50,
-		"hurryCostModifier": 25,
+		"cost": 60,
 		"maintenance": 1,
 		"requiredTech": "Bronze Working",
 		"uniques": [
@@ -1173,7 +1132,7 @@
 			"Military Building",
 			" ",
 			"Comment [Uniques:]",
-			"[+50]% production cost <in cities without a [Military Expertise]>",
+			"[+25]% production cost <in cities without a [Military Expertise]>",
             "[-50]% Gold cost of acquiring tiles [in this city]",
 			"[+1 Production]",
 			"New [{Military} {Land}] units start with [10] XP [in this city]",
@@ -1185,8 +1144,7 @@
 	},
 	{
 		"name": "Armory",
-		"cost": 150,
-		"hurryCostModifier": 25,
+		"cost": 200,
 		"maintenance": 1,
 		"requiredTech": "Steel",
 		"uniques": [
@@ -1195,7 +1153,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Barracks]>",
-			"[+50]% production cost <in cities without a [Military Expertise]>",
+			"[+25]% production cost <in cities without a [Military Expertise]>",
 			"[+2 Production]",
 			"New [{Military} {Land}] units start with [10] XP [in this city]",
 			"Provides [2] [Military Size]",
@@ -1207,8 +1165,7 @@
 	},
 	{
 		"name": "Military Academy",
-		"cost":280,
-		"hurryCostModifier": 0,
+		"cost":350,
 		"maintenance": 1,
 		"requiredTech": "Military Science",
 		"uniques": [
@@ -1217,7 +1174,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Armory]>",
-			"[+50]% production cost <in cities without a [Military Expertise]>",
+			"[+25]% production cost <in cities without a [Military Expertise]>",
 			"[+3 Production]",
 			"New [{Military} {Land}] units start with [10] XP [in this city]",
 			"Provides [3] [Military Size]",
@@ -1243,8 +1200,7 @@
     },
 	{
 		"name": "Lighthouse",
-		"cost": 60,
-		"hurryCostModifier": 25,
+		"cost": 120,
 		"maintenance": 1,
 		"requiredTech": "Optics",
 		"uniques": [
@@ -1252,7 +1208,7 @@
 			"Naval Building",
 			" ",
 			"Comment [Uniques:]",
-			"[+50]% production cost <in cities without a [Maritime Expertise]>",
+			"[+25]% production cost <in cities without a [Maritime Expertise]>",
             "Must be next to [Coast]",
 			"Provides [1] [Military Size]",
 			"[+1 Food] from [Coast] tiles [in this city]",
@@ -1265,9 +1221,8 @@
 	},
 	{
 		"name": "Harbor",
-		"cost": 100,
+		"cost": 300,
 		"maintenance": 2,
-		"hurryCostModifier": 25,
 		"requiredTech": "Compass",
 		"uniques": [
 			"Comment [Label:]",
@@ -1275,7 +1230,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Lighthouse]>",
-			"[+50]% production cost <in cities without a [Maritime Expertise]>",
+			"[+25]% production cost <in cities without a [Maritime Expertise]>",
             "Must be next to [Coast]",
 			"Provides [2] [Military Size]",
 			"[+1 Production] from [Coast] tiles [in this city]",
@@ -1288,8 +1243,7 @@
 	},
 	{
 		"name": "Seaport",
-		"cost": 220,
-		"hurryCostModifier": 25,
+		"cost": 500,
 		"maintenance": 3,
 		"requiredTech": "Navigation",
 		"uniques": [
@@ -1298,7 +1252,7 @@
 			" ",
 			"Comment [Uniques:]",
 			"Can only be built <in cities with a [Harbor]>",
-			"[+50]% production cost <in cities without a [Maritime Expertise]>",
+			"[+25]% production cost <in cities without a [Maritime Expertise]>",
             "Must be next to [Coast]",
 			"Provides [3] [Military Size]",
 			"[+1 Production, +1 Gold] from [Coast] tiles [in this city]",
@@ -1694,18 +1648,6 @@
 		],
 		"requiredTech": "Guilds",
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
-	},
-	{//锻造场
-		"name": "Forge",
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"requiredNearbyImprovedResources": ["Iron"],
-		"requiredTech": "Metal Casting",
-		"uniques": [
-			"[+15]% Production when constructing [Spaceship part] units [in this city]",
-			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]"
-		]
 	},
 
 	{//牛津大学
